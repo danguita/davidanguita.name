@@ -30,6 +30,7 @@ Quick info:
 
 # Build instructions
 Run `/build` (shell script):
+
     chmod +x build && ./build
 
 or
@@ -44,5 +45,4 @@ My `/output` dir is linked to [another GitHub repo](https://github.com/danguita/
 After each build, I move into `/output` and commit+push all changes. GitHub Pages does the rest.
 
 # License
-
 Feel free to use any of files. If you do use them, a link back to my personal webpage would be appreciated, but is not required.
