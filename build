@@ -1,0 +1,7 @@
+#!/bin/sh
+
+nanoc co
+compass compile
+coffee -co output/javascripts content/assets/javascripts/application.coffee
+cp -f meta/output/CNAME output
+cp -f meta/output/README.md output
