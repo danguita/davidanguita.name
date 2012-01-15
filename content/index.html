@@ -14,11 +14,11 @@ title: software developer
         <div class="social sep-bottom">
           <h2>Network</h2>
           You can find me on
-          <ul class="network inline">
-            <li class="first-child"><a href="http://twitter.com/<%= @config[:uid][:twitter] %>" title="Follow me on Twitter" rel="me external"><img src="<%= @config[:assets_url] %>/images/icons/komodomedia/twitter_32.png" alt="Twitter" width="32" height="32" /></a></li>
-            <li><a href="http://facebook.com/<%= @config[:uid][:facebook] %>" title="Be my friend on Facebook" rel="me external"><img src="<%= @config[:assets_url] %>/images/icons/komodomedia/facebook_32.png" alt="Facebook" width="32" height="32" /></a></li>
-            <li><a href="http://linkedin.com/in/<%= @config[:uid][:linkedin] %>" title="Look at my professional profile on LinkedIn" rel="me external"><img src="<%= @config[:assets_url] %>/images/icons/komodomedia/linkedin_32.png" alt="LinkedIn" width="32" height="32" /></a></li>
-            <li class="list-child"><a href="http://delicious.com/<%= @config[:uid][:delicious] %>" title="Take a look at my latest bookmarks" rel="me external"><img src="<%= @config[:assets_url] %>/images/icons/komodomedia/delicious_32.png" alt="Delicious" width="32" height="32" /></a></li>
+          <ul class="network inline clearfix">
+            <li class="first-child"><a class="komodomedia-twitter" href="http://twitter.com/<%= @config[:uid][:twitter] %>" title="Follow me on Twitter" rel="me external"></a></li>
+            <li><a class="komodomedia-facebook" href="http://facebook.com/<%= @config[:uid][:facebook] %>" title="Be my friend on Facebook" rel="me external"></a></li>
+            <li><a class="komodomedia-linkedin" href="http://linkedin.com/in/<%= @config[:uid][:linkedin] %>" title="Look at my professional profile on LinkedIn" rel="me external"></a></li>
+            <li class="list-child"><a class="komodomedia-github" href="http://github.com/<%= @config[:uid][:github] %>" title="Check my code" rel="me external"></a></li>
           </ul>
         </div>
         <div class="blog sep-bottom">
@@ -27,15 +27,15 @@ title: software developer
       </aside>
 
       <article id="skills">
-        <h2 class="icon power sep-bottom">Skills</h2>
+        <h2 class="icon gear sep-bottom">Skills</h2>
         <ul class="formatted">
           <li class="first-child"><strong>Web development</strong></li>
           <li class="nested">Back-end &amp; Front-end</li>
           <li><strong>MVC Frameworks</strong></li>
           <li class="nested"><a href="http://cakephp.org" title="CakePHP">CakePHP</a>, <a href="http://rubyonrails.org" title="Ruby on Rails">Ruby on Rails</a></li>
           <li>Full-stack development</li>
-          <li>Agile development methodologies</li>
-          <li>System administration</li>
+          <li>Agile methodologies</li>
+          <li>Sysadmin</li>
           <li class="last-child">Tech consulting</li>
         </ul>
       </article>

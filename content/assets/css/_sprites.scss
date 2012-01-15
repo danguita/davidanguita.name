@@ -1,0 +1,15 @@
+/*
+ * Compass spriting component tutorial:
+ *   http://compass-style.org/help/tutorials/spriting/
+ *
+ * Usage examples:
+ *
+ * @import "customFolderName/*.png";
+ * @include all-customFolderName-sprites;
+ *
+ * @import "customFolderName/anotherFolderName/*.png";
+ * @include all-anotherFolderName-sprites;
+ **/
+
+@import "icons/komodomedia/*.png";
+@include all-komodomedia-sprites;
