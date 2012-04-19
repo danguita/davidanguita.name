@@ -2,7 +2,7 @@
 title: software developer
 ---
       <article id="about">
-        <h3>I'm a <strong>software developer</strong>, <em>geek</em>, entrepreneur and happy <em>Lead Developer</em> at <a href="http://aticoestudio.com" title="Ático, estudio gráfico S.L." class="org" rel="external">aticoestudio.com</a></h3>
+        <h3>I'm <strong>software developer</strong> and full time geek. Mostly working with Ruby on Rails and CakePHP. <em>Lead developer</em> at <a href="http://aticoestudio.com" title="Ático, estudio gráfico S.L." class="org" rel="external">aticoestudio.com</a></h3>
       </article>
 
       <aside id="sidebar">
@@ -21,56 +21,26 @@ title: software developer
             <li class="list-child"><a class="komodomedia-github" href="http://github.com/<%= @config[:uid][:github] %>" title="Check my code" rel="me external"></a></li>
           </ul>
         </div>
-        <div class="blog sep-bottom">
-          Sometimes I write <a href="http://blog.davidanguita.name" title="David Anguita – Blog">my blog</a>
-        </div>
       </aside>
 
       <article id="skills">
         <h2 class="icon gear sep-bottom">Skills</h2>
         <ul class="formatted">
-          <li class="first-child"><strong>Web development</strong></li>
-          <li class="nested">Back-end &amp; Front-end</li>
-          <li><strong>MVC Frameworks</strong></li>
-          <li class="nested"><a href="http://cakephp.org" title="CakePHP">CakePHP</a>, <a href="http://rubyonrails.org" title="Ruby on Rails">Ruby on Rails</a></li>
-          <li>Full-stack development</li>
-          <li>Agile methodologies</li>
-          <li>Sysadmin</li>
-          <li class="last-child">Tech consulting</li>
+          <li class="first-child"><strong>Full-stack web development</strong></li>
+          <li class="nested">Happy <a href="http://rubyonrails.org" title="Ruby on Rails">Ruby on Rails</a> &amp; <a href="http://cakephp.org" title="CakePHP">CakePHP</a> coder</li>
+          <li class="nested">Living on the <em>Back-end</em> + <em>Front-end</em></li>
+          <li>Agile</li>
+          <li>TDD, BDD evangelist</li>
+          <li>Productivity obsessive</li>
+          <li class="last-child">Sysadmin</li>
         </ul>
       </article>
 
       <article id="likes">
-        <h2 class="icon favorites sep-bottom">Likes</h2>
+        <h2 class="icon favorites sep-bottom">Tags</h2>
         <ul class="tags">
-          <li class="first-child">PHP</li>
-          <li>Ruby</li>
-          <li>Mac OS X</li>
-          <li>vim</li>
-          <li>HTML5</li>
-          <li>Spotify</li>
-          <li>Twitter</li>
-          <li>git</li>
-          <li>GNU/Linux</li>
-          <li>CakePHP</li>
-          <li>cron</li>
-          <li>Python</li>
-          <li>MooTools</li>
-          <li>Rails</li>
-          <li>nginx</li>
-          <li>Xbox 360</li>
-          <li>REST</li>
-          <li>Japan</li>
-          <li>NoSQL</li>
-          <li>zsh</li>
-          <li>github</li>
-          <li>profiling</li>
-          <li>UX</li>
-          <li>MySQL</li>
-          <li>jQuery</li>
-          <li>127.0.0.1</li>
-          <li class="highlighted">Soraya</li>
-          <li>iPhone</li>
-          <li class="last-child">VirtualBox</li>
+          <% %w(vim Ruby PHP OSX HTML5 tmux Twitter git GNU/Linux CakePHP cron Python TDD Rails nginx Xbox REST Japan NoSQL Gems zsh Soraya github Agile UX MySQL jQuery 127.0.0.1 iPhone VirtualBox).each do |tag| %>
+          <li><%= tag %></li>
+          <% end %>
         </ul>
       </article>
