@@ -1,0 +1,114 @@
+!!! 5
+%html{ :lang => "en" }
+  %head
+    %title #{@config[:title]} - #{@item[:title]}
+    %meta{:charset => "utf-8"}
+    %meta{:name => "author", :content => @config[:author]}
+    %meta{:name => "revisit-after", :content => "3 days"}
+    %meta{:name => "generator", :content => "nanoc"}
+    %meta{:name => "description", :content => "#{@config[:title]}, #{@config[:description][:eng]}"}
+    %meta{:name => "keywords", :content => "#{@config[:title]}, #{@config[:keywords]}"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
+
+    %link{:rel => "apple-touch-icon", :href => "#{@config[:assets_url]}/apple-touch-icon.png"}
+    %link{:rel => "shortcut icon", :href => "#{@config[:assets_url]}/favicon.ico"}
+    %link{:rel => "stylesheet", :href => "#{@config[:assets_url]}/css/screen.css", :type => "text/css", :media => "all"}
+
+    /[if lt IE 9]
+      %script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js", :type => "text/javascript"}
+
+    /[if IE 6]
+      %script{:src => "#{@config[:assets_url]}/javascripts/unitpngfix.js", :type => "text/javascript"}
+
+  %body#hcard-David-Anguita.vcard
+    %header.clearfix
+      %h1
+        %a.url.fn{:href => @config[:base_url], :title => "Homepage"}= @config[:author]
+        %span= @config[:description][:eng]
+
+    %section#content.clearfix= yield
+
+    %section#contact.clearfix
+      %h2.icon.email Contact
+      %ul.tags
+        %li.clearfix.first-child
+          %strong e-mail
+          %a.email{:href => "mailto:yo@davidanguita.name?subject=davidanguita.name", :title => "e-mail"} yo@davidanguita.name
+        %li.clearfix
+          %strong GTalk
+          %a{:href => "xmpp:yo@davidanguita.name", :title => "Google Talk"} yo@davidanguita.name
+        %li.clearfix
+          %strong Twitter
+          %a{:href => "http://twitter.com/danguita", :rel => "external", :title => "Follow me on Twitter"} @danguita
+        %li.clearfix.last-child
+          %strong vCard
+          %a{:href => "#{@config[:assets_url]}/DavidAnguita.vcf", :title => "Get my vCard"} Get it!
+
+    %section#activity.clearfix
+      %article.blog-posts.first-child
+        %h2.icon.rss.sep-bottom Posts
+        #feed-wrapper
+      %article.twitter-timeline
+        %h2.icon.twitter.sep-bottom Twitter timeline
+        #twitter-json-wrapper
+      %article.delicious-bookmarks.last-child
+        %h2.icon.bookmarks.sep-bottom Delicious bookmarks
+        #delicious-json-wrapper
+
+    %footer.clearfix
+      %h2.icon.gear.sep-bottom About this site
+      %ul.tags
+        %li.first-child
+          Generated with
+          %a{:href => "http://nanoc.stoneship.org/", :rel => "external"} nanoc
+        %li
+          %em Front-end
+          based on
+          %a{:href => "http://validator.w3.org/check?uri=referer", :rel => "external"} HTML5
+          and written in
+          %a{:href => "http://haml-lang.com/", :rel => "external"} Haml
+        %li
+          %em CSS
+          managed with
+          %a{:href => "http://compass-style.org", :rel => "external"} Compass
+          \& enhanced by
+          %a{:href => "http://lessframework.com", :rel => "external"} Less Framework
+        %li
+          %em JavaScript
+          based on
+          %a{:href => "http://jquery.com", :rel => "external"} jQuery
+        %li
+          %a{:href => "http://hcard.geekhood.net/?url=http%3A%2F%2Fdavidanguita.name#result", :rel => "external"} hCard 1.0
+          Microformat
+        %li
+          %a{:href => "http://brsev.deviantart.com/art/Token-128429570", :rel => "external"} Token
+          \&
+          %a{:href => "http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/", :rel => "external"} Komodo Media
+          icon sets.
+          GitHub icon from
+          %a{:href => "https://github.com/jamesfleeting/vcard", :rel => "external"} James Fleeting's vCard
+        %li
+          Source code available on
+          %a{:href => "https://github.com/danguita/davidanguita.name", :rel => "external"} GitHub
+        %li
+          Powered by
+          %a{:href => "https://github.com/danguita/danguita.github.com", :rel => "external"} GitHub Pages
+        %li.last-child
+          Coded using
+          %a{:href => "http://www.vim.org/", :rel => "external"} vim
+          \&lt;esc&gt;:wq
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '#{@config[:google][:analytics]}']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+    - %w(jquery-1.4.2.min.js jquery-tweet.js jquery-delicious.js jquery-zrssfeed.js application.js).each do |script|
+      %script{:src => "#{@config[:assets_url]}/javascripts/#{script}", :type => "text/javascript"}

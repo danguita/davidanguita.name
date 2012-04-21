@@ -16,13 +16,13 @@ compile '/assets/*/' do
 end
 
 compile '*' do
-  filter :erb
+  filter :haml
   layout 'default'
 end
 
 # routing
 route '/assets/*/' do
-  if !['scss', 'coffee'].include?(item[:extension])
+  unless ['scss', 'coffee'].include?(item[:extension])
     item.identifier[7..-2] + '.' + item[:extension]
   end
 end
@@ -32,4 +32,4 @@ route '*' do
 end
 
 # layouts
-layout '*', :erb
+layout 'default', :haml

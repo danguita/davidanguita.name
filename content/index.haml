@@ -1,0 +1,48 @@
+---
+title: software developer
+---
+%article#about
+  %h3
+    I'm
+    %strong software developer
+    and full time geek. Mostly working with
+    %a{:href => "http://rubyonrails.org", :title => "Ruby on Rails"} Ruby on Rails
+    \&
+    %a{:href => "http://cakephp.org", :title => "CakePHP"} CakePHP.
+    %em Lead developer
+    at
+    %a.org{:href => "http://aticoestudio.com", :rel => "external", :title => "Ático, estudio gráfico S.L."} aticoestudio.com
+
+%aside#sidebar
+  #avatar.border-radius.sep-bottom
+    %figure
+      %img.photo{:alt => @config[:author], :src => "#{@config[:assets_url]}/images/danguita.jpg"}/
+  .social.sep-bottom
+    %h2 Network
+    You can find me on
+    %ul.network.inline.clearfix
+      %li.first-child
+        %a.komodomedia-twitter{:href => "http://twitter.com/#{@config[:uid][:twitter]}", :rel => "me external", :title => "Follow me on Twitter"}
+      %li
+        %a.komodomedia-facebook{:href => "http://facebook.com/#{@config[:uid][:facebook]}", :rel => "me external", :title => "Be my friend on Facebook"}
+      %li
+        %a.komodomedia-linkedin{:href => "http://linkedin.com/in/#{@config[:uid][:linkedin]}", :rel => "me external", :title => "Look at my professional profile on LinkedIn"}
+      %li.list-child
+        %a.komodomedia-github{:href => "http://github.com/#{@config[:uid][:github]}", :rel => "me external", :title => "Check my code"}
+
+%article#skills
+  %h2.icon.gear.sep-bottom Skills
+  %ul.formatted
+    %li.first-child Full-stack web developer
+    %li TDD, BDD evangelist
+    %li Agile
+    %li Productivity obsessive
+    %li Happy hacker
+    %li UNIX guy
+    %li.last-child Syadmin
+
+%article#likes
+  %h2.icon.favorites.sep-bottom Tags
+  %ul.tags
+    - %w(vim Ruby PHP OSX HTML5 tmux Twitter git GNU/Linux CakePHP cron Python TDD Rails nginx Xbox REST Japan NoSQL Gems zsh Soraya github Agile UX MySQL jQuery 127.0.0.1 iPhone VirtualBox).each do |tag|
+      %li= tag
