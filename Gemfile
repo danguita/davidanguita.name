@@ -1,0 +1,8 @@
+source "http://rubygems.org"
+gem "nanoc"
+gem "rack"
+gem "mime-types"
+gem "markdown"
+gem "rdiscount"
+gem "haml"
+gem "compass", "0.11.7"

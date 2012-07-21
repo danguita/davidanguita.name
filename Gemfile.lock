@@ -1,0 +1,38 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chunky_png (1.2.5)
+    colored (1.2)
+    compass (0.11.7)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    cri (2.3.0)
+      colored (>= 1.2)
+    fssm (0.2.9)
+    haml (3.1.6)
+    kramdown (0.13.7)
+    markdown (1.0.0)
+      kramdown (>= 0.13.7)
+      props (>= 1.0.0)
+      textutils (>= 0.2.0)
+    mime-types (1.19)
+    nanoc (3.4.0)
+      cri (~> 2.2)
+    props (1.0.0)
+    rack (1.4.1)
+    rdiscount (1.6.8)
+    sass (3.1.20)
+    textutils (0.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass (= 0.11.7)
+  haml
+  markdown
+  mime-types
+  nanoc
+  rack
+  rdiscount
