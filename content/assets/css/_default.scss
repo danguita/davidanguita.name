@@ -261,7 +261,19 @@ ul.tags li,#avatar img {
   @include single-box-shadow(#666, 0px, 1px, 2px);
 }
 #about {
-  margin-bottom: 30px;
+  @extend .large;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  line-height: 30px;
+  border-bottom: 1px dotted #ddd;
+  em {
+    font-style: normal;
+    color: scale-lightness(#999, -20);
+  }
+}
+#extended {
+  display: none;
 }
 ::selection {
   background: rgb(255,255,158);

@@ -26,7 +26,8 @@
         %a.url.fn{:href => @config[:base_url], :title => "Homepage"}= @config[:author]
         %span= @config[:description][:eng]
 
-    %section#content.clearfix= yield
+    %section#content.clearfix
+      = yield
 
     %section#contact.clearfix
       %h2.icon.email Contact
