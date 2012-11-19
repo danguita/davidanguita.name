@@ -246,8 +246,17 @@ footer {
   padding: 30px 0 10px;
   font-size: .7em;
   clear: both;
-  ul.tags li {
-    padding: 2px 6px;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline;
+      margin-right: 10px;
+      padding-right: 10px;
+      border-right: 1px solid #ccc;
+      &.last-child {
+        border-right: 0;
+      }
+    }
   }
 }
 #avatar {
@@ -493,7 +502,10 @@ section {
     float: none;
     margin-top: 20px;
   }
-
+  #about {
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
 }
 /* 3-column layout
 60 px columns,24 px gutters,46 px margins,320 px total
@@ -549,5 +561,9 @@ section {
   }
   #activity {
     display: none;
+  }
+  #about {
+    font-size: 1.2em;
+    line-height: 1.4em;
   }
 }
