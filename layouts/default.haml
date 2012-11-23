@@ -6,7 +6,7 @@
     %meta{:name => "author", :content => @config[:author]}
     %meta{:name => "revisit-after", :content => "3 days"}
     %meta{:name => "generator", :content => "nanoc"}
-    %meta{:name => "description", :content => "#{@config[:title]}, #{@config[:description][:eng]}"}
+    %meta{:name => "description", :content => "#{@config[:title]}, #{@config[:description]}"}
     %meta{:name => "keywords", :content => "#{@config[:title]}, #{@config[:keywords]}"}
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
 
@@ -24,7 +24,7 @@
     %header.clearfix
       %h1
         %a.url.fn{:href => @config[:base_url], :title => "Homepage"}= @config[:author]
-        %span= @config[:description][:eng]
+        %span Software developer
 
     %section#content.clearfix
       = yield
@@ -44,17 +44,17 @@
 
     %section#activity.clearfix
       %article.blog-posts.first-child
-        %h2.icon.rss.sep-bottom Posts
+        %h2.icon.rss.sep-bottom Blog
         #feed-wrapper
       %article.twitter-timeline
-        %h2.icon.twitter.sep-bottom Twitter timeline
+        %h2.icon.twitter.sep-bottom Twitter
         #twitter-json-wrapper
       %article.delicious-bookmarks.last-child
-        %h2.icon.bookmarks.sep-bottom Delicious bookmarks
+        %h2.icon.bookmarks.sep-bottom Delicious
         #delicious-json-wrapper
 
     %footer.clearfix
-      %h2.icon.gear.sep-bottom About this site
+      %h2.icon.gear.sep-bottom About
       %ul
         %li.first-child
           Generated with

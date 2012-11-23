@@ -46,10 +46,8 @@ data_sources:
 # site params
 title: "David Anguita"
 author: "David Anguita"
-description:
-  spa: "desarrollador de software"
-  eng: "software developer"
-keywords: "software, development, web development, Ruby on Rails, CakePHP, front-end, back-end, agile"
+description: "I'm a software developer based in Ciudad Real (Spain) focused on full-stack development with Ruby on Rails and CakePHP"
+keywords: "software, development, web development, Ruby on Rails, CakePHP, full-stack, front-end, back-end, agile"
 
 # server params
 base_url: "http://davidanguita.name"

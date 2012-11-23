@@ -11,7 +11,7 @@ $ ->
       type: "posts"
       favicon: false
 
-    $("#feed-wrapper").rssfeed "http://feeds.feedburner.com/DavidAnguita",
+    $("#feed-wrapper").rssfeed "http://blog.davidanguita.name/atom.xml",
       limit: 3
 
   initialize()

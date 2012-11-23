@@ -154,9 +154,8 @@ ul.tags {
     float: left;
     margin: 0 10px 10px 0;
     padding: 6px;
-    background-color: #ddd;
+    background-color: $white50;
     border-radius: 4px;
-    color: #444;
     &.last-child {
       margin-right: 0;
     }
@@ -202,9 +201,13 @@ header a,header a:hover {
 }
 #contact {
   padding: 20px 0 10px;
-  background-color: #fff;
-  margin: 10px 0 20px;
+  background-color: $white70;
+  margin: 40px 0 20px;
   font-size: .9em;
+  @include single-transition;
+  &:hover {
+    background-color: $white90;
+  }
   ul.tags li {
     background: #eee;
     strong {
@@ -231,7 +234,11 @@ header a,header a:hover {
 #activity {
   padding: 20px 0;
   font-size: .9em;
-  background-color: #fff;
+  background-color: $white70;
+  @include single-transition;
+  &:hover {
+    background-color: $white90;
+  }
   a:hover {
     text-decoration: underline;
   }
@@ -240,10 +247,10 @@ header a,header a:hover {
   }
 }
 #activity,#contact {
-  @include single-box-shadow(#ccc, 0px, 0px, 5px);
+  @include single-box-shadow($black10, 0px, 0px, 5px);
 }
 footer {
-  padding: 30px 0 10px;
+  padding: 30px 0;
   font-size: .7em;
   clear: both;
   ul {
@@ -267,15 +274,14 @@ footer {
 }
 ul.tags li,#avatar img {
   @include border-radius;
-  @include single-box-shadow(#666, 0px, 1px, 2px);
+  @include single-box-shadow($black30, 0px, 1px, 2px);
 }
 #about {
-  @extend .large;
   font-weight: bold;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  line-height: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px dotted #ddd;
+  font-size: 1.2em;
   em {
     font-style: normal;
     color: scale-lightness(#999, -20);
@@ -502,10 +508,6 @@ section {
     float: none;
     margin-top: 20px;
   }
-  #about {
-    font-size: 1.4em;
-    line-height: 1.4em;
-  }
 }
 /* 3-column layout
 60 px columns,24 px gutters,46 px margins,320 px total
@@ -561,9 +563,5 @@ section {
   }
   #activity {
     display: none;
-  }
-  #about {
-    font-size: 1.2em;
-    line-height: 1.4em;
   }
 }
