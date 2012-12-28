@@ -44,22 +44,23 @@ data_sources:
       encoding: utf-8
 
 # site params
-title: "David Anguita"
-author: "David Anguita"
-description: "I'm a software developer based in Ciudad Real (Spain) focused on full-stack development with Ruby on Rails and CakePHP"
-keywords: "software, development, web development, Ruby on Rails, CakePHP, full-stack, front-end, back-end, agile"
+title       : "David Anguita"
+author      : "David Anguita"
+email       : "david@davidanguita.name"
+description : "I'm a software developer based in Ciudad Real (Spain) focused on full-stack development with Ruby on Rails and CakePHP"
+keywords    : "software, development, web development, Ruby on Rails, CakePHP, full-stack, front-end, back-end, agile"
 
 # server params
-base_url: "http://davidanguita.name"
-pretty_url: "davidanguita.name"
-assets_url: ""
+base_url   : "http://davidanguita.name"
+pretty_url : "davidanguita.name"
+assets_url : ""
 
 # services
 google:
   analytics: 'UA-7973700-6'
 uid:
-  twitter: 'danguita'
-  facebook: 'danguita'
-  linkedin: 'danguita'
-  delicious: 'danguita'
-  github: 'danguita'
+  twitter   : 'danguita'
+  facebook  : 'danguita'
+  linkedin  : 'danguita'
+  delicious : 'danguita'
+  github    : 'danguita'
