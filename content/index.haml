@@ -11,11 +11,10 @@ title: software developer
     I'm currently enjoying my position as partner and lead developer at [aticoestudio.com](http://aticoestudio.com).
 
 %aside#sidebar
-  #avatar.border-radius.sep-bottom
+  #avatar.sep-bottom
     %figure
-      %img.photo{:alt => @config[:author], :src => "#{@config[:assets_url]}/images/danguita.jpg"}
+      %img.photo{:alt => @config[:author], :src => gravatar(@config[:email], 228), :alt => 'david@davidanguita.name at Gravatar'}
   .social.sep-bottom
-    %h2 Network
     %ul.network.inline.clearfix
       %li.first-child
         %a.komodomedia-twitter{:href => "http://twitter.com/#{@config[:uid][:twitter]}", :rel => "me external", :title => "Follow me on Twitter"}
