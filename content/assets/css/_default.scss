@@ -174,7 +174,7 @@ ul.tags {
   background-position: -5px center;
   height: 32px;
   line-height: 32px;
-  @each $icon in gear, favorites, rss, twitter, bookmarks, email, power {
+  @each $icon in gear, favorites, rss, twitter, bookmarks, envelope, power {
     &.#{$icon} {
       background-image: image-url('icons/token/#{$icon}.png');
     }

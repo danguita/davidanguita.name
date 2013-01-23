@@ -6,7 +6,7 @@
     %meta{:name => "author", :content => @config[:author]}
     %meta{:name => "revisit-after", :content => "3 days"}
     %meta{:name => "generator", :content => "nanoc"}
-    %meta{:name => "description", :content => @config[:description]}
+    %meta{:name => "description", :content => [@config[:title], @config[:description]].join(': ')}
     %meta{:name => "keywords", :content => @config[:keywords]}
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
 
@@ -30,7 +30,7 @@
       = yield
 
     %section#contact.clearfix
-      %h2.icon.email Contact
+      %h2.icon.envelope Contact
       %ul.tags
         %li.clearfix.first-child
           %strong e-mail
@@ -69,7 +69,8 @@
           %em CSS
           managed with
           %a{:href => "http://compass-style.org", :rel => "external"} Compass
-          \& enhanced by
+          &amp;
+          enhanced by
           %a{:href => "http://lessframework.com", :rel => "external"} Less Framework
         %li
           %em JavaScript
@@ -80,7 +81,7 @@
           Microformat
         %li
           %a{:href => "http://brsev.deviantart.com/art/Token-128429570", :rel => "external"} Token
-          \&
+          &amp;
           %a{:href => "http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/", :rel => "external"} Komodo Media
           icon sets.
           GitHub icon from
@@ -94,7 +95,7 @@
         %li.last-child
           Coded using
           %a{:href => "http://www.vim.org/", :rel => "external"} vim
-          \&lt;esc&gt;:wq
+          &lt;esc&gt;:wq
 
     :javascript
       var _gaq = _gaq || [];
