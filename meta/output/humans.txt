@@ -1,0 +1,12 @@
+/* TEAM */
+
+David Anguita
+Site: http://davidanguita.name
+Twitter: @danguita
+Location: Ciudad Real, Spain
+
+/* SITE */
+
+Software: Ruby, nanoc, vim
+Standards: HTML5, CSS3, hCard microformat
+Components: HAML, Compass, Less Framework, jQuery, CoffeeScript
