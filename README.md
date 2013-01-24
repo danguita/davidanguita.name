@@ -29,13 +29,13 @@ Quick info:
     npm install -g coffee-script
 
 # Build instructions
-Run `/build` (shell script):
+Run `script/build` (shell script):
 
-    chmod +x build && ./build
+    chmod +x script/build && script/build
 
 or
 
-    sh build
+    sh script/build
 
 After that, you might have a fully deployable static website on `/output` dir.
 
