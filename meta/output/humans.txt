@@ -10,3 +10,19 @@ Location: Ciudad Real, Spain
 Software: Ruby, nanoc, vim
 Standards: HTML5, CSS3, hCard microformat
 Components: HAML, Compass, Less Framework, jQuery, CoffeeScript
+Platforms: GitHub Pages (https://github.com/danguita/danguita.github.com)
+
+/* SOURCE */
+
+GitHub: https://github.com/danguita/davidanguita.name
+
+/* ART */
+
+              _                         _ _        
+    ____     | |                       (_) |       
+   / __ \  __| | __ _ _ __   __ _ _   _ _| |_ __ _ 
+  / / _` |/ _` |/ _` | '_ \ / _` | | | | | __/ _` |
+ | | (_| | (_| | (_| | | | | (_| | |_| | | |_ (_| |
+  \ \__,_|\__,_|\__,_|_| |_|\__, |\__,_|_|\__\__,_|
+   \____/                    __/ |                 
+                            |___/                  
