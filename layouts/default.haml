@@ -1,12 +1,12 @@
 !!! 5
 %html{:lang => "en"}
   %head
-    %title #{@config[:title]} - #{@item[:title]}
+    %title #{@config[:title]} &mdash; #{@item[:title]}
     %meta{:charset => "utf-8"}
     %meta{:name => "author", :content => @config[:author]}
     %meta{:name => "revisit-after", :content => "3 days"}
     %meta{:name => "generator", :content => "nanoc"}
-    %meta{:name => "description", :content => [@config[:title], @config[:description]].join(': ')}
+    %meta{:name => "description", :content => "#{@config[:title]}. #{@config[:description]}"}
     %meta{:name => "keywords", :content => @config[:keywords]}
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
 
@@ -24,7 +24,7 @@
     %header.clearfix
       %h1
         %a.url.fn{:href => @config[:base_url], :title => "Homepage"}= @config[:author]
-        %span Software developer
+        %span= @item[:title]
 
     %section#content.clearfix
       = yield
@@ -34,7 +34,7 @@
       %ul.tags
         %li.clearfix.first-child
           %strong e-mail
-          %a.email{:href => "mailto:david@davidanguita.name?subject=Hey!", :title => "e-mail"} david@davidanguita.name
+          %a.email{:href => "mailto:david@davidanguita.name", :title => "e-mail"} david@davidanguita.name
         %li.clearfix
           %strong GTalk
           %a{:href => "xmpp:david@davidanguita.name", :title => "Google Talk"} david@davidanguita.name
@@ -54,10 +54,10 @@
         #delicious-json-wrapper
 
     %footer.clearfix
-      %h2.icon.gear.sep-bottom About
+      %h2.icon.gear.sep-bottom About this site
       %ul
         %li.first-child
-          Generated with
+          Created with
           %a{:href => "http://nanoc.stoneship.org/", :rel => "external"} nanoc
         %li
           %em Front-end

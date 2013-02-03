@@ -47,8 +47,8 @@ data_sources:
 title       : "David Anguita"
 author      : "David Anguita"
 email       : "david@davidanguita.name"
-description : "I'm a software developer based in Ciudad Real (Spain) focused on full-stack development with Ruby on Rails and CakePHP"
-keywords    : "software, development, web development, Ruby on Rails, CakePHP, full-stack, front-end, back-end, agile"
+description : "I'm a software developer and freelance consultant based in Ciudad Real (Spain). I'm focused on full-stack development with Ruby on Rails"
+keywords    : "software, development, web development, Ruby on Rails, CakePHP, full-stack, front-end, back-end, agile, TDD, BDD, Ciudad Real"
 
 # server params
 base_url   : "http://davidanguita.name"

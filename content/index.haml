@@ -1,19 +1,25 @@
 ---
-title: software developer
+title: software developer &amp; consultant
 ---
 
 %article#about
   :markdown
-    I'm a *software developer* based in Ciudad Real (Spain) focused on *full-stack development* with [Ruby on Rails](http://rubyonrails.org).
+    Hi, I'm a *software developer* and *freelance consultant* based in Ciudad Real, Spain.
 
-    I put code on [GitHub](http://github.com/danguita) and occasionally I write [blog posts](http://blog.davidanguita.name).
+    I'm focused on *full-stack* web development with *Ruby on Rails*.
 
-    I'm currently enjoying my position as partner and lead developer at [aticoestudio.com](http://aticoestudio.com).
+  .detail
+    :markdown
+      I'm currently enjoying my position as partner and lead developer at [aticoestudio.com](http://aticoestudio.com).
+
+      I put code on [GitHub](http://github.com/danguita) and occasionally I write [blog posts](http://blog.davidanguita.name).
 
 %aside#sidebar
+
   #avatar.sep-bottom
     %figure
       %img.photo{:alt => @config[:author], :src => gravatar(@config[:email], 228), :alt => 'david@davidanguita.name at Gravatar'}
+
   .social.sep-bottom
     %ul.network.inline.clearfix
       %li.first-child
@@ -25,14 +31,14 @@ title: software developer
       %li.list-child
         %a.komodomedia-github{:href => "http://github.com/#{@config[:uid][:github]}", :rel => "me external", :title => "Check my code"}
 
-%article#skills
-  %h2.icon.gear.sep-bottom Skills
+%article#services
+  %h2.icon.gear.sep-bottom Services
   %ul.formatted
     %li.first-child Full-stack web development
-    %li From back-end to front-end software architecture
-    %li Agile methodologies
-    %li Scalability &amp; high load infrastructure
-    %li.last-child Always keep learning
+    %li Ruby on Rails consulting
+    %li Testing-based methdologies
+    %li Scalability &amp; production environments
+    %li.last-child Specialized training
 
 %article#likes
   %h2.icon.favorites.sep-bottom Likes

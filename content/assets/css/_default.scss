@@ -10,9 +10,9 @@
   letter-spacing: -1px;
 }
 .large, h2 {
-  font-size: 1.5em;
-  color: #999;
+  font-size: 1.3em;
   padding-top: 5px;
+  color: scale-lightness(#555, 10);
 }
 .big, h3 {
   font-size: 1.1em;
@@ -21,9 +21,6 @@
 h4 {
   font-size: .9em;
   font-weight: normal;
-}
-h1 span {
-  color: #21A6F3;
 }
 .normal, body {
   font: 16px/24px 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
@@ -188,14 +185,29 @@ body {
   background-repeat: repeat-x;
   background-position: top center;
 }
+
 header {
+  @include single-text-shadow(#000, 0px, 0px, 1px);
+  color: #888;
+
   height: 60px;
   line-height: 60px;
-  @include single-text-shadow(#000, 0px, 0px, 1px);
+
+  a {
+    text-decoration: none;
+    color: #ddd;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  span {
+    padding-left: 5px;
+    font-size: 0.8em;
+  }
 }
-header a,header a:hover {
-  color: #fff;
-}
+
 #content {
   text-shadow: 0px 0px 1px #fff;
 }
@@ -278,14 +290,31 @@ ul.tags li {
   @include single-box-shadow($black30, 0px, 1px, 2px);
 }
 #about {
-  font-weight: bold;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px dotted #ddd;
-  font-size: 1.2em;
+  padding: 10px;
+  background-color: $white70;
+  @include single-box-shadow($black30, 0px, 1px, 4px);
+  margin-bottom: 60px;
+  border-bottom:1px dotted #ddd;
+
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: 700;
+  letter-spacing: -1px;
+
+  a {
+    text-decoration: underline;
+  }
+
   em {
     font-style: normal;
-    color: scale-lightness(#999, -20);
+    color: #21A6F3;
+  }
+
+  .detail {
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 0.8em;
   }
 }
 #extended {
@@ -330,7 +359,7 @@ section {
 #about {
   width: auto;
 }
-#skills {
+#services {
   width: 480px;
   float: left;
   ul li {
@@ -407,7 +436,7 @@ section {
     margin-right: 0;
     font-size: .8em;
   }
-  #skills {
+  #services {
     width: 266px;
     float: left;
     ul li {
@@ -460,8 +489,8 @@ section {
     font-size: .9em;
     -webkit-text-size-adjust: 100%;
   }
-  header {
-    font-size: .9em;
+  header span {
+    display: none;
   }
   #sidebar {
     width: 144px;
@@ -470,7 +499,7 @@ section {
     margin-right: 0;
     font-size: .9em;
   }
-  #skills {
+  #services {
     width: 228px;
     float: left;
     ul li {
@@ -523,7 +552,7 @@ section {
     -webkit-text-size-adjust: 100%;
     font-size: .9em;
   }
-  header h1 span {
+  header span {
     display: none;
   }
   #sidebar {
@@ -534,7 +563,7 @@ section {
     font-size: .9em;
     text-align: center;
   }
-  #skills {
+  #services {
     width: auto;
     float: none;
     margin-top: 30px;
