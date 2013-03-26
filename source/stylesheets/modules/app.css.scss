@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body {
+  &.index {
+    text-align: center;
+  }
+
+  &.services, &.methodology, &.contact {
+    h1 {
+      text-align: center;
+      margin-left: -20px;
+      margin-bottom: 20px;
+    }
+
+    #content {
+      padding-top: 0 !important;
+    }
+
+    blockquote {
+      margin: 20px 0;
+    }
+  }
+
+  &.contact {
+    .contact {
+      margin-top: 20px;
+    }
+  }
+}
+
+#content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.index {
+  .introduction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tiles {
+    margin: 40px 0 30px;
+
+    .tile {
+      margin-bottom: 10px;
+
+      h3 {
+        font-size: 1.4em;
+        line-height: 1em;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .contact {
+    margin: 40px 0 30px;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+section.notes {
+  margin-top: 40px;
+  text-align: center;
+
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
+section.hiring-options {
+  margin-top: 40px;
+}
+
+header {
+  padding: 20px 0 0;
+
+  .title {
+    text-align: center;
+  }
+
+  .nav {
+    margin: 20px 0 10px;
+    text-align: center;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+
+  a {
+    font-weight: normal;
+  }
+}

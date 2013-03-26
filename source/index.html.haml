@@ -1,0 +1,55 @@
+---
+layout: home
+---
+
+%section.introduction
+  .row
+    = link_to image_tag(gravatar_for('david@davidanguita.name', 120), :class => 'img-circle', :alt => 'David Anguita'), '/'
+
+    %h1 David Anguita
+
+    %h4
+      Hola, soy
+      %strong desarrollador de software
+      y
+      %strong consultor independiente
+      de Ciudad Real (Spain)
+
+    %h4
+      Dedico gran parte de mi tiempo a construir software de forma independiente y desde
+      = link_to 'mi empresa', 'http://aticoestudio.com'
+
+%section.tiles
+  .row
+    .span4
+      .tile
+        %h3 Ruby on Rails
+        %p Desarrollo back-end, front-end, entornos de producción y training
+        = link_to 'Servicios', '/services', :class => 'btn btn-primary btn-large btn-block'
+    .span4
+      .tile
+        %h3 Metodología
+        %p Dedicación exclusiva. Desarrollo iterativo, robusto y mantenible
+        = link_to 'Buscando la calidad', '/methodology', :class => 'btn btn-primary btn-large btn-block'
+    .span4
+      .tile
+        %h3 Contacto
+        %p Conoce como contactar conmigo y contratar mis servicios
+        = link_to 'Hablemos', '/contact', :class => 'btn btn-primary btn-large btn-block'
+
+%section.contact
+  .row
+    .span3
+      = link_to 'Email', 'mailto:david@davidanguita.name', :class => 'btn btn-block palette palette-night'
+    .span3
+      = link_to 'LinkedIn', 'http://linkedin.com/in/danguita', :class => 'btn btn-block palette palette-night'
+    .span3
+      = link_to 'GitHub', 'http://github.com/danguita', :class => 'btn btn-block palette palette-night'
+    .span3
+      = link_to 'Twitter', 'http://twitter.com/danguita', :class => 'btn btn-block palette palette-night'
+
+%section.notes
+  .row
+    %h4
+      Ocasionalmente escribo en mi blog
+    = link_to '"I solve problems"', 'http://blog.davidanguita.name', :class => 'btn palette palette-asbestos'

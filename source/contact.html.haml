@@ -1,0 +1,27 @@
+---
+title: Contacto
+item: contact
+---
+
+%section.contact
+  .well
+    %h4
+      Puedes contactar conmigo vía
+      = link_to 'email', 'mailto:david@davidanguita.name', :class => 'btn'
+      describiendo brevemente tu proyecto, empresa o el servicio que necesitarías contratar.
+    %hr
+    %h4
+      Indicando también tu medio de contacto preferido te responderé en la mayor brevedad posible para concertar una cita o aportar cualquier información que necesites.
+
+%section.hiring-options
+  = partial 'hiring-options'
+
+%section.notes
+  %h4 Otros medios de contacto
+  .row
+    .span2.offset1
+      = link_to 'LinkedIn', 'http://linkedin.com/in/danguita', :class => 'btn btn-block palette palette-night'
+    .span2
+      = link_to 'GitHub', 'http://github.com/danguita', :class => 'btn btn-block palette palette-night'
+    .span2
+      = link_to 'Twitter', 'http://twitter.com/danguita', :class => 'btn btn-block palette palette-night'
