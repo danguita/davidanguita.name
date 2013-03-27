@@ -1,6 +1,7 @@
 ---
 title: Metodología de trabajo
 item: methodology
+priority: 0.8
 ---
 
 # Metodología de trabajo

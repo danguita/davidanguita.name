@@ -1,6 +1,7 @@
 ---
 title: Servicios
 item: services
+priority: 0.8
 ---
 
 # Consultoría Ruby, Rails y desarrollo web ágil

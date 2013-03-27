@@ -1,6 +1,7 @@
 ---
 title: Contratación y contacto
 item: contact
+priority: 0.6
 ---
 
 # Opciones de contratación

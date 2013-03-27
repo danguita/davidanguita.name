@@ -1,6 +1,7 @@
 ---
 title: Acerca de este sitio
 item: about-site
+priority: 0.6
 ---
 
 ## Acerca de este sitio
