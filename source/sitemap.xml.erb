@@ -4,7 +4,6 @@ layout: false
 
 <% base_url = data.settings.site.domain %>
 <% pages = sitemap.resources.find_all { |p| p.source_file.match(/(\.html|\.markdown)/) } %>
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
