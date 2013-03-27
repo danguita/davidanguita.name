@@ -6,7 +6,7 @@
           &larr;
           = link_to 'Volver a la página de inicio', '/'
         .title
-          = link_to image_tag(gravatar_for('david@davidanguita.name'), :class => 'img-circle', :alt => 'David Anguita'), '/'
+          = link_to image_tag(gravatar_for(data.settings.contact.email), :class => 'img-circle', :alt => 'David Anguita'), '/'
       .row
         .nav
           = draw_page_nav

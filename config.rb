@@ -62,7 +62,7 @@ activate :automatic_image_sizes
 
 helpers do
   def draw_page_title
-    ['David Anguita. Desarrollador de software y consultor independiente', data.page.title].reject(&:blank?).join(': ')
+    [data.settings.site.name, data.page.title].reject(&:blank?).join(': ')
   end
 
   def draw_page_nav

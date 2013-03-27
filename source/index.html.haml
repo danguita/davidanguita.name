@@ -4,7 +4,7 @@ layout: home
 
 %section.introduction
   .row
-    = link_to image_tag(gravatar_for('david@davidanguita.name', 120), :class => 'img-circle', :alt => 'David Anguita'), '/'
+    = link_to image_tag(gravatar_for(data.settings.contact.email, 120), :class => 'img-circle', :alt => 'David Anguita'), '/'
 
     %h1 David Anguita
 
@@ -17,7 +17,7 @@ layout: home
 
     %h4
       Dedico gran parte de mi tiempo a construir software de forma independiente y desde
-      = link_to 'mi empresa', 'http://aticoestudio.com'
+      = link_to 'mi empresa', data.settings.related.company
 
 %section.tiles
   .row
@@ -40,16 +40,16 @@ layout: home
 %section.contact
   .row
     .span3
-      = mail_to 'david@davidanguita.name', 'Email', :class => 'btn btn-block palette palette-night'
+      = mail_to data.settings.contact.email, 'Email', :class => 'btn btn-block palette palette-night'
     .span3
-      = link_to 'LinkedIn', 'http://linkedin.com/in/danguita', :class => 'btn btn-block palette palette-night'
+      = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-block palette palette-night'
     .span3
-      = link_to 'GitHub', 'http://github.com/danguita', :class => 'btn btn-block palette palette-night'
+      = link_to 'GitHub', data.settings.services.github, :class => 'btn btn-block palette palette-night'
     .span3
-      = link_to 'Twitter', 'http://twitter.com/danguita', :class => 'btn btn-block palette palette-night'
+      = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-block palette palette-night'
 
 %section.notes
   .row
     %h4
       Ocasionalmente escribo en mi blog
-    = link_to '"I solve problems"', 'http://blog.davidanguita.name', :class => 'btn palette palette-asbestos'
+    = link_to '"I solve problems"', data.settings.related.blog, :class => 'btn palette palette-asbestos'

@@ -6,15 +6,15 @@
           %p
             %strong David Anguita
           %p
-            = mail_to 'david@davidanguita.name', 'email'
+            = mail_to data.settings.contact.email, 'email'
             \/
-            = link_to 'linkedin', 'http://linkedin.com/in/danguita'
+            = link_to 'linkedin', data.settings.services.linkedin
             \/
-            = link_to 'github', 'http://github.com/danguita'
+            = link_to 'github', data.settings.services.github
             \/
-            = link_to 'twitter', 'http://twitter.com/danguita'
+            = link_to 'twitter', data.settings.services.twitter
             \/
-            = link_to 'blog', 'http://blog.davidanguita.name'
+            = link_to 'blog', data.settings.related.blog
       .span6
         .footer-title
           .credits
@@ -22,4 +22,4 @@
               = link_to 'Acerca de este sitio', '/about-site'
             %p
               Código disponible en
-              = link_to 'GitHub', 'https://github.com/danguita/davidanguita.name'
+              = link_to 'GitHub', data.settings.about.repo

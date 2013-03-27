@@ -7,7 +7,7 @@ item: contact
   .well
     %h4
       Puedes contactar conmigo vía
-      = mail_to 'david@davidanguita.name', 'email', :class => 'btn btn-small'
+      = mail_to data.settings.contact.email, 'email', :class => 'btn btn-small'
       describiendo brevemente tu proyecto, empresa o el servicio que necesitarías contratar.
     %hr
     %h4
@@ -20,8 +20,8 @@ item: contact
   %h4 Otros medios de contacto
   .row
     .span2.offset1
-      = link_to 'LinkedIn', 'http://linkedin.com/in/danguita', :class => 'btn btn-block palette palette-night'
+      = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-block palette palette-night'
     .span2
-      = link_to 'GitHub', 'http://github.com/danguita', :class => 'btn btn-block palette palette-night'
+      = link_to 'GitHub', data.settings.services.github, :class => 'btn btn-block palette palette-night'
     .span2
-      = link_to 'Twitter', 'http://twitter.com/danguita', :class => 'btn btn-block palette palette-night'
+      = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-block palette palette-night'

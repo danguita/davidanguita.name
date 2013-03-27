@@ -1,0 +1,20 @@
+site:
+  name: 'David Anguita. Desarrollador de software y consultor independiente'
+  description: 'Hola, soy desarrollador de software y consultor independiente Ruby on Rails de Ciudad Real (Spain)'
+  keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Freelance Ruby, Freelance Rails, Desarrollo web, Ciudad Real, Freelance Ciudad Real'
+  author: 'David Anguita'
+
+contact:
+  email: 'david@davidanguita.name'
+
+services:
+  linkedin: 'http://linkedin.com/in/danguita'
+  github: 'http://github.com/danguita'
+  twitter: 'http://twitter.com/danguita'
+
+related:
+  blog: 'http://blog.davidanguita.name'
+  company: 'http://aticoestudio.com'
+
+about:
+  repo: 'https://github.com/danguita/davidanguita.name'
