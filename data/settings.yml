@@ -3,6 +3,7 @@ site:
   description: 'Hola, soy desarrollador de software y consultor independiente Ruby on Rails de Ciudad Real (Spain)'
   keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Freelance Ruby, Freelance Rails, Desarrollo web, Ciudad Real, Freelance Ciudad Real'
   author: 'David Anguita'
+  tracking_code: 'UA-7973700-6'
 
 contact:
   email: 'david@davidanguita.name'
