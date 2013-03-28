@@ -2,14 +2,14 @@
 
 module CustomHelpers
   def draw_page_title
-    [data.settings.site.name, data.page.title].reject(&:blank?).join(': ')
+    [I18n.t('site.name'), data.page.title].reject(&:blank?).join(': ')
   end
 
   def draw_page_nav
     markup = []
 
     %w(services methodology contact).each do |page|
-      markup << link_to(page_title_map[page.to_sym], "/#{page}", :class => ['btn btn-primary', page_status(page)].join(' '))
+      markup << link_to(I18n.t(page), "#{page}.html", :class => ['btn btn-primary', page_status(page)].join(' '))
     end
 
     markup.join(' ')
@@ -20,7 +20,11 @@ module CustomHelpers
   end
 
   def page_status page
-    (data.page.item === page) ? 'active' : 'inactive'
+    is_active?(page) ? 'active' : 'inactive'
+  end
+
+  def is_active? page
+    File.basename(current_page.path, current_page.ext) === page
   end
 
   def gravatar_for email_address, size = 80

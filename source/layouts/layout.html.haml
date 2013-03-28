@@ -6,15 +6,15 @@
 %html.no-js{:lang => "en"}
   <!--<![endif]-->
   %head
-    = partial 'head'
+    = partial 'layouts/head'
 
   %body{:class => page_classes}
-    = partial 'header'
+    = partial 'layouts/header'
 
     #content
       .container
         .row
           .span8.offset2= yield
 
-    = partial 'footer'
-    = partial 'analytics'
+    = partial 'layouts/footer'
+    = partial 'layouts/analytics'

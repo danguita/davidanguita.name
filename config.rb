@@ -2,6 +2,8 @@
 # General options
 ###
 
+activate :i18n, :mount_at_root => :en
+
 activate :directory_indexes
 
 ###
@@ -45,6 +47,12 @@ end
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
+
+# Sitemap
+page "sitemap.xml", :layout => false
+
+# Ignore content files (markdown)
+ignore "content/*"
 
 ###
 # Helpers
