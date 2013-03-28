@@ -24,7 +24,7 @@ module CustomHelpers
       target << locale.to_s unless default_locale?(locale)
 
       if active_locale? locale
-        markup << I18n.t("locale.#{locale}")
+        markup << content_tag(:span, I18n.t("locale.#{locale}"), :class => 'active')
       else
         markup << link_to(I18n.t("locale.#{locale}"), target)
       end

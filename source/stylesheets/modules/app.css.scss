@@ -54,16 +54,30 @@ footer {
 }
 
 .top {
+  text-align: center;
+
   .palette {
     padding: 10px 0;
   }
 
-  .back {
-    text-align: left;
+  a {
+    color: #ccc;
+    text-decoration: none;
+
+    &:hover {
+      color: #2ecc71;
+      text-decoration: underline;
+    }
   }
 
   .locale-select {
-    text-align: right;
+    .active {
+      color: #2ecc71;
+    }
+
+    a {
+      padding: 0 4px;
+    }
   }
 }
 
