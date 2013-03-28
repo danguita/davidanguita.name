@@ -1,12 +1,8 @@
 %header
   .container
-    %section
-      .row
-        .back
-          &larr;
-          = link_to 'Volver a la página de inicio', 'index.html'
-        .title
-          = link_to image_tag(gravatar_for(data.settings.contact.email), :class => 'img-circle', :alt => 'David Anguita'), 'index.html'
-      .row
-        .nav
-          = draw_page_nav
+    .row
+      .title
+        = link_to image_tag(gravatar_for(data.settings.contact.email), :class => 'img-circle', :alt => 'David Anguita'), 'index.html'
+    .row
+      .nav
+        = draw_page_nav

@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 body {
-  &.index {
+  &.home {
     text-align: center;
   }
 
-  &.services, &.methodology, &.contact {
+  &.page {
     h1 {
       text-align: center;
       margin-left: -20px;
@@ -16,12 +16,6 @@ body {
       padding-top: 0 !important;
     }
 
-    blockquote {
-      margin: 20px 0;
-    }
-  }
-
-  &.contact {
     .contact {
       margin-top: 20px;
     }
@@ -33,7 +27,47 @@ body {
   padding-bottom: 20px;
 }
 
-.index {
+header {
+  padding: 20px 0 0;
+
+
+  .title {
+    text-align: center;
+  }
+
+  .nav {
+    margin: 20px 0 10px;
+    text-align: center;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+
+  a {
+    font-weight: normal;
+  }
+}
+
+.top {
+  .palette {
+    padding: 10px 0;
+  }
+
+  .back {
+    text-align: left;
+  }
+
+  .locale-select {
+    text-align: right;
+  }
+}
+
+.home {
   .introduction {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -73,33 +107,4 @@ section.notes {
 
 section.hiring-options {
   margin-top: 40px;
-}
-
-header {
-  padding: 20px 0 0;
-
-  .back {
-    margin-bottom: 10px;
-  }
-
-  .title {
-    text-align: center;
-  }
-
-  .nav {
-    margin: 20px 0 10px;
-    text-align: center;
-
-    .btn {
-      margin-bottom: 10px;
-    }
-  }
-}
-
-footer {
-  text-align: center;
-
-  a {
-    font-weight: normal;
-  }
 }

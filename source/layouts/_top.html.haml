@@ -1,0 +1,13 @@
+%section.top
+  .palette.palette-clouds
+    .container
+      .row
+        .span6
+          - if back
+            .back
+              &larr;
+              = link_to 'Volver a la página de inicio', 'index.html'
+        .span6
+          - if locale
+            .locale-select
+              = draw_locale_select

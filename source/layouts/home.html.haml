@@ -8,7 +8,9 @@
   %head
     = partial 'layouts/head'
 
-  %body{:class => page_classes}
+  %body.home{:class => page_classes}
+    = partial 'layouts/top', :locals => { :back => false, :locale => true }
+
     #content
       .container
         .row= yield
