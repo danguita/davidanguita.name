@@ -9,3 +9,8 @@ es:
   services: Servicios
   methodology: Metodología
   contact: Contacto
+  about-site: Acerca de este sitio
+
+  locale:
+    es: Español
+    en: English
