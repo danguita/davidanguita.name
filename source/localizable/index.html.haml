@@ -8,8 +8,10 @@ priority: 1.0
     = link_to image_tag(gravatar_for(data.settings.contact.email, 120), :class => 'img-circle', :alt => 'David Anguita'), 'index.html'
 
     %h1 David Anguita
-    %h4= partial "content/#{I18n.locale}/introducing-myself"
-    %h4= partial "content/#{I18n.locale}/introducing-services"
+
+    .introducing
+      = partial "content/#{I18n.locale}/introducing-myself"
+      = partial "content/#{I18n.locale}/introducing-services"
 
 %section.tiles
   .row
