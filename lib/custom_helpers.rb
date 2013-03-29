@@ -10,7 +10,7 @@ module CustomHelpers
     markup = []
 
     available_pages.each do |page|
-      markup << link_to(I18n.t(page), "#{page}.html", :class => ['btn btn-primary', page_status(page)].join(' '))
+      markup << link_to(I18n.t("layout.#{page}"), "#{page}.html", :class => ['btn btn-primary', page_status(page)].join(' '))
     end
 
     markup.join(' ')

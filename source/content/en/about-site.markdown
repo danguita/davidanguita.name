@@ -1,21 +1,20 @@
 ---
-title: Acerca de este sitio
-item: about-site
+title: about-site
 priority: 0.6
 ---
 
-## Acerca de este sitio
+## About this site
 
-#### Gestionado con [Middleman](http://middlemanapp.com/)
+#### Managed by [Middleman](http://middlemanapp.com/)
 
-#### Markup HTML y CSS vía [HAML](http://haml.info/) + [SASS](http://sass-lang.com/)
+#### HTML and CSS markup via [HAML](http://haml.info/) + [SASS](http://sass-lang.com/)
 
-#### Estilo basado en [Flat-UI](http://designmodo.github.com/Flat-UI/) y [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+#### Style based on [Flat-UI](http://designmodo.github.com/Flat-UI/) and [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 
-#### Entradas escritas en sintaxis [Markdown](http://daringfireball.net/projects/markdown/)
+#### Entries written in [Markdown](http://daringfireball.net/projects/markdown/) syntax
 
-#### Servido por [GitHub Pages](http://pages.github.com/)
+#### Powered by [GitHub Pages](http://pages.github.com/)
 
-#### Código disponible en [GitHub](https://github.com/danguita/davidanguita.name)
+#### Code available on [GitHub](https://github.com/danguita/davidanguita.name)
 
-#### Felizmente programado con [vim](http://www.vim.org/)
+#### Coded with [vim](http://www.vim.org/)

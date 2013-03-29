@@ -6,7 +6,7 @@
           - if back
             .back
               &larr;
-              = link_to 'Volver a la página de inicio', 'index.html'
+              = link_to I18n.t('header.back-to-home'), 'index.html'
         .span6
           - if locale
             .locale-select

@@ -19,7 +19,7 @@
         .footer-title
           .credits
             %p
-              = link_to 'Acerca de este sitio', 'about-site.html'
+              = link_to I18n.t('layout.about-site'), 'about-site.html'
             %p
-              Código disponible en
+              = I18n.t('footer.source-code-on')
               = link_to 'GitHub', data.settings.about.repo

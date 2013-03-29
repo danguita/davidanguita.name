@@ -8,35 +8,17 @@ priority: 1.0
     = link_to image_tag(gravatar_for(data.settings.contact.email, 120), :class => 'img-circle', :alt => 'David Anguita'), 'index.html'
 
     %h1 David Anguita
-
-    %h4
-      Hola, soy
-      %strong desarrollador de software
-      y
-      %strong consultor independiente
-      de Ciudad Real, Spain
-
-    %h4
-      Dedico gran parte de mi tiempo a construir software de forma independiente y desde
-      = link_to 'mi empresa', data.settings.related.company
+    %h4= partial "content/#{I18n.locale}/introducing-myself"
+    %h4= partial "content/#{I18n.locale}/introducing-services"
 
 %section.tiles
   .row
-    .span4
-      .tile
-        %h3 Ruby on Rails
-        %p Desarrollo back-end, front-end, entornos de producción y training
-        = link_to 'Servicios', 'services.html', :lang => I18n.locale, :class => 'btn btn-primary btn-large btn-block'
-    .span4
-      .tile
-        %h3 Metodología
-        %p Dedicación exclusiva. Desarrollo iterativo, robusto y mantenible
-        = link_to 'Buscando la calidad', 'methodology.html', :class => 'btn btn-primary btn-large btn-block'
-    .span4
-      .tile
-        %h3 Contacto
-        %p Conoce como contactar conmigo y contratar mis servicios
-        = link_to 'Hablemos', 'contact.html', :class => 'btn btn-primary btn-large btn-block'
+    - %w(services methodology contact).each do |page|
+      .span4
+        .tile
+          %h3= I18n.t("home.#{page}-title")
+          %p= I18n.t("home.#{page}-description")
+          = link_to I18n.t("home.#{page}-label"), "#{page}.html", :class => 'btn btn-primary btn-large btn-block'
 
 %section.contact
   .row
@@ -51,6 +33,5 @@ priority: 1.0
 
 %section.notes
   .row
-    %h4
-      Ocasionalmente escribo en mi blog
+    %h4= I18n.t('home.i-write-my-blog')
     = link_to '"I solve problems"', data.settings.related.blog, :class => 'btn palette palette-asbestos'

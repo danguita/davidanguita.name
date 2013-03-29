@@ -6,11 +6,33 @@ es:
     keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Freelance Ruby, Freelance Rails, Desarrollo web, Ciudad Real, Freelance Ciudad Real'
     author: 'David Anguita'
 
-  services: Servicios
-  methodology: Metodología
-  contact: Contacto
-  about-site: Acerca de este sitio
-
   locale:
     es: Español
     en: English
+
+  layout:
+    services: Servicios
+    methodology: Metodología
+    contact: Contacto
+    about-site: Acerca de este sitio
+
+  header:
+    back-to-home: Volver a la página de inicio
+
+  footer:
+    source-code-on: Código disponible en
+
+  home:
+    services-title: Ruby on Rails
+    services-description: Desarrollo back-end y front-end. Entornos de producción y training
+    services-label: Servicios
+    methodology-title: Metodología
+    methodology-description: Dedicación exclusiva. Desarrollo iterativo. Software mantenible
+    methodology-label: Buscando la calidad
+    contact-title: Contacto
+    contact-description: Conoce como contactar conmigo y contratar mis servicios
+    contact-label: Hablemos
+    i-write-my-blog: Ocasionalmente escribo en mi blog
+
+  contact:
+    contact-ways: Otros medios de contacto

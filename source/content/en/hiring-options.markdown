@@ -1,12 +1,6 @@
----
-title: Contratación y contacto
-item: contact
-priority: 0.6
----
+# Hiring options
 
-# Opciones de contratación
-
-### Por proyecto
+### By project
 
 Analizamos el proyecto, extraemos una lista de funcionalidades
 y realizamos una planificación de los ciclos de desarrollo. Con esto
@@ -18,7 +12,7 @@ adecuadamente preparado para recibir actualizaciones y mejoras.
 
 * * *
 
-### Por semanas
+### By weeks
 
 Esta forma de contratación puede ser interesante para revisión,
 mantenimiento o mejoras de proyectos ya iniciados. En este caso mi

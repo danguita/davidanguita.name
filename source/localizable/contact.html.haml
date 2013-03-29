@@ -5,19 +5,14 @@ priority: 0.8
 
 %section.contact
   .well
-    %h4
-      Puedes contactar conmigo vía
-      = mail_to data.settings.contact.email, 'email', :class => 'btn btn-small'
-      describiendo brevemente tu proyecto, empresa o el servicio que necesitarías contratar.
-    %hr
-    %h4
-      Indicando también tu medio de contacto preferido te responderé en la mayor brevedad posible para concertar una cita o aportar cualquier información que necesites.
+    %h4= partial "content/#{I18n.locale}/how-to-contact"
 
 %section.hiring-options
   = partial "content/#{I18n.locale}/hiring-options"
 
 %section.notes
-  %h4 Otros medios de contacto
+  %h4= I18n.t('contact.contact-ways')
+
   .row
     .span2.offset1
       = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-block palette palette-night'
