@@ -53,6 +53,8 @@ page "sitemap.xml", :layout => false
 
 # Ignore content files (markdown)
 ignore "content/*"
+ignore "stylesheets/vendor/*"
+ignore "stylesheets/modules/*"
 
 ###
 # Helpers
