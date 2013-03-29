@@ -1,5 +1,5 @@
 You can contact me via
-[email](david@davidanguita.name)
+[email](mailto:david@davidanguita.name)
 by describing your company, project or kind of services you are
 interested in.
 

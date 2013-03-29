@@ -2,22 +2,21 @@
 
 ### By project
 
-Analizamos el proyecto, extraemos una lista de funcionalidades
-y realizamos una planificación de los ciclos de desarrollo. Con esto
-obtenemos un coste de desarrollo del producto y una estimación del momento
-de puesta en producción.
+We check the project, then we get a list of features and a development
+plan. After that we can estimate the product value, cost of development and
+production deployment timing.
 
-La puesta en producción **nunca es el final**, por lo que el producto estará
-adecuadamente preparado para recibir actualizaciones y mejoras.
+The production deployment **is not the end**, so the product will
+be ready to get any kind of updates or improvements.
 
 * * *
 
 ### By weeks
 
-Esta forma de contratación puede ser interesante para revisión,
-mantenimiento o mejoras de proyectos ya iniciados. En este caso mi
-implicación en el proyecto es más estricta por lo que se desarrollarán
-las tareas acordadas en unidades semanales bajo tarifas ya establecidas.
+This hiring option might be interesting for review, improvement or
+feature development for already started projects. My involvement in this
+case is stricter so the agreed tasks will be developed in weekly
+units and predefined rates.
 
-El periodo mínimo de contratación es de dos semanas.
+The minimum hiring period is two weeks.
 

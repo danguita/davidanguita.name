@@ -27,12 +27,12 @@ es:
     services-description: Desarrollo back-end y front-end. Entornos de producción y training
     services-label: Servicios
     methodology-title: Metodología
-    methodology-description: Dedicación exclusiva. Desarrollo iterativo. Software mantenible
+    methodology-description: Dedicación completa. Desarrollo iterativo. Software mantenible
     methodology-label: Buscando la calidad
     contact-title: Contacto
     contact-description: Conoce como contactar conmigo y contratar mis servicios
     contact-label: Hablemos
-    i-write-my-blog: Ocasionalmente escribo en mi blog
+    my-blog: Ocasionalmente escribo en mi blog
 
   contact:
-    contact-ways: Otros medios de contacto
+    contact-methods: Otros medios de contacto

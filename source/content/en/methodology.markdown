@@ -1,33 +1,24 @@
----
-title: Metodología de trabajo
-item: methodology
-priority: 0.8
----
+# Work methodology
 
-# Metodología de trabajo
+### Complete dedication and project tracking
 
-### Dedicación exclusiva y seguimiento
+I do **iterative development**, allowing us to observe the product
+evolution and to have a minimal and ready for production version
+in a short time.
 
-Realizo **desarrollo iterativo**, lo que nos permite observar la
-evolución del producto y disponer de una versión (mínima) preparada para su
-explotación en la mayor brevedad posible.
+My tracking cycles (meeting, presentation or feedback request) are
+generally weekly, so we could plan the next development cycles this
+often.
 
-Mis ciclos de seguimiento (reunión, presentación u obtención de
-feedback) son generalmente semanales, con lo que podremos tomar decisiones
-sobre los siguientes ciclos de desarrollo con esa frecuencia.
-
-Los desarrollos de software son algo vivo, una sólida e inalterable
-estrategia de desarrollo no suele ajustarse al mundo real. La **calidad**
-del producto debe ser el principal objetivo, y ésta puede depender
-de la capacidad de adaptación del equipo (proveedor y cliente) a las
-peculiaridades del proceso.
+Software development processes are living things. An immovable
+development strategy usually doesn't match the real world. The product
+**quality** must be the highest aim and it usually depends on the team
+(providers and clients) adaptability.
 
 * * *
 
-### Mantenibilidad
+### Maintainability
 
-Buscando la calidad del producto y su **mantenibilidad** futura, siempre
-aplico **TDD** (*Test Driven Development* o desarrollo basado en tests) lo
-que aporta una buena documentación práctica y asegura la satisfacción de las
-funcionalidades requeridas en el proyecto.
-
+Looking for the product quality and its **maintainability**, I always
+apply **TDD** (Test Driven Development). This development process can give
+us a good practical documentation and ensures satisfying all features.

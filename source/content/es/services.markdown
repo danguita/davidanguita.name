@@ -1,9 +1,3 @@
----
-title: Servicios
-item: services
-priority: 0.8
----
-
 # Consultoría Ruby, Rails y desarrollo web ágil
 
 ### Desarrollo web back-end
@@ -16,16 +10,16 @@ priority: 0.8
 
 #### HTML5, Responsive, JavaScript, Real-time...
 
-Mis servicios no incluyen labores de diseño gráfico, por lo que generalmente
-será necesario contratar el servicio de diseño gráfico de forma
-paralela.
+Mis servicios no incluyen labores de diseño gráfico o visual, por lo que
+generalmente será necesario contratar este servicio de forma adicional.
 
 Si lo necesitas, podría recomendarte algunas empresas con las que ya
-he trabajado para solicitar este servicio.
+he trabajado para solicitar este servicio o yo mismo podría solicitarlo
+por ti.
 
 * * *
 
-### Diseño de entornos de producción
+### Entornos de producción
 
 * Alta demanda y alta disponibilidad
 * Escalabilidad
@@ -38,7 +32,8 @@ he trabajado para solicitar este servicio.
 
 * Revisión de aplicaciones
 * Asesoramiento sobre buenas prácticas
-* Optimizaciones de código y rendimiento
+* Calidad del código
+* Optimización de rendimiento
 * Actualización de librerías
 * Migración de infraestructura
 
@@ -46,11 +41,13 @@ he trabajado para solicitar este servicio.
 
 ### Training
 
-Junto al desarrollo de un producto, puede ser un buen complemento
-formar al equipo de profesionales que continuarán su evolución.
+Junto al servicio de desarrollo, podría ser un buen complemento
+formar al equipo de profesionales que mantendrán y evolucionarán el
+producto.
 
-Generalmente se trata de sesiones prácticas y de poca duración para
-sentar unas bases técnicas con las que fomentar el autoaprendizaje.
+Generalmente este training se compone de sesiones prácticas y de poca
+duración para establecer ciertas bases en metodología y conocimiento con
+las que fomentar el autoaprendizaje.
 
 * * *
 
@@ -59,5 +56,5 @@ sentar unas bases técnicas con las que fomentar el autoaprendizaje.
 Si necesitas apoyo técnico y empresarial en tu proyecto de base
 tecnológica, deberíamos conocernos. Una alianza empresarial para lanzar
 un producto en el que creemos nos beneficiaría a ambos. Realizaríamos
-labores estratégicas desde análisis de negocio hasta el lanzamiento del
-producto y formación y dirección de un equipo de desarrollo.
+labores estratégicas desde análisis de negocio hasta el desarrollo
+del producto, lanzamiento y explotación.

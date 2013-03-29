@@ -1,63 +1,59 @@
----
-title: Services
-item: services
-priority: 0.8
----
-
 # Ruby, Rails and agile web development consulting
 
-### Desarrollo web back-end
+### Back-end web development
 
-#### Especializado en Ruby on Rails
+#### Specialized on Ruby on Rails
 
 * * *
 
-### Desarrollo web front-end
+### Front-end web development
 
 #### HTML5, Responsive, JavaScript, Real-time...
 
-Mis servicios no incluyen labores de diseño gráfico, por lo que generalmente
-será necesario contratar el servicio de diseño gráfico de forma
-paralela.
+My services do not include any kind of visual or graphic design tasks so
+generally it will be necessary to hire this service additionally.
 
-Si lo necesitas, podría recomendarte algunas empresas con las que ya
-he trabajado para solicitar este servicio.
+In case you would need it, I can recommend you some companies I've been
+worked with or I could hire this service for you.
 
 * * *
 
-### Diseño de entornos de producción
+### Production environments
 
-* Alta demanda y alta disponibilidad
-* Escalabilidad
+* High load and high availability
+* Scalability
 * Cloud computing
-* Reducción de costes
+* Cost reduction
 
 * * *
 
-### Code review, asesoramiento y optimización
+### Code review, counselling and optimization
 
-* Revisión de aplicaciones
-* Asesoramiento sobre buenas prácticas
-* Optimizaciones de código y rendimiento
-* Actualización de librerías
-* Migración de infraestructura
+* Application review
+* Best practices counselling
+* Code quality
+* Performance optimization
+* Libraries update
+* Infrastructure migration
 
 * * *
 
 ### Training
 
-Junto al desarrollo de un producto, puede ser un buen complemento
-formar al equipo de profesionales que continuarán su evolución.
+In addition to the development service, it would be a great bonus point
+to mentor the development team which will maintain and evolve the product.
 
-Generalmente se trata de sesiones prácticas y de poca duración para
-sentar unas bases técnicas con las que fomentar el autoaprendizaje.
+Generally this training is composed by short practical sessions to
+set some methodology and knowledge basics in order to promote
+self-learning.
 
 * * *
 
-### Socio tecnológico
+### Tech Partner
 
-Si necesitas apoyo técnico y empresarial en tu proyecto de base
-tecnológica, deberíamos conocernos. Una alianza empresarial para lanzar
-un producto en el que creemos nos beneficiaría a ambos. Realizaríamos
-labores estratégicas desde análisis de negocio hasta el lanzamiento del
-producto y formación y dirección de un equipo de desarrollo.
+If you need some technical, business or strategic support for your
+technology-based project, we should meet each other.
+
+A business alliance for launching a project we trust in will be positive
+for both of us. We will do strategic tasks from business analysis to
+product development, launch and operations.

@@ -1,8 +1,3 @@
----
-title: about-site
-priority: 0.6
----
-
 ## About this site
 
 #### Managed by [Middleman](http://middlemanapp.com/)
