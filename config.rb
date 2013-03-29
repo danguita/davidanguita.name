@@ -2,7 +2,7 @@
 # Global options
 ###
 
-activate :i18n, :mount_at_root => :en
+activate :i18n, :mount_at_root => :es
 
 activate :directory_indexes
 
