@@ -13,7 +13,7 @@
 My services do not include any kind of visual or graphic design tasks so
 generally it will be necessary to hire this service additionally.
 
-In case you would need it, I can recommend you some companies I've been
+In case you would need it, I could recommend you some companies I've
 worked with or I could hire this service for you.
 
 * * *
