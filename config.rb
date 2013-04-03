@@ -1,5 +1,5 @@
 ###
-# Global options
+# Global settings
 ###
 
 activate :i18n, :mount_at_root => :es
@@ -7,7 +7,7 @@ activate :i18n, :mount_at_root => :es
 activate :directory_indexes
 
 ###
-# Markdown
+# Markdown settings
 ###
 
 set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true, :with_toc_data => false
@@ -49,10 +49,12 @@ end
 # end
 
 # Sitemap
-page "sitemap.xml", :layout => false
+page "/sitemap.xml", :layout => false
 
 # Ignore content files (markdown)
 ignore "content/*"
+
+# Ignore stylesheet modules
 ignore "stylesheets/vendor/*"
 ignore "stylesheets/modules/*"
 
