@@ -10,8 +10,13 @@ activate :directory_indexes
 # Markdown settings
 ###
 
-set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true, :with_toc_data => false
 set :markdown_engine, :redcarpet
+set :markdown,
+  :tables => true,
+  :autolink => true,
+  :gh_blockcode => true,
+  :fenced_code_blocks => true,
+  :with_toc_data => false
 
 ###
 # Compass
