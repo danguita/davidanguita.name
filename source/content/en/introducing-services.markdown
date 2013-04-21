@@ -1,2 +1,2 @@
-I spend most of my time on building software as independent consultant
-and from [my company](http://aticoestudio.com)
+I spend most of my time on building software as freelance developer
+and through [my company](http://aticoestudio.com)
