@@ -3,7 +3,7 @@
 module CustomHelpers
   # -- Render --
   def draw_page_title
-    ['site.name', ("layout.#{data.page.title}" if data.page.title)].reject(&:blank?).map{ |element| I18n.t(element) }.join(': ')
+    ['site.title', ("layout.#{data.page.title}" if data.page.title)].reject(&:blank?).map{ |element| I18n.t(element) }.join(': ')
   end
 
   def draw_page_nav

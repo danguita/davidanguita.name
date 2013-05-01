@@ -1,8 +1,8 @@
 ---
 es:
   site:
-    name: 'David Anguita. Desarrollador de software y consultor independiente'
-    description: 'Hola, soy desarrollador de software y consultor freelance Ruby on Rails de Ciudad Real, España'
+    title: 'David Anguita. Desarrollador y Consultor de Software'
+    description: 'Hola, soy desarrollador y consultor freelance Ruby on Rails de Ciudad Real, España'
     keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Freelance Ruby, Freelance Rails, Desarrollo web, Ciudad Real, Freelance Ciudad Real'
     author: 'David Anguita'
 

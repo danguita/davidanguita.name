@@ -1,2 +1,2 @@
-Dedico gran parte de mi tiempo a construir software como desarrollador
-freelance y desde [mi empresa](http://aticoestudio.com)
+Dedico la mayoría de mi tiempo a construir software como
+[freelancer](/contact) y a través de [mi empresa](http://aticoestudio.com)

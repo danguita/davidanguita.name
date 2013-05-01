@@ -1,9 +1,9 @@
 ---
 en:
   site:
-    name: 'David Anguita. Software developer and independent consultant'
-    description: "Hi, I'm a software developer and freelance Ruby on Rails consultant based in Ciudad Real, Spain"
-    keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Freelance Ruby, Freelance Rails, Desarrollo web, Ciudad Real, Freelance Ciudad Real'
+    title: 'David Anguita. Software Developer and Consultant'
+    description: "Hi, I'm a freelance Ruby on Rails developer and consultant based in Ciudad Real, Spain"
+    keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Freelance Ruby, Freelance Rails, web development, Ciudad Real, Freelance Ciudad Real'
     author: 'David Anguita'
 
   locale:

@@ -1,2 +1,2 @@
-Hola, soy **desarrollador de software** y **consultor independiente**
-de Ciudad Real, España
+Hola, soy **desarrollador y consultor de software**
+especializado en **Ruby on Rails**
