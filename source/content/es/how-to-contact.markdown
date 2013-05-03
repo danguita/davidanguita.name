@@ -6,4 +6,4 @@ interesado.
 * * *
 
 Tras procesarlo te responderé en la mayor brevedad posible para
-concertar una cita o aportar un análisis inicial sobre proyecto.
+concertar una cita o aportar un análisis inicial sobre el proyecto.
