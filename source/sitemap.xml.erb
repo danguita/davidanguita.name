@@ -1,4 +1,5 @@
 <% base_url = data.settings.site.domain %>
+<% layout_options = { :path => File.join(Dir.pwd, 'source', 'layouts'), :ext => 'html.haml' } %>
 <% pages = sitemap.resources.find_all { |p| p.source_file.match(/(\.html|\.markdown)/) } %>
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -7,9 +8,15 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <% pages.each do |page| %>
+  <%
+    layout_name = page.data.layout || 'layout'
+    layout_file = File.new(File.join(layout_options[:path], [layout_name, layout_options[:ext]].join('.')))
+    layout_date = layout_file.mtime.to_date
+    page_date   = File.new(page.source_file).mtime.to_date
+  %>
   <url>
     <loc><%= [base_url, page.destination_path.gsub('index.html', '')].join('/') %></loc>
-    <lastmod><%= File.new(page.source_file).mtime.to_date %></lastmod>
+    <lastmod><%= [layout_date, page_date].max %></lastmod>
     <% if priority = page.metadata[:page]['priority'] %>
       <priority><%= priority %></priority>
     <% end %>
