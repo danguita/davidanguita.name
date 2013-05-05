@@ -86,11 +86,14 @@ footer {
   .introduction {
     margin-top: 20px;
 
-    h2.introducing {
-      font-size: 1.3em;
-      font-weight: normal;
-      line-height: 1em;
+    .introducing {
       margin-top: 20px;
+
+      h2 {
+        font-size: 1.3em;
+        font-weight: normal;
+        line-height: 1em;
+      }
     }
   }
 
