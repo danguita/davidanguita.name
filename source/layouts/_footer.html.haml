@@ -8,12 +8,9 @@
           %p
             = mail_to data.settings.contact.email, 'email'
             \/
-            = link_to 'linkedin', data.settings.services.linkedin
-            \/
-            = link_to 'github', data.settings.services.github
-            \/
-            = link_to 'twitter', data.settings.services.twitter
-            \/
+            - data.settings.services.each do |service_name, service_link|
+              = link_to service_name, service_link
+              \/
             = link_to 'blog', data.settings.related.blog
       .span6
         .footer-title
