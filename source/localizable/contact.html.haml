@@ -19,3 +19,10 @@ priority: 0.8
       = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-block palette palette-night'
     .span2
       = link_to 'Google', data.settings.services.google, :class => 'btn btn-block palette palette-night'
+
+%section.pair-with-me
+  %h4= I18n.t('contact.pair-with-me')
+
+  .row
+    .span4.offset2
+      = mail_to data.settings.contact.email, '#PairWithMe', :subject => 'PairWithMe', :class => 'btn btn-block palette palette-concrete'
