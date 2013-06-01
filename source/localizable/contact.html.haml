@@ -1,6 +1,6 @@
 ---
 title: contact
-priority: 0.8
+priority: 1.0
 ---
 
 %section.contact
@@ -14,15 +14,12 @@ priority: 0.8
 
   .row
     .span2.offset1
-      = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-block palette palette-night'
+      = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-large btn-block btn-inverse'
     .span2
-      = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-block palette palette-night'
+      = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-large btn-block btn-inverse'
     .span2
-      = link_to 'Google', data.settings.services.google, :class => 'btn btn-block palette palette-night'
+      = link_to 'Google', data.settings.services.google, :class => 'btn btn-large btn-block btn-inverse'
 
 %section.pair-with-me
   %h4= I18n.t('contact.pair-with-me')
-
-  .row
-    .span4.offset2
-      = mail_to data.settings.contact.email, '#PairWithMe', :subject => 'PairWithMe', :class => 'btn btn-block palette palette-concrete'
+  = mail_to data.settings.contact.email, '#PairWithMe', :subject => 'PairWithMe', :class => 'btn btn-large'

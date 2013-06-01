@@ -8,7 +8,8 @@
 
     #content
       .container
-        .row= yield
+        .row
+          .span10.offset1= yield
 
     = partial 'layouts/footer'
     = partial 'layouts/analytics'

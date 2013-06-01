@@ -10,7 +10,7 @@ module CustomHelpers
     markup = []
 
     available_pages.each do |page|
-      markup << link_to(I18n.t("layout.#{page}"), "#{page}.html", :class => ['btn btn-primary', page_status(page)].join(' '))
+      markup << link_to(I18n.t("layout.#{page}"), page_path(page), :class => ['btn btn-primary btn-large', page_status(page)].join(' '))
     end
 
     markup.join(' ')
@@ -39,6 +39,31 @@ module CustomHelpers
     "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
   end
 
+  # -- Paths --
+  def locale_base_path
+    path = [nil]
+
+    path << I18n.locale unless default_locale?(I18n.locale)
+
+    path
+  end
+
+  def page_path page
+    [locale_base_path, "#{page}.html"].join('/')
+  end
+
+  def home_path
+    page_path 'index'
+  end
+
+  def projects_path
+    page_path 'projects'
+  end
+
+  def contact_path
+    page_path 'contact'
+  end
+
   # -- Locale --
   def locale_status locale
     active_locale?(locale) ? 'active' : 'inactive'
@@ -62,7 +87,7 @@ module CustomHelpers
 
   # -- Page --
   def page_status page
-    active_page?(page) ? 'active' : 'inactive'
+    active_page?(page) || data.page.title == page ? 'active' : 'inactive'
   end
 
   def active_page? page
@@ -70,6 +95,6 @@ module CustomHelpers
   end
 
   def available_pages
-    %w(services methodology contact)
+    %w(services methodology projects)
   end
 end
