@@ -31,7 +31,6 @@ body {
 header {
   padding: 20px 0 0;
 
-
   .title {
     text-align: center;
   }
@@ -42,6 +41,7 @@ header {
 
     .btn {
       margin-bottom: 10px;
+      padding: 5px 10px;
     }
   }
 }
@@ -67,7 +67,6 @@ footer {
 
     &:hover {
       color: #2ecc71;
-      text-decoration: underline;
     }
   }
 
@@ -136,4 +135,23 @@ section.pair-with-me {
 
 section.hiring-options {
   margin-top: 40px;
+}
+
+section.project-selection {
+  .project-sheet {
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+  }
+}
+
+section.single-project {
+  a.back {
+    text-decoration: none;
+  }
+
+  .project-nav {
+    text-align: center;
+  }
 }
