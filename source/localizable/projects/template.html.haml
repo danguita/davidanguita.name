@@ -27,13 +27,13 @@ priority: 0.8
 
     .span2.project-metadata
       - if project[:url]
-        .mbl
+        .mbl.mtl
           = link_to I18n.t('projects.view-online'), project[:url], :class => 'btn btn-primary'
 
       - if project[:features]
         .mbl
           %h6
-            %span.fui-gear
+            %span.fui-list
             = I18n.t('projects.features')
           %p= project[:features]
         %hr
@@ -41,7 +41,7 @@ priority: 0.8
       - if project[:role]
         .mbl
           %h6
-            %span.fui-list
+            %span.fui-gear
             = I18n.t('projects.role')
           %p= project[:role]
         %hr
