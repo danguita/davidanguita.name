@@ -1,0 +1,14 @@
+!!! 5
+%html{:lang => I18n.locale}
+  %head
+    = partial 'layouts/head'
+
+  %body.page{:class => page_classes}
+    = partial 'layouts/top', :locals => { :back => true, :locale => true }
+    = partial 'layouts/header'
+
+    #content
+      .container= yield
+
+    = partial 'layouts/footer'
+    = partial 'layouts/analytics'

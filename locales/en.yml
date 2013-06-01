@@ -15,6 +15,7 @@ en:
     methodology: Methodology
     contact: Contact
     about-site: About this site
+    projects: Projects
 
   header:
     back-to-home: Back to home page
@@ -32,8 +33,21 @@ en:
     contact-title: Contact
     contact-description: Know how to contact me and all the available hiring options
     contact-label: Let's talk
+    projects-title: Portfolio
+    projects-description: Take a look at some of the projects I am involved in
+    projects-label: Projects
     my-blog: Occasionally I write in my blog
 
   contact:
     contact-methods: Alternative contact methods
     pair-with-me: I like pair programming
+
+  projects:
+    take-a-look: Take a look at this selection of projects I am involved in, in no particular order
+    all-projects: All projects
+    view-online: View online
+    role: Role
+    features: Features
+    client: Client
+    company: Company
+    source-code: Source code

@@ -1,0 +1,71 @@
+---
+title: projects
+layout: projects
+priority: 0.8
+---
+
+- project       = data.projects[I18n.locale][key]
+- project_index = data.projects[I18n.locale].to_a.find_index [key, project]
+- projects_nav  = { :prev => data.projects[I18n.locale].to_a[project_index - 1], :next => data.projects[I18n.locale].to_a[project_index + 1]}
+
+%section.single-project
+  .row-fluid
+    .span2.project-nav
+      - if projects_nav[:prev]
+        = link_to content_tag(:span, nil, :class => 'fui-arrow-left'), "#{projects_nav[:prev][0]}.html", :class => 'btn btn-primary'
+
+      - if projects_nav[:next]
+        = link_to content_tag(:span, nil, :class => 'fui-arrow-right'), "#{projects_nav[:next][0]}.html", :class => 'btn btn-primary'
+
+      %h6.mtl= link_to I18n.t('projects.all-projects'), projects_path, :class => 'back'
+
+    .span8.project-sheet.palette.palette-clouds
+      %h2= project[:name]
+      .lead= project[:description]
+
+      = image_tag "projects/#{key}.jpg", :alt => project[:name], :class => 'img-rounded'
+
+    .span2.project-metadata
+      - if project[:url]
+        .mbl
+          = link_to I18n.t('projects.view-online'), project[:url], :class => 'btn btn-primary'
+
+      - if project[:features]
+        .mbl
+          %h6
+            %span.fui-gear
+            = I18n.t('projects.features')
+          %p= project[:features]
+        %hr
+
+      - if project[:role]
+        .mbl
+          %h6
+            %span.fui-list
+            = I18n.t('projects.role')
+          %p= project[:role]
+        %hr
+
+      - if project[:client]
+        .mbl
+          %h6
+            %span.fui-user
+            = I18n.t('projects.client')
+          %p= project[:client]
+
+      - if project[:company]
+        .mbl
+          %h6
+            %span.fui-check-inverted
+            = I18n.t('projects.company')
+            %p
+              - if company = data.companies[project[:company]]
+                = link_to company[:name], company[:url]
+              - else
+                = project[:company]
+
+      - if project[:source]
+        .mbl
+          %h6
+            %span.fui-eye
+            = link_to I18n.t('projects.source-code'), project[:source]

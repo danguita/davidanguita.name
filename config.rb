@@ -50,6 +50,16 @@ end
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+# Dynamic pages: Projects
+data.projects.en.each do |key, _|
+  proxy "/projects/#{key}.html", "/localizable/projects/template.html", :locals => { :key => key }, :lang => :es, :ignore => true
+  proxy "/en/projects/#{key}.html", "/localizable/projects/template.html", :locals => { :key => key }, :lang => :en, :ignore => true
+end
+
+# Ignore proxied templates
+ignore "projects/template.html"
+ignore "en/projects/template.html"
+
 # Sitemap
 page "/sitemap.xml", :layout => false
 

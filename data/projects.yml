@@ -1,0 +1,122 @@
+en:
+  onlooker:
+    name: Onlooker
+    description: Ticketing platform, SaaS
+    role: Technical director and developer
+    features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
+    company: aticoestudio
+    url: http://entradas.bmatleticodemadrid.com
+  playersagent:
+    name: Players Agent
+    description: Professional player representation
+    role: Technical director and developer
+    features: Professional player representation agency. It allows to manage, catch and execute representation contracts by a team of representation agents.
+    company: aticoestudio
+    url: http://iberianrugbycontact.es
+  trade:
+    name: Trade
+    description: Specialized CRM
+    role: Technical director and developer
+    features: CRM (Customer Relationship Management) specialized on actions management and supervision.
+    company: aticoestudio
+    client: Urbatek Porcelanosa Grupo
+  launchlanding:
+    name: Launch Landing
+    description: Launch site & user subscription
+    role: Technical director and developer
+    features: Lightweight app for serving a launch site with user subscription control.
+    company: aticoestudio
+  artt:
+    name: ARTT
+    description: Artists porfolio, SaaS
+    role: Start-trooper and developer
+    features: Coming soon!
+  davidanguita:
+    name: David Anguita
+    description: Static website, GitHub Pages
+    role: Frontender amateur
+    features: Personal website powered by Middleman.
+    url: http://davidanguita.name
+    source: http://github.com/danguita/davidanguita.name
+  urbatek:
+    name: Urbatek
+    description: CMS, Complex catalog
+    role: Technical director and developer
+    client: Urbatek Porcelanosa Grupo
+    company: aticoestudio
+    url: http://urbatek.com
+  moneytrans:
+    name: Moneytrans
+    description: CMS, Webservices integration
+    role: Technical director and developer
+    client: Moneytrans
+    company: aticoestudio
+    url: http://www.moneytrans.eu
+  twinner:
+    name: Twinner Iberia
+    description: CMS, Intranet integration
+    role: Technical director and developer
+    client: Twinner Iberia
+    company: aticoestudio
+    url: http://www.twinner.es
+
+es:
+  onlooker:
+    name: Onlooker
+    description: Plataforma de ticketing, SaaS
+    role: Director técnico y desarrollador
+    features: Solución integral de ticketing presentada como SaaS (Software as a Service). Está compuesta por módulos de venta on-line, venta en taquilla y control de acceso.
+    company: aticoestudio
+    url: http://entradas.bmatleticodemadrid.com
+  playersagent:
+    name: Players Agent
+    description: Representación de jugadores profesionales
+    role: Director técnico y desarrollador
+    features: Agencia de representación de jugadores profesionales. Permite la gestión, captación y ejecución de contratos de representación un equipo de agentes de representación.
+    company: aticoestudio
+    url: http://iberianrugbycontact.es
+  trade:
+    name: Trade
+    description: CRM especializado
+    role: Director técnico y desarrollador
+    features: CRM (Customer Relationship Management) especializado en la gestión y supervisión de acciones comerciales.
+    company: aticoestudio
+  launchlanding:
+    name: Launch Landing
+    description: Launch site y suscripciones de usuarios
+    role: Director técnico y desarrollador
+    features: Aplicación ligera para la generación de un "launch site" y control de suscripciones de usuarios.
+    company: aticoestudio
+  artt:
+    name: ARTT
+    description: Portfolio de artistas, SaaS
+    role: Start-trooper y desarrollador
+    features: ¡Muy pronto!
+  davidanguita:
+    name: David Anguita
+    description: Website estático, GitHub Pages
+    role: Frontender amateur
+    features: Website personal construido con Middleman.
+    url: http://davidanguita.name
+    source: http://github.com/danguita/davidanguita.name
+  urbatek:
+    name: Urbatek
+    description: CMS, Catálogo complejo
+    role: Director técnico y desarrollador
+    client: Urbatek Porcelanosa Grupo
+    company: aticoestudio
+    url: http://urbatek.com
+  moneytrans:
+    name: Moneytrans
+    description: CMS, Integración con webservices
+    role: Director técnico y desarrollador
+    client: Moneytrans
+    company: aticoestudio
+    url: http://www.moneytrans.eu
+  twinner:
+    name: Twinner Iberia
+    description: CMS, Integración con Intranet
+    role: Director técnico y desarrollador
+    client: Twinner Iberia
+    company: aticoestudio
+    url: http://www.twinner.es

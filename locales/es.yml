@@ -15,6 +15,7 @@ es:
     methodology: Metodología
     contact: Contacto
     about-site: Acerca de este sitio
+    projects: Proyectos
 
   header:
     back-to-home: Volver a la página de inicio
@@ -32,8 +33,21 @@ es:
     contact-title: Contacto
     contact-description: Conoce como contactar conmigo y contratar mis servicios
     contact-label: Hablemos
+    projects-title: Portfolio
+    projects-description: Echa un vistazo a algunos de los proyectos en los que estoy involucrado
+    projects-label: Proyectos
     my-blog: Ocasionalmente escribo en mi blog
 
   contact:
     contact-methods: Otros medios de contacto
     pair-with-me: Me gusta el pair programming
+
+  projects:
+    take-a-look: Echa un vistazo a esta selección de proyectos en los que estoy involucrado, sin un orden en particular
+    all-projects: Todos los proyectos
+    view-online: Ver online
+    role: Rol
+    features: Características
+    client: Cliente
+    company: Empresa
+    source-code: Código fuente
