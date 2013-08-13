@@ -16,5 +16,8 @@
 # Ignore system storage
 .DS_Store
 
+# Ignore gemset
+/.gem
+
 # Ignore misc stuff
 /stuff
