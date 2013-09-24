@@ -1,5 +1,5 @@
 <% base_url = data.settings.site.domain %>
-<% layout_options = { :path => File.join(Dir.pwd, 'source', 'layouts'), :ext => 'html.haml' } %>
+<% layout_options = { path: File.join(Dir.pwd, 'source', 'layouts'), ext: 'html.haml' } %>
 <% pages = sitemap.resources.find_all { |p| p.source_file.match(/(\.html|\.markdown)/) } %>
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset

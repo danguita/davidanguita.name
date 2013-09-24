@@ -12,9 +12,9 @@ priority: 0.8
       - projects_row.each do |key, project|
         .span4
           = link_to "projects/#{key}.html",
-            :class => "project-#{key} project-sheet palette palette-clouds mbl btn",
-            'title' => project[:name] do
+            class: "project-#{key} project-sheet palette palette-clouds mbl btn",
+            title: project[:name] do
 
             %h3= project[:name]
-            = image_tag "projects/#{key}.jpg", :alt => project[:name]
+            = image_tag "projects/#{key}.jpg", alt: project[:name]
             %h6= project[:description]

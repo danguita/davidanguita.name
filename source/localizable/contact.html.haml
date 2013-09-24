@@ -14,12 +14,12 @@ priority: 1.0
 
   .row
     .span2.offset1
-      = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-large btn-block btn-inverse'
+      = link_to 'LinkedIn', data.settings.services.linkedin, class: 'btn btn-large btn-block btn-inverse'
     .span2
-      = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-large btn-block btn-inverse'
+      = link_to 'Twitter', data.settings.services.twitter, class: 'btn btn-large btn-block btn-inverse'
     .span2
-      = link_to 'Google', data.settings.services.google, :class => 'btn btn-large btn-block btn-inverse'
+      = link_to 'Google', data.settings.services.google, class: 'btn btn-large btn-block btn-inverse'
 
 %section.pair-with-me
   %h4= I18n.t('contact.pair-with-me')
-  = mail_to data.settings.contact.email, '#PairWithMe', :subject => 'PairWithMe', :class => 'btn btn-large'
+  = mail_to data.settings.contact.email, '#PairWithMe', subject: 'PairWithMe', class: 'btn btn-large'

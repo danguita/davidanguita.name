@@ -1,22 +1,22 @@
 = partial 'layouts/easter'
 
-%meta{:charset => "utf-8"}
+%meta{charset: "utf-8"}
 
 %title= draw_page_title
 
 -# Meta
-%meta{:name => "description",   :content => I18n.t('site.description')}
-%meta{:name => "keywords",      :content => I18n.t('site.keywords')}
-%meta{:name => "author",        :content => I18n.t('site.author')}
-%meta{:name => "generator",     :content => "Middleman #{Middleman::VERSION}"}
-%meta{:name => "viewport",      :content => "width=device-width, initial-scale=1.0"}
+%meta{name: "description",  content: I18n.t('site.description')}
+%meta{name: "keywords",     content: I18n.t('site.keywords')}
+%meta{name: "author",       content: I18n.t('site.author')}
+%meta{name: "generator",    content: "Middleman #{Middleman::VERSION}"}
+%meta{name: "viewport",     content: "width=device-width, initial-scale=1.0"}
 
 -# Icons
-%link{:href => "/images/apple-touch-icon-144x144.png", :rel => "apple-touch-icon", :sizes => "144x144"}
-%link{:href => "/images/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}
-%link{:href => "/images/apple-touch-icon-72x72.png",   :rel => "apple-touch-icon", :sizes => "72x72"}
-%link{:href => "/images/apple-touch-icon.png",         :rel => "apple-touch-icon"}
-%link{:href => "/favicon.png",                         :rel => "shortcut icon"}
+%link{href: "/images/apple-touch-icon-144x144.png", rel: "apple-touch-icon", sizes: "144x144"}
+%link{href: "/images/apple-touch-icon-114x114.png", rel: "apple-touch-icon", sizes: "114x114"}
+%link{href: "/images/apple-touch-icon-72x72.png",   rel: "apple-touch-icon", sizes: "72x72"}
+%link{href: "/images/apple-touch-icon.png",         rel: "apple-touch-icon"}
+%link{href: "/favicon.png",                         rel: "shortcut icon"}
 
 -# Stylesheets
 = stylesheet_link_tag "all"

@@ -1,10 +1,10 @@
 !!! 5
-%html{:lang => I18n.locale}
+%html{lang: I18n.locale}
   %head
     = partial 'layouts/head'
 
-  %body.page{:class => page_classes}
-    = partial 'layouts/top', :locals => { :locale => true }
+  %body.page{class: page_classes}
+    = partial 'layouts/top', locals: { locale: true }
     = partial 'layouts/header'
 
     #content

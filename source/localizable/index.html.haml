@@ -4,7 +4,7 @@ priority: 1.0
 ---
 
 %section.introduction
-  = link_to image_tag(gravatar_for(data.settings.contact.email, 120), :class => 'img-circle', :alt => 'David Anguita'), 'index.html'
+  = link_to image_tag(gravatar_for(data.settings.contact.email, 120), class: 'img-circle', alt: 'David Anguita'), 'index.html'
 
   %h1 David Anguita
 
@@ -19,19 +19,19 @@ priority: 1.0
         .tile
           %h3= I18n.t("home.#{page}-title")
           %p= I18n.t("home.#{page}-description")
-          = link_to I18n.t("home.#{page}-label"), page_path(page), :class => 'btn btn-large btn-block btn-primary'
+          = link_to I18n.t("home.#{page}-label"), page_path(page), class: 'btn btn-large btn-block btn-primary'
 
 %section.contact
   .row-fluid
     .span3
-      = mail_to data.settings.contact.email, 'Email', :class => 'btn btn-large btn-block btn-inverse'
+      = mail_to data.settings.contact.email, 'Email', class: 'btn btn-large btn-block btn-inverse'
     .span3
-      = link_to 'LinkedIn', data.settings.services.linkedin, :class => 'btn btn-large btn-block btn-inverse'
+      = link_to 'LinkedIn', data.settings.services.linkedin, class: 'btn btn-large btn-block btn-inverse'
     .span3
-      = link_to 'GitHub', data.settings.services.github, :class => 'btn btn-large btn-block btn-inverse'
+      = link_to 'GitHub', data.settings.services.github, class: 'btn btn-large btn-block btn-inverse'
     .span3
-      = link_to 'Twitter', data.settings.services.twitter, :class => 'btn btn-large btn-block btn-inverse'
+      = link_to 'Twitter', data.settings.services.twitter, class: 'btn btn-large btn-block btn-inverse'
 
 %section.notes
   %h4= I18n.t('home.my-blog')
-  = link_to '"I solve problems"', data.settings.related.blog, :class => 'btn btn-large'
+  = link_to '"I solve problems"', data.settings.related.blog, class: 'btn btn-large'
