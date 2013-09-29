@@ -1,1 +1,1 @@
-## Dedico la mayoría de mi tiempo a construir software como [freelancer](/contact) y a través de [mi empresa](http://aticoestudio.com)
+## Dedico la mayoría de mi tiempo a crear software como [freelancer](/contact), buscando nuevos retos y siempre aprendiendo

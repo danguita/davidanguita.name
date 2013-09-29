@@ -1,1 +1,1 @@
-## I spend most of my time on building software as a [freelancer](/en/contact) and through [my company](http://aticoestudio.com/eng/home)
+## I spend most of my time creating software as a [freelancer](/en/contact), looking for new challenges and always keep learning
