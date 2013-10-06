@@ -1,9 +1,10 @@
 %header
   .container
     .row
-      .title
-        = link_to image_tag(gravatar_for(data.settings.contact.email),
-          class: 'img-circle', alt: 'David Anguita'), home_path
+      %h2
+        - link_to home_path do
+          %span David
+          %span Anguita
     .row
       .nav
         = draw_page_nav

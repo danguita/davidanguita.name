@@ -28,11 +28,38 @@ body {
   padding-bottom: 20px;
 }
 
+#david-anguita {
+  font-weight: 200;
+  font-size: 2.5em;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+
+  span:first-child {
+    color: #009d8a;
+  }
+
+  span:last-child {
+    font-weight: 400;
+  }
+}
+
 header {
   padding: 20px 0 0;
 
-  .title {
+  h2 {
     text-align: center;
+
+    a {
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+
+      span:last-child {
+        font-weight: 400;
+        color: #34495e;
+      }
+    }
   }
 
   .nav {
@@ -66,13 +93,13 @@ footer {
     text-decoration: none;
 
     &:hover {
-      color: #2ecc71;
+      color: #009d8a;
     }
   }
 
   .locale-select {
     .active {
-      color: #2ecc71;
+      color: #009d8a;
     }
 
     a {

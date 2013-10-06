@@ -4,10 +4,12 @@ priority: 1.0
 ---
 
 %section.introduction
-  = link_to image_tag(gravatar_for(data.settings.contact.email, 120),
+  = link_to image_tag(gravatar_for(data.settings.contact.email),
     class: 'img-circle', alt: 'David Anguita'), 'index.html'
 
-  %h1 David Anguita
+  %h1#david-anguita
+    %span David
+    %span Anguita
 
   .introducing
     = partial "content/#{I18n.locale}/introducing-myself"

@@ -90,7 +90,7 @@ module CustomHelpers
   end
 
   # -- Utils
-  def gravatar_for(email_address, size = 80)
+  def gravatar_for(email_address, size = 72)
     hash = Digest::MD5.hexdigest(email_address.downcase)
 
     "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
