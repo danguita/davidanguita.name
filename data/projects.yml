@@ -10,7 +10,7 @@ en:
     name: Players Agent
     description: Professional player representation
     role: Technical director and developer
-    features: Professional player representation agency. It allows to manage, catch and execute representation contracts by a team of representation agents.
+    features: Professional player representation agency. It allows to manage, catch and execute representation contracts by a distributed team of agents.
     company: aticoestudio
     url: http://iberianrugbycontact.es
   trade:
@@ -72,7 +72,7 @@ es:
     name: Players Agent
     description: Representación de jugadores profesionales
     role: Director técnico y desarrollador
-    features: Agencia de representación de jugadores profesionales. Permite la gestión, captación y ejecución de contratos de representación un equipo de agentes de representación.
+    features: Agencia de representación de jugadores profesionales. Permite la gestión, captación y ejecución de contratos de representación por parte de un equipo de agentes distribuido.
     company: aticoestudio
     url: http://iberianrugbycontact.es
   trade:
