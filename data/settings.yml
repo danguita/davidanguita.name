@@ -1,6 +1,7 @@
 site:
   domain: 'http://davidanguita.name'
-  tracking_code: 'UA-7973700-6'
+  tracking_code: 'UA-45408606-1'
+  tracking_view: 'davidanguita.name'
 
 contact:
   email: 'david@davidanguita.name'
