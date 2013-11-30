@@ -62,7 +62,7 @@ priority: 0.8
       - if project[:company]
         .mbl
           %h6
-            %span.fui-check-inverted
+            %span.fui-radio-checked
             = I18n.t('projects.company')
             %p
               - if company = data.companies[project[:company]]

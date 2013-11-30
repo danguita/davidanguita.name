@@ -1,11 +1,16 @@
 en:
+  domestika:
+    name: Domestika
+    description: Creative professional community
+    role: Lead developer
+    features: The biggest spanish spoken creative professional community. More than 100.000 active users.
+    url: http://domestika.org
   onlooker:
     name: Onlooker
     description: Ticketing platform, SaaS
     role: Technical director and developer
     features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
     company: aticoestudio
-    url: http://entradas.bmatleticodemadrid.com
   playersagent:
     name: Players Agent
     description: Professional player representation
@@ -45,13 +50,6 @@ en:
     client: Urbatek Porcelanosa Grupo
     company: aticoestudio
     url: http://urbatek.com
-  moneytrans:
-    name: Moneytrans
-    description: CMS, Webservices integration
-    role: Technical director and developer
-    client: Moneytrans
-    company: aticoestudio
-    url: http://www.moneytrans.eu
   twinner:
     name: Twinner Iberia
     description: CMS, Intranet integration
@@ -61,13 +59,18 @@ en:
     url: http://www.twinner.es
 
 es:
+  domestika:
+    name: Domestika
+    description: Comunidad de profesionales creativos
+    role: Lead developer
+    features: La mayor comunidad para profesionales creativos en español. Más de 100.000 Usuarios activos.
+    url: http://domestika.org
   onlooker:
     name: Onlooker
     description: Plataforma de ticketing, SaaS
     role: Director técnico y desarrollador
     features: Solución integral de ticketing presentada como SaaS (Software as a Service). Está compuesta por módulos de venta on-line, venta en taquilla y control de acceso.
     company: aticoestudio
-    url: http://entradas.bmatleticodemadrid.com
   playersagent:
     name: Players Agent
     description: Representación de jugadores profesionales
@@ -106,13 +109,6 @@ es:
     client: Urbatek Porcelanosa Grupo
     company: aticoestudio
     url: http://urbatek.com
-  moneytrans:
-    name: Moneytrans
-    description: CMS, Integración con webservices
-    role: Director técnico y desarrollador
-    client: Moneytrans
-    company: aticoestudio
-    url: http://www.moneytrans.eu
   twinner:
     name: Twinner Iberia
     description: CMS, Integración con Intranet
