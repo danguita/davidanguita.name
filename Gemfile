@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~> 3.1.0.beta", :git => 'git://github.com/middleman/middleman.git', :branch => 'master'
+gem "middleman", "~> 3.2.0"
 
 # Markdown parser
 gem "redcarpet", "~> 2.2"
