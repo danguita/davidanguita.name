@@ -11,13 +11,18 @@ en:
     role: Technical director and developer
     features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
     company: aticoestudio
+  bizneo:
+    name: Bizneo
+    description: Professionals networking
+    role: Consultant & external developer
+    features: Business directory and professionals networking platform.
+    url: http://bizneo.com
   playersagent:
     name: Players Agent
     description: Professional player representation
     role: Technical director and developer
     features: Professional player representation agency. It allows to manage, catch and execute representation contracts by a distributed team of agents.
     company: aticoestudio
-    url: http://iberianrugbycontact.es
   trade:
     name: Trade
     description: Specialized CRM
@@ -31,11 +36,6 @@ en:
     role: Technical director and developer
     features: Lightweight app for serving a launch site with user subscription control.
     company: aticoestudio
-  artt:
-    name: ARTT
-    description: Artists portfolio, SaaS
-    role: Start-trooper and developer
-    features: Coming soon!
   davidanguita:
     name: David Anguita
     description: Static website, GitHub Pages
@@ -71,13 +71,18 @@ es:
     role: Director técnico y desarrollador
     features: Solución integral de ticketing presentada como SaaS (Software as a Service). Está compuesta por módulos de venta on-line, venta en taquilla y control de acceso.
     company: aticoestudio
+  bizneo:
+    name: Bizneo
+    description: Networking para profesionales
+    role: Consultor y desarrollador externo
+    features: Directorio de empresas y plataforma de networking para profesionales.
+    url: http://bizneo.com
   playersagent:
     name: Players Agent
     description: Representación de jugadores profesionales
     role: Director técnico y desarrollador
     features: Agencia de representación de jugadores profesionales. Permite la gestión, captación y ejecución de contratos de representación por parte de un equipo de agentes distribuido.
     company: aticoestudio
-    url: http://iberianrugbycontact.es
   trade:
     name: Trade
     description: CRM especializado
@@ -90,11 +95,6 @@ es:
     role: Director técnico y desarrollador
     features: Aplicación ligera para la generación de un "launch site" y control de suscripciones de usuarios.
     company: aticoestudio
-  artt:
-    name: ARTT
-    description: Portfolio de artistas, SaaS
-    role: Start-trooper y desarrollador
-    features: ¡Muy pronto!
   davidanguita:
     name: David Anguita
     description: Website estático, GitHub Pages
