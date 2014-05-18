@@ -74,10 +74,15 @@ header {
 }
 
 footer {
-  text-align: center;
+  background: none;
+  text-align: left;
 
   a {
     font-weight: normal;
+  }
+
+  .credits {
+    text-align: right;
   }
 }
 
