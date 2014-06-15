@@ -16,6 +16,7 @@ en:
     contact: Contact
     about-site: About this site
     projects: Projects
+    http-not-found: "Oops! 404 Not Found"
 
   header:
     back-to-home: Back to home page
@@ -25,11 +26,11 @@ en:
 
   home:
     services-title: Ruby on Rails
-    services-description: Back-end & front-end development. Production environments and training
+    services-description: Full-stack web development. Production environments and training
     services-label: Services
-    methodology-title: Methodology
+    methodology-title: Looking for quality
     methodology-description: Complete dedication. Iterative development. Maintainable software
-    methodology-label: Looking for quality
+    methodology-label: Methodology
     contact-title: Contact
     contact-description: Know how to contact me and all the available hiring options
     contact-label: Let's talk

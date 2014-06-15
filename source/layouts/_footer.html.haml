@@ -9,9 +9,9 @@
             = mail_to data.settings.contact.email, 'email'
             \/
             - data.settings.services.each do |service_name, service_link|
-              = link_to service_name, service_link
+              = link_to service_name, service_link, rel: "me"
               \/
-            = link_to 'blog', data.settings.related.blog
+            = link_to 'blog', data.settings.related.blog, rel: "me"
       .span6
         .footer-title
           .credits

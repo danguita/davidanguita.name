@@ -28,7 +28,7 @@ body {
   padding-bottom: 20px;
 }
 
-#david-anguita {
+#site-name {
   font-weight: 200;
   font-size: 2.5em;
   letter-spacing: -1px;
@@ -76,6 +76,7 @@ header {
 footer {
   background: none;
   text-align: left;
+  border-top: 1px solid #eff0f2;
 
   a {
     font-weight: normal;
@@ -121,7 +122,14 @@ footer {
       margin-top: 20px;
 
       h2 {
-        font-size: 1.3em;
+        font-size: 1.6em;
+        font-weight: normal;
+        line-height: 1em;
+        padding-bottom: 15px;
+      }
+
+      h3 {
+        font-size: 1.2em;
         font-weight: normal;
         line-height: 1em;
       }
@@ -134,7 +142,7 @@ footer {
     .tile {
       margin-bottom: 10px;
 
-      h3 {
+      h4 {
         font-size: 1.4em;
         line-height: 1em;
         padding-bottom: 10px;
@@ -185,5 +193,17 @@ section.single-project {
 
   .project-nav {
     text-align: center;
+  }
+}
+
+section.errors {
+  &.not-found {
+    text-align: center;
+    font-size: 1.2em;
+
+    p {
+      font-size: 1.5em;
+      padding: 40px 0 10px;
+    }
   }
 }

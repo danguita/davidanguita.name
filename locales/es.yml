@@ -16,6 +16,7 @@ es:
     contact: Contacto
     about-site: Acerca de este sitio
     projects: Proyectos
+    http-not-found: "¡Ups! 404 Not Found"
 
   header:
     back-to-home: Volver a la página de inicio
@@ -25,11 +26,11 @@ es:
 
   home:
     services-title: Ruby on Rails
-    services-description: Desarrollo back-end y front-end. Entornos de producción y training
+    services-description: Desarrollo web full-stack. Entornos de producción y training
     services-label: Servicios
-    methodology-title: Metodología
+    methodology-title: Buscando la calidad
     methodology-description: Dedicación completa. Desarrollo iterativo. Software mantenible
-    methodology-label: Buscando la calidad
+    methodology-label: Metodología
     contact-title: Contacto
     contact-description: Conoce como contactar conmigo y contratar mis servicios
     contact-label: Hablemos

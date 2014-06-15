@@ -9,6 +9,10 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <% pages.each do |page| %>
   <%
+    # Skip URL via "skip-sitemap" Front-matter variable
+    next if page.metadata[:page]['skip-sitemap']
+
+    # Get file timestamps
     layout_name = page.data.layout || 'layout'
     layout_file = File.new(File.join(layout_options[:path], [layout_name, layout_options[:ext]].join('.')))
     layout_date = layout_file.mtime.to_date

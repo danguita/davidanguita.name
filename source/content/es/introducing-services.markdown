@@ -1,1 +1,1 @@
-## Dedico la mayoría de mi tiempo a crear software como [freelancer](/contact), buscando nuevos retos y siempre aprendiendo
+### Dedico la mayoría de mi tiempo a crear software como [freelancer](/es/contact), buscando nuevos retos y siempre aprendiendo

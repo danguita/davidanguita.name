@@ -73,7 +73,7 @@ module CustomHelpers
   end
 
   def default_locale
-    :es
+    :en
   end
 
   # -- Page

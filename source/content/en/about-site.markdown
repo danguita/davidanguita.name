@@ -12,4 +12,4 @@
 
 #### Code available on [GitHub](https://github.com/danguita/davidanguita.name)
 
-#### Coded with [vim](http://www.vim.org/)
+#### Happily coded with [vim](http://www.vim.org/)

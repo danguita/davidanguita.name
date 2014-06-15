@@ -4,10 +4,10 @@ priority: 1.0
 ---
 
 %section.introduction
-  = link_to image_tag(gravatar_for(data.settings.contact.email),
+  = link_to image_tag(gravatar_for(data.settings.contact.email, 100),
     class: 'img-circle', alt: 'David Anguita'), 'index.html'
 
-  %h1#david-anguita
+  %h1#site-name
     %span David
     %span Anguita
 
@@ -20,7 +20,7 @@ priority: 1.0
     - %w(services methodology projects).each do |page|
       .span4
         .tile
-          %h3= I18n.t("home.#{page}-title")
+          %h4= I18n.t("home.#{page}-title")
           %p= I18n.t("home.#{page}-description")
           = link_to I18n.t("home.#{page}-label"), page_path(page),
             class: 'btn btn-large btn-block btn-primary'
@@ -32,15 +32,15 @@ priority: 1.0
         class: 'btn btn-large btn-block btn-inverse'
     .span3
       = link_to 'LinkedIn', data.settings.services.linkedin,
-        class: 'btn btn-large btn-block btn-inverse'
+        class: 'btn btn-large btn-block btn-inverse', rel: 'me'
     .span3
       = link_to 'GitHub', data.settings.services.github,
-        class: 'btn btn-large btn-block btn-inverse'
+        class: 'btn btn-large btn-block btn-inverse', rel: 'me'
     .span3
       = link_to 'Twitter', data.settings.services.twitter,
-        class: 'btn btn-large btn-block btn-inverse'
+        class: 'btn btn-large btn-block btn-inverse', rel: 'me'
 
 %section.notes
-  %h4= I18n.t('home.my-blog')
-  = link_to '"I solve problems"', data.settings.related.blog,
+  %h5= I18n.t('home.my-blog')
+  = link_to 'I solve problems', data.settings.related.blog,
     class: 'btn btn-large'
