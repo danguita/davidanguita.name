@@ -11,7 +11,7 @@
             - data.settings.services.each do |service_name, service_link|
               = link_to service_name, service_link, rel: "me"
               \/
-            = link_to 'blog', data.settings.related.blog, rel: "me"
+            = link_to 'blog', data.settings.related.blog, rel: "author"
       .span6
         .footer-title
           .credits
