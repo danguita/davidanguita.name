@@ -55,6 +55,10 @@ module CustomHelpers
     page_path 'contact'
   end
 
+  def about_site_path
+    page_path 'about-site'
+  end
+
   # -- Locale
   def locale_status(locale)
     active_locale?(locale) ? 'active' : 'inactive'
