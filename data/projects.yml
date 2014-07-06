@@ -2,7 +2,7 @@ en:
   domestika:
     name: Domestika
     description: Creative professional community
-    role: Lead developer
+    role: Back-end engineer
     features: The biggest spanish spoken creative professional community. More than 100.000 active users.
     url: http://domestika.org
   onlooker:
@@ -62,7 +62,7 @@ es:
   domestika:
     name: Domestika
     description: Comunidad de profesionales creativos
-    role: Lead developer
+    role: Back-end engineer
     features: La mayor comunidad para profesionales creativos en español. Más de 100.000 Usuarios activos.
     url: http://domestika.org
   onlooker:
