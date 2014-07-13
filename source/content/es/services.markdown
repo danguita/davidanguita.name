@@ -1,21 +1,20 @@
 # Consultoría Ruby, Rails y desarrollo web ágil
 
-### Desarrollo web back-end
+### Desarrollo web Back-end
 
-#### Especializado en Ruby on Rails
+#### Especializado en Ruby on Rails.
 
 * * *
 
-### Desarrollo web front-end
+### Diseño y desarrollo de API
 
-#### HTML5, Responsive, JavaScript, Real-time...
+#### Para servicios consumidos desde un cliente móvil, de escritorio o web.
 
-Mis servicios no incluyen labores de diseño gráfico o visual, por lo que
-generalmente será necesario contratar este servicio de forma adicional.
+* * *
 
-Si lo necesitas, podría recomendarte algunas empresas con las que ya
-he trabajado para solicitar este servicio o yo mismo podría solicitarlo
-por ti.
+### Desarrollo web Front-end
+
+#### HTML+CSS mantenibles. JavaScript Modular. Client-side frameworks.
 
 * * *
 
@@ -58,3 +57,14 @@ tecnológica, deberíamos conocernos. Una alianza empresarial para lanzar
 un producto en el que creemos nos beneficiaría a ambos. Realizaríamos
 labores estratégicas desde análisis de negocio hasta el desarrollo
 del producto, lanzamiento y explotación.
+
+* * *
+
+#### Notas finales
+
+Mis servicios no incluyen labores de diseño gráfico o visual, por lo que
+generalmente será necesario contratar este servicio de forma adicional.
+
+Si lo necesitas, podría recomendarte algunas empresas con las que ya
+he trabajado para solicitar este servicio o yo mismo podría solicitarlo
+por ti.

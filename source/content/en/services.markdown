@@ -2,19 +2,19 @@
 
 ### Back-end web development
 
-#### Specialized on Ruby on Rails
+#### Specialized in Ruby on Rails.
+
+* * *
+
+### API design & development
+
+#### For services consumed by a mobile, desktop or web client.
 
 * * *
 
 ### Front-end web development
 
-#### HTML5, Responsive, JavaScript, Real-time...
-
-My services do not include any kind of visual or graphic design tasks so
-generally it will be necessary to hire this service additionally.
-
-In case you would need it, I could recommend you some companies I've
-worked with or I could hire this service for you.
+#### HTML+CSS maintainable assets. Modular JavaScript. Client-side frameworks.
 
 * * *
 
@@ -57,3 +57,13 @@ technology-based project, we should meet each other.
 A business alliance for launching a project we trust in will be positive
 for both of us. We will do strategic tasks from business analysis to
 product development, launch and operations.
+
+* * *
+
+#### Final notes
+
+My services do not include any kind of visual or graphic design tasks so
+generally it will be necessary to hire this service additionally.
+
+In case you would need it, I could recommend you some companies I've
+worked with or I could hire this service for you.
