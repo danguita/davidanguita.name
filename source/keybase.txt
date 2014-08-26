@@ -1,0 +1,78 @@
+==================================================================
+https://keybase.io/danguita
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://davidanguita.name
+  * I am danguita (https://keybase.io/danguita) on keybase.
+  * I have a public key with fingerprint 7534 DD9D 4363 C719 9C94  425F AD8C
+  * 8B3C 7F25 CD24
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.22"
+        },
+        "key": {
+            "fingerprint": "7534dd9d4363c7199c94425fad8c8b3c7f25cd24",
+            "host": "keybase.io",
+            "key_id": "AD8C8B3C7F25CD24",
+            "uid": "e4acb1fa6442f40629e195126fccf600",
+            "username": "danguita"
+        },
+        "merkle_root": {
+            "ctime": 1409074831,
+            "hash":
+"47e0918442339a853d0b949e3e8394042484242428b5eb42fdf9820cd6fed3d1dcb762e1a19d9c6136633081fd9ffaffe2209dd8d6151618c7e79791266070fb",
+            "seqno": 44167
+        },
+        "service": {
+            "hostname": "davidanguita.name",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1409074946,
+    "expire_in": 157680000,
+    "prev": "73ee763c91f7a21061b0185cdf3004940a0fedcfce7c6857a250c1aa2c952b46",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVUm1oHEUYvrt++UG0tFWqaI2b2oZyXmZ2Zmd37keb9mKhEoSQQotWrrPzkazJ
+7V53986GeJHGRmqstShG/CG1jaEtlhZbUlOK2kIw1YKEggR/iFQItoj4ww+KRuLs
+kUq7w8LMO8/7vO/zPnO4YVEqk97WXJtbLf4ppK/edFOdc1OZfsMNRJ+R7zd4ryf9
+ONn5rCSNvNEj+1wWyZwXNPqBkLmXosYFTNaoyjDyAl+jQA7nTNOoZRN8kq08v0uG
+5dBLyAzbQlgIKjAiiNuQUk4xNi3FhMMdV4eUaXFhYs3ZHUTxXWWNOmfREzq6uc0p
+OFtQwd5qWoW2Or5Sv5CYcRcqRjStwoCYVEJqQZMozhUBIAFGMlzQJJjfVfFilvRb
+kmFPryyGQVBXzWMvgUAMKLCxg6DuiEXdOgnbElDo6AIIUeZYSACXYiqRdBDFAJvY
+0b9ejmtJV7chFHVMwAVRUiABBXdtYkrIIBWUE4gIQQg4UAmqFFNKmiagQjiCQAsS
+6HBb2tSmWgMBNlCulhDJPX5g5DGGxK4lx7DqcZm0nUztf3FV77bAXD2WNcphEAc8
+6NXX3XFczifC476yhp81XpZucYGp6Hq+0MbdaS3U0LuHQjHJGnJv2Qtl0UsQlk0c
+oL+kjqwmdiMpbe00hcpmJgQEugA62mGFAND5gAE9E664tDlxLI2xAIeMmZxapovJ
+HVJ1n6xLU0Zel8/iSiiN2hvpxxan0pnU0iWZ5O2m7rt3+e0HXfjjntTU1pktna21
+Fd3tp8ql6vE16QfWxZPXf0Orxvb//NP8pu/fRItOze8SRXKx98iX5f3rb77TcSwY
+nFl8cqJpcPMrkWH+fmjnweFX9z38Qf5adWLpgbbZ2XPP3to2PfXI6tIPoyMzU6Pj
+S870v7e35cbRppXtLbPVXw5e/+raYGbo0ocDa3a8/2BUGvn2xl+Hvx56ZuD4pj+/
+6Bxn28cPPMrfnmxZNRTdeqH19T2d2ZEfjc8f73ji3Q0XSt9VeoL2XfPnxy6cu7jv
+ytmNp5f5DcO/NjxZec19umn5ldbpt577tzmsNv/d+NnlSxMv7n7qxJH7Px745qGV
+pfM720bnPn3eX9vxyfryocxHGzZOT44NX/0P
+=wnh8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danguita
+
+==================================================================
