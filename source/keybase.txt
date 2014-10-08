@@ -6,8 +6,7 @@ I hereby claim:
 
   * I am an admin of http://davidanguita.name
   * I am danguita (https://keybase.io/danguita) on keybase.
-  * I have a public key with fingerprint 7534 DD9D 4363 C719 9C94  425F AD8C
-  * 8B3C 7F25 CD24
+  * I have a public key with fingerprint EA86 68BA E62A 6D2D 6FB8  E14D B230 1714 21E2 D6FE
 
 To claim this, I am signing this object:
 
@@ -15,20 +14,19 @@ To claim this, I am signing this object:
     "body": {
         "client": {
             "name": "keybase.io node.js client",
-            "version": "0.4.22"
+            "version": "0.7.2"
         },
         "key": {
-            "fingerprint": "7534dd9d4363c7199c94425fad8c8b3c7f25cd24",
+            "fingerprint": "ea8668bae62a6d2d6fb8e14db230171421e2d6fe",
             "host": "keybase.io",
-            "key_id": "AD8C8B3C7F25CD24",
+            "key_id": "B230171421E2D6FE",
             "uid": "e4acb1fa6442f40629e195126fccf600",
             "username": "danguita"
         },
         "merkle_root": {
-            "ctime": 1409074831,
-            "hash":
-"47e0918442339a853d0b949e3e8394042484242428b5eb42fdf9820cd6fed3d1dcb762e1a19d9c6136633081fd9ffaffe2209dd8d6151618c7e79791266070fb",
-            "seqno": 44167
+            "ctime": 1412780806,
+            "hash": "c3153a8700676e8b7b99253e50c6e095a831b18edf245a0ac3b4eee470f80338977336cac496274df0ff9e4770395469e84872ebfd726dbb6946cfb1796ca812",
+            "seqno": 74955
         },
         "service": {
             "hostname": "davidanguita.name",
@@ -37,10 +35,10 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1409074946,
+    "ctime": 1412780902,
     "expire_in": 157680000,
-    "prev": "73ee763c91f7a21061b0185cdf3004940a0fedcfce7c6857a250c1aa2c952b46",
-    "seqno": 4,
+    "prev": "35bd213099ab252ab79ae3f86b75801511c907361341dad8a954e87d2fe4909a",
+    "seqno": 7,
     "tag": "signature"
 }
 
@@ -49,25 +47,31 @@ with the aforementioned key, yielding the PGP signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 
-owFVUm1oHEUYvrt++UG0tFWqaI2b2oZyXmZ2Zmd37keb9mKhEoSQQotWrrPzkazJ
-7V53986GeJHGRmqstShG/CG1jaEtlhZbUlOK2kIw1YKEggR/iFQItoj4ww+KRuLs
-kUq7w8LMO8/7vO/zPnO4YVEqk97WXJtbLf4ppK/edFOdc1OZfsMNRJ+R7zd4ryf9
-ONn5rCSNvNEj+1wWyZwXNPqBkLmXosYFTNaoyjDyAl+jQA7nTNOoZRN8kq08v0uG
-5dBLyAzbQlgIKjAiiNuQUk4xNi3FhMMdV4eUaXFhYs3ZHUTxXWWNOmfREzq6uc0p
-OFtQwd5qWoW2Or5Sv5CYcRcqRjStwoCYVEJqQZMozhUBIAFGMlzQJJjfVfFilvRb
-kmFPryyGQVBXzWMvgUAMKLCxg6DuiEXdOgnbElDo6AIIUeZYSACXYiqRdBDFAJvY
-0b9ejmtJV7chFHVMwAVRUiABBXdtYkrIIBWUE4gIQQg4UAmqFFNKmiagQjiCQAsS
-6HBb2tSmWgMBNlCulhDJPX5g5DGGxK4lx7DqcZm0nUztf3FV77bAXD2WNcphEAc8
-6NXX3XFczifC476yhp81XpZucYGp6Hq+0MbdaS3U0LuHQjHJGnJv2Qtl0UsQlk0c
-oL+kjqwmdiMpbe00hcpmJgQEugA62mGFAND5gAE9E664tDlxLI2xAIeMmZxapovJ
-HVJ1n6xLU0Zel8/iSiiN2hvpxxan0pnU0iWZ5O2m7rt3+e0HXfjjntTU1pktna21
-Fd3tp8ql6vE16QfWxZPXf0Orxvb//NP8pu/fRItOze8SRXKx98iX5f3rb77TcSwY
-nFl8cqJpcPMrkWH+fmjnweFX9z38Qf5adWLpgbbZ2XPP3to2PfXI6tIPoyMzU6Pj
-S870v7e35cbRppXtLbPVXw5e/+raYGbo0ocDa3a8/2BUGvn2xl+Hvx56ZuD4pj+/
-6Bxn28cPPMrfnmxZNRTdeqH19T2d2ZEfjc8f73ji3Q0XSt9VeoL2XfPnxy6cu7jv
-ytmNp5f5DcO/NjxZec19umn5ldbpt577tzmsNv/d+NnlSxMv7n7qxJH7Px745qGV
-pfM720bnPn3eX9vxyfryocxHGzZOT44NX/0P
-=wnh8
+owFVkn9MlVUYxy8IIiZG44obosMXw8WF2znv7/cCQQ5QxowIHDlbt/e873nh5ce9
+l3svECARxE9phCMLlygNBs4aIK0SilaE5kAxUSgz/DljuMIxhWqo9b4MnZ6/znme
+z/M9z/c5p8lvhcHTow+sN26+MfnQY3QGGdKZNKWUQHa5mLCUElKuim1ufWcT8zBh
+IXJwMRJd2KzaQ2x2GZuzXSHLTARRiJ0u1W7TKGDmzCRRFqHjerGi2jKx0+FUdS0C
+izzL8kjELCmyMimzCuIxpGVEUgBykCYh1oNYk8yyu9xP3UosaVpVWYtue8wnkPFs
+YoKWK1hKYFqUEFRElqZJhQYsKWAoMJBkFUlSWAB00IWdy5Zk0ZZZoLpFvd887MzJ
+xVan3b5kWnKrOgJpSHI84AGrdSS6srQiiYIMJfIcACzHYh5xSBBIhsIMkFgMBEbk
+KYggj2WFpBkRiBKFaIwxzQGFBxTFCxxHUawkSrTAkhwtK0BRBC3NAUpgaFbAPM1z
+JEaKzJGsjBAr0KykIMgJWhEPSc2CC+fb7ISFowWGKdOPzkJVwnrb+tQemytUHxk0
+L8UiCIfT7rZL9lwtneV2Oyy6cXexQ8ePF2FkXVayItUmaw/35MtCDX16KAIgIwj8
+tkN1YquqEwzH8kBb+j24UNOkGCSTkAKCICKSIUXECSKmFJ5FHMMDyEAoCYCjWEjR
+UBZlXtQGgHlOJhVMC0AQn7Cq9SlmapIuNdMmugucmCir9wz2Mnh4GlZ6e+pf17Da
+1//Rf94V5W+oyWiO2xrm6+N1t6b78DW5OWVHaH/g4H9X5qzo2p28tLKDqON0wc72
+0K8aLz87nWZd9yvfZTr/xa2JtJ7tLYmH4o7+UBGZOGmIOtC5eYvXtzndxtzg26t2
+myL9LL/5vpju/+AM9fGq6pNnh5Ny5sn+AapEWDjlVmdGJm9+vmaYdn3gZ42J/u5K
+5ZqB7Fl1fGI+4vaG1gf3x410bJWlMDp6NNk5db6+B3B9Svre2f5MS6zXC8k5x0Jm
+R0t+5qGpBWw5eHHxn7os54fVQ8e+2VGzGBdUtDA+OPVGy92xV9LxL+98csT7nHcX
+2V1jGAr64zrOb99Zud89VP++1e/5OBTUnf/eyD2+dddpc1vy3LrYzuHQN32+NGan
+VBbVDtz3qayIn/var7GBHA8uqm9rDc1FxQGH98mRjsbQZnfYMxeLe8sD0te3h49e
+Op72fczalaZR09jZq2UnBnvMf5V2xpuSqmybYFvF/JG/x6bbnmsaPnTg3/CBn26F
+BN+jzAF5xowV49bd3eH2oyyxqe2kZXGcqQ0PSYjm7sx2nEs4VdfQ8HJqee++SwUt
+F+bOdO3ZWA3/HFloaq6TL1eLMVunCj8Lm3ztx4d9gTdjuzP46dTe+VcjjdvfbW8t
+N6X8jsL3BK7e65p4acYiXfg05frG/Y7Xq1DHNnh1OCqh8kZJppHf4HgrMmltbepH
+J/4H
+=dhk2
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
