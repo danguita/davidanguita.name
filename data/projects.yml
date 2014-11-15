@@ -1,22 +1,28 @@
 en:
+  jobandtalent:
+    name: Jobandtalent
+    description: Recruiting platform
+    role: Back-end engineer
+    features: Recruiting platform that matches professionals with relevant job opportunities using a linguistics based algorithm.
+    url: http://www.jobandtalent.com
   domestika:
     name: Domestika
     description: Creative professional community
     role: Back-end engineer
     features: The biggest spanish spoken creative professional community. More than 100.000 active users.
     url: http://domestika.org
-  onlooker:
-    name: Onlooker
-    description: Ticketing platform, SaaS
-    role: Technical director and developer
-    features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
-    company: aticoestudio
   bizneo:
     name: Bizneo
     description: Professionals networking
     role: Consultant & external developer
     features: Business directory and professionals networking platform.
     url: http://bizneo.com
+  onlooker:
+    name: Onlooker
+    description: Ticketing platform, SaaS
+    role: Technical director and developer
+    features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
+    company: aticoestudio
   playersagent:
     name: Players Agent
     description: Professional player representation
@@ -30,14 +36,8 @@ en:
     features: CRM (Customer Relationship Management) specialized on actions management and supervision.
     company: aticoestudio
     client: Urbatek Porcelanosa Grupo
-  launchlanding:
-    name: Launch Landing
-    description: Launch site & user subscription
-    role: Technical director and developer
-    features: Lightweight app for serving a launch site with user subscription control.
-    company: aticoestudio
   davidanguita:
-    name: David Anguita
+    name: davidanguita.name
     description: Static website, GitHub Pages
     role: Frontender amateur
     features: Personal website powered by Middleman.
@@ -59,24 +59,30 @@ en:
     url: http://www.twinner.es
 
 es:
+  jobandtalent:
+    name: Jobandtalent
+    description: Plataforma de empleo
+    role: Back-end engineer
+    features: Plataforma de empleo que asocia profesionales con ofertas de empleo relevantes usando un algoritmo lingüístico.
+    url: http://www.jobandtalent.com/es/
   domestika:
     name: Domestika
     description: Comunidad de profesionales creativos
     role: Back-end engineer
     features: La mayor comunidad para profesionales creativos en español. Más de 100.000 Usuarios activos.
     url: http://domestika.org
-  onlooker:
-    name: Onlooker
-    description: Plataforma de ticketing, SaaS
-    role: Director técnico y desarrollador
-    features: Solución integral de ticketing presentada como SaaS (Software as a Service). Está compuesta por módulos de venta on-line, venta en taquilla y control de acceso.
-    company: aticoestudio
   bizneo:
     name: Bizneo
     description: Networking para profesionales
     role: Consultor y desarrollador externo
     features: Directorio de empresas y plataforma de networking para profesionales.
     url: http://bizneo.com
+  onlooker:
+    name: Onlooker
+    description: Plataforma de ticketing, SaaS
+    role: Director técnico y desarrollador
+    features: Solución integral de ticketing presentada como SaaS (Software as a Service). Está compuesta por módulos de venta on-line, venta en taquilla y control de acceso.
+    company: aticoestudio
   playersagent:
     name: Players Agent
     description: Representación de jugadores profesionales
@@ -89,14 +95,8 @@ es:
     role: Director técnico y desarrollador
     features: CRM (Customer Relationship Management) especializado en la gestión y supervisión de acciones comerciales.
     company: aticoestudio
-  launchlanding:
-    name: Launch Landing
-    description: Launch site y suscripciones de usuarios
-    role: Director técnico y desarrollador
-    features: Aplicación ligera para la generación de un "launch site" y control de suscripciones de usuarios.
-    company: aticoestudio
   davidanguita:
-    name: David Anguita
+    name: davidanguita.name
     description: Website estático, GitHub Pages
     role: Frontender amateur
     features: Website personal construido con Middleman.
