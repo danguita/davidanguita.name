@@ -13,7 +13,7 @@ module CustomHelpers
   end
 
   def draw_page_nav
-    available_pages.map do |page|
+    site_pages.map do |page|
       link_to(I18n.t("layout.#{page}"), page_path(page),
               class: ['btn btn-primary btn-large', page_status(page)].join(' '))
     end.join(' ')
@@ -89,8 +89,8 @@ module CustomHelpers
     File.basename(current_page.path, current_page.ext) === page
   end
 
-  def available_pages
-    %w( services methodology projects )
+  def site_pages
+    %w(services methodology projects)
   end
 
   # -- Misc

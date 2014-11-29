@@ -16,7 +16,7 @@ priority: 1.0
 
 %section.tiles
   .row-fluid
-    - %w(services methodology projects).each do |page|
+    - site_pages.each do |page|
       .span4
         .tile
           %h4= I18n.t("home.#{page}-title")
