@@ -93,10 +93,19 @@ module CustomHelpers
     %w( services methodology projects )
   end
 
-  # -- Utils
-  def gravatar_for(email_address, size = 72)
+  # -- Misc
+  def gravatar_url_for(email_address, size = 72)
     hash = Digest::MD5.hexdigest(email_address.downcase)
 
     "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
+  end
+
+  def my_gravatar
+    image_tag(
+      gravatar_url_for(data.settings.contact.email, 200),
+      class: 'img-circle',
+      alt: 'David Anguita',
+      width: 100,
+      height: 100)
   end
 end
