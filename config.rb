@@ -7,15 +7,6 @@ activate :i18n, :mount_at_root => :en
 activate :directory_indexes
 
 ###
-# Markdown settings
-###
-
-set :markdown_engine, :redcarpet
-set :markdown, :autolink => true,
-               :tables => true,
-               :fenced_code_blocks => true
-
-###
 # Compass
 ###
 
