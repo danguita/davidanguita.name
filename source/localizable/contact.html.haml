@@ -9,21 +9,23 @@ priority: 1.0
 %section.hiring-options
   = partial "content/#{I18n.locale}/hiring-options"
 
+%hr
+
 %section.notes
-  %h4= I18n.t('contact.contact-methods')
+  %p= I18n.t('contact.contact-methods')
 
   .row
-    .span2.offset1
+    .col-md-2.col-md-offset-3
       = link_to 'LinkedIn', data.settings.services.linkedin,
         class: 'btn btn-large btn-block btn-inverse'
-    .span2
+    .col-md-2
       = link_to 'Twitter', data.settings.services.twitter,
         class: 'btn btn-large btn-block btn-inverse'
-    .span2
+    .col-md-2
       = link_to 'Google', data.settings.services.google,
         class: 'btn btn-large btn-block btn-inverse'
 
 %section.pair-with-me
-  %h4= I18n.t('contact.pair-with-me')
+  %p= I18n.t('contact.pair-with-me')
   = mail_to data.settings.contact.email, '#PairWithMe',
-    subject: 'Hey, PairWithMe', class: 'btn btn-large'
+    subject: 'Hey, PairWithMe', class: 'btn btn-default btn-large'

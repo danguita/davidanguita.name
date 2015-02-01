@@ -2,19 +2,19 @@
 
 ### Back-end web development
 
-#### Specialized in Ruby on Rails.
+Specialized in Ruby on Rails.
 
 * * *
 
 ### API design & development
 
-#### For services consumed by a mobile, desktop or web client.
+For services consumed by a mobile, desktop or web client.
 
 * * *
 
 ### Front-end web development
 
-#### HTML+CSS maintainable assets. Modular JavaScript. Client-side frameworks.
+HTML+CSS maintainable assets. Modular JavaScript. Client-side frameworks.
 
 * * *
 

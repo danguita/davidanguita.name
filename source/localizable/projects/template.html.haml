@@ -10,8 +10,8 @@ priority: 0.8
   next: data.projects[I18n.locale].to_a[project_index + 1]}
 
 %section.single-project
-  .row-fluid
-    .span2.project-nav
+  .row
+    .col-md-2.project-nav
       - if projects_nav[:prev]
         = link_to content_tag(:span, nil, class: 'fui-arrow-left'),
           "#{projects_nav[:prev][0]}.html", class: 'btn btn-primary'
@@ -20,17 +20,17 @@ priority: 0.8
         = link_to content_tag(:span, nil, class: 'fui-arrow-right'),
           "#{projects_nav[:next][0]}.html", class: 'btn btn-primary'
 
-      %h6.mtl= link_to I18n.t('projects.all-projects'), projects_path,
+      .mtl= link_to I18n.t('projects.all-projects'), projects_path,
         class: 'back'
 
-    .span8.project-sheet.palette.palette-clouds
+    .col-md-7.project-sheet.palette.palette-clouds
       %h2= project[:name]
-      .lead= project[:description]
+      %p= project[:description]
 
       = image_tag "projects/#{key}.jpg", alt: project[:name],
-        class: 'img-rounded'
+        class: 'img-rounded img-responsive'
 
-    .span2.project-metadata
+    .col-md-3.project-metadata
       - if project[:url]
         .mbl.mtl
           = link_to I18n.t('projects.view-online'), project[:url],
@@ -38,40 +38,40 @@ priority: 0.8
 
       - if project[:features]
         .mbl
-          %h6
+          %p
             %span.fui-list
             = I18n.t('projects.features')
-          %p= project[:features]
+          %small= project[:features]
         %hr
 
       - if project[:role]
         .mbl
-          %h6
+          %p
             %span.fui-gear
             = I18n.t('projects.role')
-          %p= project[:role]
+          %small= project[:role]
         %hr
 
       - if project[:client]
         .mbl
-          %h6
+          %p
             %span.fui-user
             = I18n.t('projects.client')
-          %p= project[:client]
+          %small= project[:client]
 
       - if project[:company]
         .mbl
-          %h6
+          %p
             %span.fui-radio-checked
             = I18n.t('projects.company')
-            %p
-              - if company = data.companies[project[:company]]
-                = link_to company[:name], company[:url]
-              - else
-                = project[:company]
+          %small
+            - if company = data.companies[project[:company]]
+              = link_to company[:name], company[:url]
+            - else
+              = project[:company]
 
       - if project[:source]
         .mbl
-          %h6
+          %p
             %span.fui-eye
             = link_to I18n.t('projects.source-code'), project[:source]

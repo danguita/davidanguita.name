@@ -1,1 +1,1 @@
-### I spend most of my time creating software as a [freelancer](/contact), looking for new challenges and always keep learning
+Most of my days are spent building software products as a [freelancer](/contact), enjoying my family and playing videogames
