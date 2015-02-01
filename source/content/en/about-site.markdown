@@ -1,5 +1,3 @@
-# About this site
-
 Managed by [Middleman](http://middlemanapp.com/)
 
 HTML and CSS markup via [HAML](http://haml.info/) + [SASS](http://sass-lang.com/)
