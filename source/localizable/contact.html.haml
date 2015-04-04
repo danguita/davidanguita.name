@@ -9,19 +9,42 @@ priority: 1.0
 %section.hiring-options
   = partial "content/#{I18n.locale}/hiring-options"
 
-%hr
+%section.hire-form
+  .well
+    <div id="wufoo-z1vlc28e08h2c45">
+    Fill out my <a href="https://davidanguita.wufoo.com/forms/z1vlc28e08h2c45">online form</a>.
+    </div>
+    <script type="text/javascript">var z1vlc28e08h2c45;(function(d, t) {
+    var s = d.createElement(t), options = {
+    'userName':'davidanguita',
+    'formHash':'z1vlc28e08h2c45',
+    'autoResize':true,
+    'height':'485',
+    'async':true,
+    'host':'wufoo.com',
+    'header':'show',
+    'ssl':true};
+    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+    s.onload = s.onreadystatechange = function() {
+    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+    try { z1vlc28e08h2c45 = new WufooForm();z1vlc28e08h2c45.initialize(options);z1vlc28e08h2c45.display(); } catch (e) {}};
+    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+    })(document, 'script');</script>
 
 %section.notes
   %p= I18n.t('contact.contact-methods')
 
   .row
-    .col-md-2.col-md-offset-3
+    .col-md-3
+      = mail_to data.settings.contact.email, 'Email',
+        class: 'btn btn-large btn-block btn-inverse'
+    .col-md-3
       = link_to 'LinkedIn', data.settings.services.linkedin,
         class: 'btn btn-large btn-block btn-inverse'
-    .col-md-2
+    .col-md-3
       = link_to 'Twitter', data.settings.services.twitter,
         class: 'btn btn-large btn-block btn-inverse'
-    .col-md-2
+    .col-md-3
       = link_to 'Google', data.settings.services.google,
         class: 'btn btn-large btn-block btn-inverse'
 
