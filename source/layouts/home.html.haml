@@ -1,15 +1,15 @@
 !!! 5
 %html{lang: I18n.locale}
   %head
-    = partial 'layouts/head'
+    = partial 'head'
 
   %body.home{class: page_classes}
-    = partial 'layouts/top', locals: { back: false, locale: true }
+    = partial 'top', locals: { back: false, locale: true }
 
     #content
       .container
         .row
           .col-md-10.col-md-offset-1= yield
 
-    = partial 'layouts/footer'
-    = partial 'layouts/analytics'
+    = partial 'footer'
+    = partial 'analytics'
