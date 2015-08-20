@@ -1,4 +1,15 @@
-//= require vendor/bootstrap/bootstrap
-//= require vendor/flat-ui/flat-ui
-//= require modules/main
-//= require modules/responsive
+@import "base/variables";
+@import "base/mixins";
+@import "base/buttons";
+@import "base/icons";
+@import "base/grid";
+@import "base/base";
+@import "layout/container";
+@import "layout/nav";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "modules/home";
+@import "modules/contact";
+@import "modules/projects";
+@import "modules/project";

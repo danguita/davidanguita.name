@@ -1,6 +1,6 @@
 # Opciones de contratación
 
-### Por proyecto
+## Por proyecto
 
 Analizamos el proyecto, con lo que obtenemos una lista de funcionalidades
 y un plan de desarrollo. Con todo ello estimamos un valor de
@@ -12,7 +12,7 @@ adecuadamente preparado para recibir actualizaciones o mejoras.
 
 * * *
 
-### Por semanas
+## Por semanas
 
 Esta forma de contratación puede ser interesante para revisión,
 implementación de nuevas funcionalidades o mejoras de proyectos ya iniciados.

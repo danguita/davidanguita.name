@@ -9,8 +9,8 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <% pages.each do |page| %>
   <%
-    # Skip URL via "skip-sitemap" Front-matter variable
-    next if page.metadata[:page]['skip-sitemap']
+    # Skip URL via "directory_index" Front-matter variable
+    next if page.metadata[:page]['directory_index'] == false
 
     # Get file timestamps
     layout_name = page.data.layout || 'layout'

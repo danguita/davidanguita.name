@@ -1,0 +1,17 @@
+@mixin mq-retina() {
+  @media only screen and (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    @content;
+  }
+}
+
+@mixin mq-small() {
+  @media only screen and (min-width: $mq-small) {
+    @content;
+  }
+}
+
+@mixin mq-large() {
+  @media only screen and (min-width: $mq-large) {
+    @content;
+  }
+}

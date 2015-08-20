@@ -24,10 +24,6 @@ ignore "es/projects/template.html"
 # Sitemap
 page "/sitemap.xml", layout: false
 
-# HTTP 404 Not Found (I do want the extension)
-page "/404.html", directory_index: false
-ignore "es/404.html"
-
 # Ignore content files (markdown)
 ignore "content/*"
 

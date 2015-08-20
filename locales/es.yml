@@ -25,17 +25,10 @@ es:
     source-code-on: Código disponible en
 
   home:
-    services-title: Ruby on Rails
-    services-description: Desarrollo web full-stack. Diseño de API. Entornos de producción
+    heading: Hola, Soy David Anguita
+    tagline: Soy un desarrollador y consultor de software freelance especializado en Ruby on Rails
     services-label: Servicios
-    methodology-title: Buscando la calidad
-    methodology-description: Dedicación completa. Desarrollo iterativo. Software mantenible
     methodology-label: Metodología
-    contact-title: Contacto
-    contact-description: Conoce como contactar conmigo y contratar mis servicios
-    contact-label: Hablemos
-    projects-title: Portfolio
-    projects-description: Echa un vistazo a algunos de los proyectos en los que estoy involucrado
     projects-label: Proyectos
     my-blog: Ocasionalmente escribo en mi blog
 

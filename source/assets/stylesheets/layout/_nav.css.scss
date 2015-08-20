@@ -1,0 +1,39 @@
+$block: '.nav';
+
+#{$block}__contact {
+  float: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-color: $color-green--dark;
+  color: $color-green--dark;
+
+  a {
+    color: $color-blue-grey--dark;
+    border-bottom: none;
+    transition: all .1s linear;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+}
+
+#{$block}__locales {
+  float: left;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  span.active {
+    color: $color-green;
+  }
+
+  a {
+    color: $color-blue-grey--light;
+    border-bottom: none;
+    transition: all .1s linear;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+}

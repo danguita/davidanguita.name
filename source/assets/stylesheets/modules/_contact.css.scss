@@ -1,0 +1,41 @@
+$block: '.contact';
+
+#{$block}__how-to {
+  border-radius: 5px;
+  border: 1px solid $color-grey--light;
+  padding: 20px 20px 0;
+  margin-bottom: 30px;
+}
+
+#{$block}__hiring-form {
+  border-radius: 5px;
+  border: 1px solid $color-grey--light;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#{$block}__methods {
+  text-align: center;
+  margin-bottom: 30px;
+
+  $subblock: '.contact';
+
+  #{$subblock}__item {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #{$subblock}__link {
+    border-bottom: none;
+    color: $color-grey;
+    transition: all .1s linear;
+
+    &:hover {
+      color: $color-blue-grey--dark;
+    }
+  }
+}
+
+#{$block}__pair-with-me {
+  text-align: center;
+}

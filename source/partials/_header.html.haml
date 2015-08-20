@@ -1,10 +1,10 @@
-%header
+%header.header
   .container
-    .row
-      %h2
-        = link_to home_path do
-          %span David
-          %span Anguita
-    .row
-      .nav
-        = draw_page_nav
+    .header__home
+      .page__header
+        %h2.page__heading
+          = link_to home_path do
+            &larr;
+            = I18n.t('home.heading')
+    .header__nav
+      = draw_page_nav

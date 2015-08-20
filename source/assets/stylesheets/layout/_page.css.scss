@@ -1,0 +1,28 @@
+$block: '.page';
+
+#{$block}__header {
+  font-family: $font-family-sans-serif;
+  margin-bottom: $base-spacing * 2;
+  text-align: center;
+}
+
+#{$block}__heading {
+  margin-bottom: $base-spacing * .5;
+}
+
+#{$block}__tagline {
+  color: $color-grey;
+  font-size: 28px;
+  font-weight: 300;
+  width: 100%;
+}
+
+@include mq-large {
+  #{$block}__header {
+    text-align: left;
+  }
+
+  #{$block}__tagline {
+    font-size: rem(32);
+  }
+}

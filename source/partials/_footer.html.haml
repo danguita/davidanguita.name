@@ -1,22 +1,21 @@
-%footer
+%footer.footer
   .container
-    .row
-      .col-md-6
-        .footer-title
-          %p
-            %strong David Anguita
-          %p
-            = mail_to data.settings.contact.email, 'email'
-            \/
-            - data.settings.services.each do |service_name, service_link|
-              = link_to service_name, service_link, rel: "me"
-              \/
-            = link_to 'blog', data.settings.related.blog, rel: "author"
-      .col-md-6
-        .footer-title
-          .credits
-            %p
-              = link_to I18n.t('layout.about-site'), about_site_path
-            %p
-              = I18n.t('footer.source-code-on')
-              = link_to 'GitHub', data.settings.about.repo
+    .footer__credits
+      .credits__author
+        %strong David Anguita
+        \:wq!
+      .credits__links
+        = mail_to data.settings.contact.email, 'email'
+        &nbsp;
+        - data.settings.services.each do |service_name, service_link|
+          = link_to service_name, service_link, rel: 'me'
+          &nbsp;
+        = link_to 'blog', data.settings.related.blog, rel: 'author'
+
+    .footer__about
+      .about__site
+        = link_to I18n.t('layout.about-site'), about_site_path
+
+      .about__source
+        = I18n.t('footer.source-code-on')
+        = link_to 'GitHub', data.settings.about.repo

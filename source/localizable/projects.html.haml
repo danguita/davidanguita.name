@@ -4,18 +4,11 @@ layout: projects
 priority: 0.8
 ---
 
-%section.project-selection
-  - data.projects[I18n.locale].each_slice(3) do |projects_row|
-    .row
-      - projects_row.each do |key, project|
-        .col-md-4
-          = link_to "projects/#{key}.html",
-            class: "project-#{key} project-sheet palette palette-clouds mbl btn btn-primary",
-            title: project[:name] do
-
-            %h3.name= project[:name]
-
-            = image_tag "projects/#{key}.jpg", alt: project[:name],
-              class: 'img-responsive'
-
-            %p.description= project[:description]
+%section.projects
+  .projects__container
+    - data.projects[I18n.locale].each do |key, project|
+      .projects__item
+        = link_to "projects/#{key}.html", class: "project-#{key} project__link", title: project[:name] do
+          %h3.project__name= project[:name]
+          = image_tag "projects/#{key}.jpg", alt: project[:name], class: "project__image"
+          .project__description= project[:description]

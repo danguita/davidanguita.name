@@ -1,0 +1,43 @@
+%grid-technique {
+  -webkit-box-flex: 1 auto;
+  -moz-box-flex: 1 auto;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+}
+
+%grid-display-flex {
+  // Flexbox
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  // Wrap
+  -webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+%grid-2-col {
+  @extend %grid-technique;
+  width: $grid-2-col-width;
+  margin: $grid-margin;
+  padding: $grid-padding;
+}
+
+%grid-3-col {
+  @extend %grid-technique;
+  width: $grid-3-col-width;
+  margin: $grid-margin;
+  padding: $grid-padding;
+}
+
+%grid-4-col {
+  @extend %grid-technique;
+  width: $grid-4-col-width;
+  margin: $grid-margin;
+  padding: $grid-padding;
+}

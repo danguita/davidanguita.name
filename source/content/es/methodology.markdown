@@ -1,6 +1,6 @@
 # Metodología de trabajo
 
-### Dedicación completa y seguimiento de proyecto
+## Dedicación completa y seguimiento de proyecto
 
 Realizo **desarrollo iterativo**, lo que nos permite observar la
 evolución del producto y disponer de una versión (mínima) preparada para su
@@ -17,7 +17,7 @@ de la capacidad de adaptación del equipo (proveedor y cliente).
 
 * * *
 
-### Mantenibilidad
+## Mantenibilidad
 
 Buscando la calidad del producto y su **mantenibilidad** futura, siempre
 aplico **TDD** (*Test Driven Development* o desarrollo basado en tests).

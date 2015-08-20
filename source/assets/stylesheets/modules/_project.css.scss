@@ -1,0 +1,35 @@
+$block: '.project';
+
+#{$block}__nav {
+  margin-bottom: 30px;
+
+  $subblock: '.nav';
+
+  #{$subblock}__item {
+    display: inline-block;
+
+    a {
+      @extend .button;
+      @extend .button--small;
+    }
+  }
+}
+
+#{$block}__image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+#{$block}__meta {
+  margin: 30px 0;
+
+  $subblock: '.meta';
+
+  #{$subblock}__item {
+    margin: 10px 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid $color-grey--light;
+  }
+}

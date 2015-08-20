@@ -4,13 +4,13 @@ priority: 1.0
 ---
 
 %section.contact
-  .well= partial "content/#{I18n.locale}/how-to-contact"
+  .contact__how-to
+    = partial "content/#{I18n.locale}/how-to-contact"
 
-%section.hiring-options
-  = partial "content/#{I18n.locale}/hiring-options"
+  .contact__hiring-options
+    = partial "content/#{I18n.locale}/hiring-options"
 
-%section.hire-form
-  .well
+  .contact__hiring-form
     <div id="wufoo-z1vlc28e08h2c45">
     Fill out my <a href="https://davidanguita.wufoo.com/forms/z1vlc28e08h2c45">online form</a>.
     </div>
@@ -31,24 +31,11 @@ priority: 1.0
     var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
     })(document, 'script');</script>
 
-%section.notes
-  %p= I18n.t('contact.contact-methods')
+  .contact__methods
+    %p= I18n.t('contact.contact-methods')
+    = partial :contact_methods
 
-  .row
-    .col-md-3
-      = mail_to data.settings.contact.email, 'Email',
-        class: 'btn btn-large btn-block btn-inverse'
-    .col-md-3
-      = link_to 'LinkedIn', data.settings.services.linkedin,
-        class: 'btn btn-large btn-block btn-inverse'
-    .col-md-3
-      = link_to 'Twitter', data.settings.services.twitter,
-        class: 'btn btn-large btn-block btn-inverse'
-    .col-md-3
-      = link_to 'Google', data.settings.services.google,
-        class: 'btn btn-large btn-block btn-inverse'
-
-%section.pair-with-me
-  %p= I18n.t('contact.pair-with-me')
-  = mail_to data.settings.contact.email, '#PairWithMe',
-    subject: 'Hey, PairWithMe', class: 'btn btn-default btn-large'
+  .contact__pair-with-me
+    %p= I18n.t('contact.pair-with-me')
+    = mail_to data.settings.contact.email, '#PairWithMe',
+      subject: 'Hey, PairWithMe', class: 'button'

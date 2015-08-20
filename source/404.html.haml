@@ -1,0 +1,17 @@
+---
+title: http-not-found
+skip-sitemap: true
+directory_index: false
+---
+
+%section.errors.not-found
+  %div
+    = image_tag("boom.png")
+    BOOOOOM!
+
+  %p Sorry, this page does not exist :(
+
+  You can
+  = link_to 'go back to home', home_path
+  or
+  = link_to 'contact me', contact_path

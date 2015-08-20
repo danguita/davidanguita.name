@@ -15,7 +15,7 @@ en:
     methodology: Methodology
     contact: Contact
     about-site: About this site
-    projects: Projects
+    projects: Recent work
     http-not-found: "Oops! 404 Not Found"
 
   header:
@@ -25,18 +25,11 @@ en:
     source-code-on: Source code on
 
   home:
-    services-title: Ruby on Rails
-    services-description: Full-stack web development. API design. Production environments
+    heading: Hi, I'm David Anguita
+    tagline: I'm a freelance software developer and consultant specialized in Ruby on Rails
     services-label: Services
-    methodology-title: Looking for quality
-    methodology-description: Complete dedication. Iterative development. Maintainable software
     methodology-label: Methodology
-    contact-title: Contact
-    contact-description: Know how to contact me and all the available hiring options
-    contact-label: Let's talk
-    projects-title: Portfolio
-    projects-description: Take a look at some of the projects I am involved in
-    projects-label: Projects
+    projects-label: Recent work
     my-blog: Occasionally I write in my blog
 
   contact:

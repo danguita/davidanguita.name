@@ -1,0 +1,9 @@
+%nav.nav
+  .container
+    - if locale
+      .nav__locales= draw_locale_select
+
+    .nav__contact
+      = link_to contact_path do
+        %i.icon.icon-email
+        = I18n.t('layout.contact')

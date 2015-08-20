@@ -1,6 +1,6 @@
 # Hiring options
 
-### By project
+## By project
 
 We check the project, then we get a list of features and a development
 plan. After that we can estimate the product value, cost of development and
@@ -11,7 +11,7 @@ be ready to get any kind of updates or improvements.
 
 * * *
 
-### By weeks
+## By weeks
 
 This hiring option might be interesting for review, improvement or
 feature development for already started projects. My involvement in this

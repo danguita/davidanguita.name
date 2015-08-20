@@ -1,6 +1,6 @@
 # Work methodology
 
-### Complete dedication and project tracking
+## Complete dedication and project tracking
 
 I do **iterative development**, allowing us to observe the product
 evolution and to have a minimal and ready for production version
@@ -17,7 +17,7 @@ development strategy usually doesn't match the real world. The product
 
 * * *
 
-### Maintainability
+## Maintainability
 
 Looking for the product quality and its **maintainability**, I always
 apply **TDD** (Test Driven Development). This development process can give

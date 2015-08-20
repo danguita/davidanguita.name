@@ -1,0 +1,15 @@
+$block: '.container';
+
+#{$block} {
+  margin: 0 auto;
+  max-width: $max-width;
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  margin-bottom: $base-spacing;
+  padding: 0 20px;
+}

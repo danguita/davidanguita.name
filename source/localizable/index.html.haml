@@ -3,43 +3,21 @@ layout: home
 priority: 1.0
 ---
 
-%section.introduction
-  = link_to my_gravatar, 'index.html'
+.home
+  %section.home__introduction
+    %header.page__header
+      = link_to my_gravatar, 'index.html', class: 'avatar-wrapper'
+      %h1.page__heading= I18n.t("home.heading")
+      %p.page__tagline= I18n.t("home.tagline")
 
-  #site-name
-    %span David
-    %span Anguita
-
-  .introducing
-    = partial "content/#{I18n.locale}/introducing-myself"
-    = partial "content/#{I18n.locale}/introducing-services"
-
-%section.tiles
-  .row
+  .home__services
     - site_pages.each do |page|
-      .col-md-4
-        .tile
-          %h4= I18n.t("home.#{page}-title")
-          .description= I18n.t("home.#{page}-description")
-          = link_to I18n.t("home.#{page}-label"), page_path(page),
-            class: 'btn btn-large btn-block btn-primary'
+      .services__item
+        = link_to I18n.t("home.#{page}-label"), path_for(page), class: 'button services__link'
 
-%section.contact
-  .row
-    .col-md-3
-      = mail_to data.settings.contact.email, 'Email',
-        class: 'btn btn-large btn-block btn-inverse'
-    .col-md-3
-      = link_to 'LinkedIn', data.settings.services.linkedin,
-        class: 'btn btn-large btn-block btn-inverse'
-    .col-md-3
-      = link_to 'GitHub', data.settings.services.github,
-        class: 'btn btn-large btn-block btn-inverse'
-    .col-md-3
-      = link_to 'Twitter', data.settings.services.twitter,
-        class: 'btn btn-large btn-block btn-inverse'
+  .home__contact
+    = partial :contact_methods
 
-%section.notes
-  %p= I18n.t('home.my-blog')
-  = link_to 'I solve problems', data.settings.related.blog,
-    class: 'btn btn-large btn-default'
+  .home__blog
+    = I18n.t('home.my-blog')
+    = link_to '"I solve problems"', data.settings.related.blog

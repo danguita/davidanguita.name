@@ -1,24 +1,24 @@
 # Consultoría Ruby, Rails y desarrollo web ágil
 
-### Desarrollo web Back-end
+## Desarrollo web Back-end
 
 Especializado en Ruby on Rails.
 
 * * *
 
-### Diseño y desarrollo de API
+## Diseño y desarrollo de API
 
 Para servicios consumidos desde un cliente móvil, de escritorio o web.
 
 * * *
 
-### Desarrollo web Front-end
+## Desarrollo web Front-end
 
 HTML+CSS mantenibles. JavaScript Modular. Client-side frameworks.
 
 * * *
 
-### Entornos de producción
+## Entornos de producción
 
 * Alta demanda y alta disponibilidad
 * Escalabilidad
@@ -27,7 +27,7 @@ HTML+CSS mantenibles. JavaScript Modular. Client-side frameworks.
 
 * * *
 
-### Code review, asesoramiento y optimización
+## Code review, asesoramiento y optimización
 
 * Revisión de aplicaciones
 * Asesoramiento sobre buenas prácticas
@@ -38,7 +38,7 @@ HTML+CSS mantenibles. JavaScript Modular. Client-side frameworks.
 
 * * *
 
-### Training
+## Mentoring
 
 Junto al servicio de desarrollo, podría ser un buen complemento
 formar al equipo de profesionales que mantendrán y evolucionarán el
@@ -50,7 +50,7 @@ las que fomentar el autoaprendizaje.
 
 * * *
 
-### Socio tecnológico
+## Socio tecnológico
 
 Si necesitas apoyo técnico y empresarial en tu proyecto de base
 tecnológica, deberíamos conocernos. Una alianza empresarial para lanzar
@@ -60,7 +60,7 @@ del producto, lanzamiento y explotación.
 
 * * *
 
-#### Notas finales
+### Notas finales
 
 Mis servicios no incluyen labores de diseño gráfico o visual, por lo que
 generalmente será necesario contratar este servicio de forma adicional.

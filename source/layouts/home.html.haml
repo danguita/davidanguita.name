@@ -1,15 +1,11 @@
 !!! 5
 %html{lang: I18n.locale}
-  %head
-    = partial 'head'
+  %head= partial 'head'
 
   %body.home{class: page_classes}
-    = partial 'top', locals: { back: false, locale: true }
+    = partial :nav, locals: { back: false, locale: true }
 
-    #content
-      .container
-        .row
-          .col-md-10.col-md-offset-1= yield
+    %main.container= yield
 
-    = partial 'footer'
-    = partial 'analytics'
+    = partial :footer
+    = partial :analytics

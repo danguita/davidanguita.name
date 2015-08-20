@@ -1,24 +1,24 @@
 # Ruby, Rails and agile web development consulting
 
-### Back-end web development
+## Back-end web development
 
 Specialized in Ruby on Rails.
 
 * * *
 
-### API design & development
+## API design & development
 
 For services consumed by a mobile, desktop or web client.
 
 * * *
 
-### Front-end web development
+## Front-end web development
 
 HTML+CSS maintainable assets. Modular JavaScript. Client-side frameworks.
 
 * * *
 
-### Production environments
+## Production environments
 
 * High load and high availability
 * Scalability
@@ -27,7 +27,7 @@ HTML+CSS maintainable assets. Modular JavaScript. Client-side frameworks.
 
 * * *
 
-### Code review, counselling and optimization
+## Code review, counselling and optimization
 
 * Application review
 * Best practices counselling
@@ -38,7 +38,7 @@ HTML+CSS maintainable assets. Modular JavaScript. Client-side frameworks.
 
 * * *
 
-### Training
+## Mentoring
 
 In addition to the development service, it would be a great bonus point
 to mentor the development team which will maintain and evolve the product.
@@ -49,7 +49,7 @@ self-learning.
 
 * * *
 
-### Tech Partner
+## Tech Partner
 
 If you need some technical, business or strategic support for your
 technology-based project, we should meet each other.
@@ -60,7 +60,7 @@ product development, launch and operations.
 
 * * *
 
-#### Final notes
+### Final notes
 
 My services do not include any kind of visual or graphic design tasks so
 generally it will be necessary to hire this service additionally.

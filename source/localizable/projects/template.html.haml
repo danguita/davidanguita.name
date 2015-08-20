@@ -4,74 +4,51 @@ layout: projects
 priority: 0.8
 ---
 
-- project       = data.projects[I18n.locale][key]
-- project_index = data.projects[I18n.locale].to_a.find_index [key, project]
-- projects_nav  = { prev: data.projects[I18n.locale].to_a[project_index - 1],
-  next: data.projects[I18n.locale].to_a[project_index + 1]}
+- project = data.projects[I18n.locale][key]
 
-%section.single-project
-  .row
-    .col-md-2.project-nav
-      - if projects_nav[:prev]
-        = link_to content_tag(:span, nil, class: 'fui-arrow-left'),
-          "#{projects_nav[:prev][0]}.html", class: 'btn btn-primary'
+%section.project
+  .project__header
+    %header.page__header
+      %h1.page__heading= project[:name]
+      %p.page__tagline= project[:description]
 
-      - if projects_nav[:next]
-        = link_to content_tag(:span, nil, class: 'fui-arrow-right'),
-          "#{projects_nav[:next][0]}.html", class: 'btn btn-primary'
+    = image_tag "projects/#{key}.jpg", alt: project[:name], class: 'project__image'
 
-      .mtl= link_to I18n.t('projects.all-projects'), projects_path,
-        class: 'back'
+  .project__meta
+    - if project[:role]
+      .meta__item
+        %strong= I18n.t('projects.role')
+        = project[:role]
 
-    .col-md-7.project-sheet.palette.palette-clouds
-      %h2= project[:name]
-      %p= project[:description]
+    - if project[:features]
+      .meta__item
+        %strong= I18n.t('projects.features')
+        = project[:features]
 
-      = image_tag "projects/#{key}.jpg", alt: project[:name],
-        class: 'img-rounded img-responsive'
+    - if project[:client]
+      .meta__item
+        %strong= I18n.t('projects.client')
+        = project[:client]
 
-    .col-md-3.project-metadata
-      - if project[:url]
-        .mbl.mtl
-          = link_to I18n.t('projects.view-online'), project[:url],
-            class: 'btn btn-primary'
+    - if project[:company]
+      .meta__item
+        %strong= I18n.t('projects.company')
+        - if company = data.companies[project[:company]]
+          = link_to company[:name], company[:url]
+        - else
+          = project[:company]
 
-      - if project[:features]
-        .mbl
-          %p
-            %span.fui-list
-            = I18n.t('projects.features')
-          %small= project[:features]
-        %hr
+  .project__nav
+    .nav__item
+      = link_to projects_path, class: 'nav__back' do
+        &larr;
+        = I18n.t('projects.all-projects')
 
-      - if project[:role]
-        .mbl
-          %p
-            %span.fui-gear
-            = I18n.t('projects.role')
-          %small= project[:role]
-        %hr
+    - if project[:url]
+      .nav__item
+        = link_to I18n.t('projects.view-online'), project[:url], class: 'nav_url'
 
-      - if project[:client]
-        .mbl
-          %p
-            %span.fui-user
-            = I18n.t('projects.client')
-          %small= project[:client]
+    - if project[:source]
+      .nav__item
+        = link_to I18n.t('projects.source-code'), project[:source], class: 'nav_source'
 
-      - if project[:company]
-        .mbl
-          %p
-            %span.fui-radio-checked
-            = I18n.t('projects.company')
-          %small
-            - if company = data.companies[project[:company]]
-              = link_to company[:name], company[:url]
-            - else
-              = project[:company]
-
-      - if project[:source]
-        .mbl
-          %p
-            %span.fui-eye
-            = link_to I18n.t('projects.source-code'), project[:source]

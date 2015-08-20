@@ -1,0 +1,25 @@
+$block: '.footer';
+
+#{$block} {
+  border-top: 1px solid $color-grey--light;
+  padding: 20px 0;
+  font-size: .9rem;
+
+  a {
+    color: $color-grey;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+}
+
+#{$block}__credits {
+  float: left;
+  text-align: left;
+}
+
+#{$block}__about {
+  float: right;
+  text-align: right;
+}
