@@ -31,9 +31,16 @@ ignore "content/*"
 ignore "stylesheets/vendor/*"
 ignore "stylesheets/modules/*"
 
-# CustomHelpers
-require "lib/custom_helpers"
-helpers CustomHelpers
+# Helpers
+require "lib/layout_helpers"
+require "lib/route_helpers"
+require "lib/locale_helpers"
+require "lib/gravatar_helpers"
+
+helpers RouteHelpers
+helpers LayoutHelpers
+helpers LocaleHelpers
+helpers GravatarHelpers
 
 # Assets
 set :css_dir, "assets/stylesheets"
