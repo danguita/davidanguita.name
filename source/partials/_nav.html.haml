@@ -1,7 +1,7 @@
 %nav.nav
   .container
-    - if locale
-      .nav__locales= draw_locale_select
+    .nav__locales
+      = draw_locale_select
 
     .nav__contact
       = link_to contact_path do
