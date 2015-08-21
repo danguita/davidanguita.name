@@ -1,0 +1,21 @@
+$block: '.errors';
+
+#{$block} {
+  text-align: center;
+}
+
+#{$block}__header {
+  margin-bottom: 20px;
+}
+
+#{$block}__image {
+  display: block;
+  margin: 0 auto;
+}
+
+#{$block}__message {
+  font-weight: 700;
+}
+
+#{$block}__feedback {
+}

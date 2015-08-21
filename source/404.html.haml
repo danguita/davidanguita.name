@@ -1,17 +1,19 @@
 ---
 title: http-not-found
-skip-sitemap: true
 directory_index: false
 ---
 
-%section.errors.not-found
-  %div
-    = image_tag("boom.png")
+%section.errors
+  .errors__header
+    = image_tag('boom.png', class: 'errors__image')
+
     BOOOOOM!
 
-  %p Sorry, this page does not exist :(
+  .errors__message
+    Sorry, this page does not exist.
 
-  You can
-  = link_to 'go back to home', home_path
-  or
-  = link_to 'contact me', contact_path
+  .errors__feedback
+    You can
+    = link_to 'go back to home', home_path
+    or
+    = link_to 'contact me', contact_path
