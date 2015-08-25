@@ -1,0 +1,14 @@
+$block: '.article';
+
+#{$block}__meta {
+  display: block;
+}
+
+#{$block}__meta--date {
+  font-weight: 700;
+  text-align: center;
+}
+
+#{$block}__meta--tags {
+  text-align: center;
+}

@@ -21,6 +21,10 @@ module RouteHelpers
     path_for('about-site')
   end
 
+  def articles_path
+    path_for('articles')
+  end
+
   def page_status(page)
     active_page?(page) ? 'active' : 'inactive'
   end

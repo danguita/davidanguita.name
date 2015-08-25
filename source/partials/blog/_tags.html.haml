@@ -1,0 +1,7 @@
+- if current_article.tags.any?
+  %span.article__meta.article__meta--tags
+    Posted in
+    - current_article.tags.each_with_index do |tag, index|
+      = link_to tag, tag_path(tag)
+      - if index != (current_article.tags.size - 1)
+        ,

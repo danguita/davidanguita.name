@@ -7,7 +7,7 @@
     - unless home_page?
       = partial :header
 
-    %main.container= yield
+    %main= yield
 
     = partial :footer
     = partial :analytics

@@ -13,9 +13,5 @@ services:
   twitter: 'http://twitter.com/danguita'
   google: 'https://plus.google.com/104025545957647098498?rel=author'
 
-related:
-  blog: 'http://blog.davidanguita.name'
-  company: 'http://aticoestudio.com'
-
 about:
   repo: 'https://github.com/danguita/davidanguita.name'

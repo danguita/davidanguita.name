@@ -1,0 +1,12 @@
+= wrap_layout :layout do
+  %article.article.container{role: 'article'}
+    %h1.article__heading= current_article.data.title
+    - if current_article.data.tagline
+      %p.article__tagline= current_article.data.tagline
+
+    %section.article__body
+      = yield
+
+    %section.article__footer
+      = partial 'blog/date'
+      = partial 'blog/tags'

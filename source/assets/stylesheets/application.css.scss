@@ -3,6 +3,7 @@
 @import "base/buttons";
 @import "base/icons";
 @import "base/grid";
+@import "base/syntax";
 @import "base/base";
 @import "layout/container";
 @import "layout/nav";
@@ -11,6 +12,8 @@
 @import "layout/footer";
 @import "modules/home";
 @import "modules/contact";
-@import "modules/project";
 @import "modules/projects";
+@import "modules/project";
+@import "modules/articles";
+@import "modules/article";
 @import "modules/errors";

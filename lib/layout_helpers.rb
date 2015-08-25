@@ -2,9 +2,46 @@
 
 module LayoutHelpers
   def page_title
-    ['site.title', layout_page_title].reject(&:blank?).map do |element|
-      I18n.t(element)
-    end.join(': ')
+    separator = ' - '
+
+    case current_page_type
+    when :tag
+      [
+        "Articles tagged #{@current_tag}",
+        I18n.t('site.author')
+      ].join(separator)
+    when :calendar
+      [
+        "Archive for #{@current_date}",
+        I18n.t('site.author')
+      ].join(separator)
+    when :article
+      [
+        current_page.data.title,
+        I18n.t('site.author')
+      ].join(separator)
+    when :page
+      [
+        I18n.t('site.title'),
+        (I18n.t("layout.#{current_page.data.title}") if current_page.data.title),
+        (@page_title if @page_title)
+      ].compact.join(separator)
+    end
+  end
+
+  def page_description
+    return current_page.data.description if current_page.data.description
+    return @page_description if @page_description
+
+    I18n.t('site.description')
+  end
+
+  def page_keywords
+    I18n.t('site.keywords')
+  end
+
+  def page_author
+    I18n.t('site.author')
   end
 
   def draw_page_nav
@@ -32,7 +69,15 @@ module LayoutHelpers
     end.join(' ')
   end
 
-  def layout_page_title
-    "layout.#{data.page.title}" if data.page.title
+  def current_page_type
+    if @current_tag
+      :tag
+    elsif @current_date
+      :calendar
+    elsif current_article
+      :article
+    else
+      :page
+    end
   end
 end

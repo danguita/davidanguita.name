@@ -4,8 +4,10 @@ priority: 0.8
 ---
 
 - project = data.projects[I18n.locale][key]
+- @page_title = project[:name]
+- @page_description = "My recent work at #{project[:name]}, #{project[:description]}"
 
-%section.project
+%section.project.container
   .project__header
     %header.page__header
       %h1.page__heading= project[:name]

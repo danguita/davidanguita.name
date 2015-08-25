@@ -1,0 +1,10 @@
+$block: '.articles';
+
+#{$block}__item {
+  display: block;
+
+  span {
+    color: $color-grey;
+    font-size: 1rem;
+  }
+}

@@ -2,9 +2,9 @@
 priority: 1.0
 ---
 
-.home
-  %section.home__introduction
-    %header.page__header
+%section.home.container
+  .home__introduction
+    .page__header
       = link_to my_gravatar, 'index.html', class: 'avatar-wrapper'
       %h1.page__heading= I18n.t("home.heading")
       %p.page__tagline= I18n.t("home.tagline")
@@ -17,6 +17,7 @@ priority: 1.0
   .home__contact
     = partial :contact_methods
 
-  .home__blog
-    = I18n.t('home.my-blog')
-    = link_to '"I solve problems"', data.settings.related.blog
+  .home__latest-articles
+    .latest-articles--title= I18n.t("articles.latest")
+    = partial :latest_articles, locals: { limit: 5 }
+    .latest-articles--archives= link_to I18n.t("articles.archives"), articles_path

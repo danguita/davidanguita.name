@@ -1,0 +1,20 @@
+%section.articles.container
+  .page__header
+    %h1.page__heading= I18n.t("articles.archives")
+
+  - page_articles.each_with_index do |article, i|
+    .articles__item
+      %h3
+        = link_to article.title, article
+        %span= article.date.strftime('%b %e, %Y')
+
+  .articles__pagination
+    - if paginate
+      - if prev_page
+        = link_to prev_page, class: 'button button--small' do
+          &larr;
+          = I18n.t("common.previous_page")
+      - if next_page
+        = link_to next_page, class: 'button button--small' do
+          = I18n.t("common.next_page")
+          &rarr;

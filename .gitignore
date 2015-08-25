@@ -10,14 +10,15 @@
 # Ignore the build directory
 /build
 
-# Ignore Sass' cache
+# Ignore cache
 /.sass-cache
+/.cache
 
-# Ignore system storage
+# Ignore .DS_store file
 .DS_Store
 
 # Ignore gemset
-/.gem
+.gem
 
 # Ignore misc stuff
 /stuff

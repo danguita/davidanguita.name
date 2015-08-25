@@ -16,10 +16,8 @@ es:
     contact: Contacto
     about-site: Acerca de este sitio
     projects: Proyectos
-    http-not-found: "¡Ups! 404 Not Found"
-
-  header:
-    back-to-home: Volver a la página de inicio
+    articles: Artículos
+    http-not-found: '¡Ups! 404 Not Found'
 
   footer:
     source-code-on: Código disponible en
@@ -30,7 +28,6 @@ es:
     services-label: Servicios
     methodology-label: Metodología
     projects-label: Proyectos
-    my-blog: Ocasionalmente escribo en mi blog
 
   contact:
     contact-methods: Otros medios de contacto
@@ -45,3 +42,11 @@ es:
     client: Cliente
     company: Empresa
     source-code: Código fuente
+
+  articles:
+    latest: Últimos artículos
+    archives: Archivos
+
+  common:
+    next_page: Página siguiente
+    previous_page: Página anterior

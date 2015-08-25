@@ -16,10 +16,8 @@ en:
     contact: Contact
     about-site: About this site
     projects: Recent work
-    http-not-found: "Oops! 404 Not Found"
-
-  header:
-    back-to-home: Back to home page
+    articles: Articles
+    http-not-found: 'Oops! 404 Not Found'
 
   footer:
     source-code-on: Source code on
@@ -30,7 +28,6 @@ en:
     services-label: Services
     methodology-label: Methodology
     projects-label: Recent work
-    my-blog: Occasionally I write in my blog
 
   contact:
     contact-methods: Alternative contact methods
@@ -45,3 +42,11 @@ en:
     client: Client
     company: Company
     source-code: Source code
+
+  articles:
+    latest: Latest articles
+    archives: Archives
+
+  common:
+    next_page: Next page
+    previous_page: Previous page

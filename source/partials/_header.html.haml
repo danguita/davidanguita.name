@@ -6,5 +6,7 @@
           = link_to home_path do
             &larr;
             = I18n.t('home.heading')
-    .header__nav
-      = draw_page_nav
+
+    - unless is_blog_article?
+      .header__nav
+        = draw_page_nav

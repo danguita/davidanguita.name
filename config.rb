@@ -1,6 +1,25 @@
+Time.zone = "Madrid"
+
+activate :blog do |blog|
+  blog.permalink = "articles/{title}.html"
+  blog.sources = "articles/{year}-{month}-{day}-{title}.html"
+  blog.taglink = "articles/tags/{tag}.html"
+  blog.layout = "layouts/article"
+  blog.year_link = "articles/{year}.html"
+  blog.month_link = "articles/{year}/{month}.html"
+  blog.day_link = "articles/{year}/{month}/{day}.html"
+  blog.default_extension = ".markdown"
+  blog.tag_template = "localizable/tag.html"
+  blog.calendar_template = "localizable/calendar.html"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "articles/page/{num}"
+end
+
 activate :i18n, mount_at_root: :en
 activate :directory_indexes
 activate :automatic_image_sizes
+activate :syntax
 
 # Dynamic pages: Projects
 data.projects.en.each do |key, _|
@@ -17,19 +36,20 @@ data.projects.en.each do |key, _|
     ignore: true
 end
 
-# Ignore proxied templates
+# Ignores
 ignore "projects/template.html"
 ignore "es/projects/template.html"
+ignore "calendar.html"
+ignore "es/calendar.html"
+ignore "tag.html"
+ignore "es/tag.html"
+ignore "content/*"
 
 # Sitemap
 page "/sitemap.xml", layout: false
 
-# Ignore content files (markdown)
-ignore "content/*"
-
-# Ignore stylesheet modules
-ignore "stylesheets/vendor/*"
-ignore "stylesheets/modules/*"
+# Blog feed
+page "/feed.xml", layout: false
 
 # Helpers
 require "lib/layout_helpers"
@@ -49,6 +69,11 @@ set :fonts_dir, "assets/fonts"
 set :images_dir, "assets/images"
 set :partials_dir, "partials"
 
+# Templating
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, smartypants: true
+set :haml, { ugly: true, format: :html5 }
+
 # Compass config
 compass_config do |config|
  config.output_style = :compact
@@ -63,5 +88,8 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :cache_buster
+  activate :asset_hash
+
+  # Use relative URLs
+  activate :relative_assets
 end
