@@ -13,6 +13,10 @@ $block: '.article';
   text-align: center;
 }
 
+#{$block}__comments {
+  margin-top: 20px;
+}
+
 #{$block}__archive {
   text-align: center;
   margin-top: 30px;
