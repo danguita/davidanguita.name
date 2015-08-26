@@ -79,13 +79,14 @@ $block: '.home';
     text-transform: uppercase;
   }
 
-  #{$subblock}--archives {
+  #{$subblock}--archive {
     margin-top: 20px;
     text-align: center;
 
     a {
       @extend .button;
-      font-size: 1rem;
+      @extend .button--small;
+      color: $color-grey;
     }
   }
 

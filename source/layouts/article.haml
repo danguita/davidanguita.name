@@ -1,12 +1,22 @@
+---
+title: article
+priority: 0.8
+---
+
 = wrap_layout :layout do
-  %article.article.container{role: 'article'}
+  %article.article.container
     %h1.article__heading= current_article.data.title
     - if current_article.data.tagline
       %p.article__tagline= current_article.data.tagline
 
-    %section.article__body
+    .article__body
       = yield
 
-    %section.article__footer
+    .article__footer
       = partial 'blog/date'
       = partial 'blog/tags'
+
+    .article__archive
+      = link_to archive_path do
+        &larr;
+        = I18n.t("articles.archive")

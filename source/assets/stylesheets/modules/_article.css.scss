@@ -12,3 +12,13 @@ $block: '.article';
 #{$block}__meta--tags {
   text-align: center;
 }
+
+#{$block}__archive {
+  text-align: center;
+  margin-top: 30px;
+
+  a {
+    @extend .button;
+    @extend .button--small;
+  }
+}

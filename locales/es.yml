@@ -16,7 +16,7 @@ es:
     contact: Contacto
     about-site: Acerca de este sitio
     projects: Proyectos
-    articles: Artículos
+    archive: Archivo
     http-not-found: '¡Ups! 404 Not Found'
 
   footer:
@@ -45,7 +45,7 @@ es:
 
   articles:
     latest: Últimos artículos
-    archives: Archivos
+    archive: Archivo
 
   common:
     next_page: Página siguiente

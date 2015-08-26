@@ -44,3 +44,12 @@ $block: '.header';
     }
   }
 }
+
+#{$block}__archive {
+  margin-top: 30px;
+
+  a {
+    @extend .button;
+    @extend .button--small;
+  }
+}

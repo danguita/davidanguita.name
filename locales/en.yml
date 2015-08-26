@@ -16,7 +16,7 @@ en:
     contact: Contact
     about-site: About this site
     projects: Recent work
-    articles: Articles
+    archive: Archive
     http-not-found: 'Oops! 404 Not Found'
 
   footer:
@@ -45,7 +45,7 @@ en:
 
   articles:
     latest: Latest articles
-    archives: Archives
+    archive: Archive
 
   common:
     next_page: Next page
