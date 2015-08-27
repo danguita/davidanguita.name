@@ -1,5 +1,11 @@
 $block: '.page';
 
+#{$block} {
+  h1 {
+    text-align: center;
+  }
+}
+
 #{$block}__header {
   font-family: $font-family-sans-serif;
   margin-bottom: $base-spacing * 2;
@@ -12,6 +18,7 @@ $block: '.page';
 
 #{$block}__tagline {
   color: $color-grey;
+  text-align: center;
   font-size: 28px;
   font-weight: 300;
   width: 100%;
