@@ -9,12 +9,12 @@ priority: 0.8
     - if current_article.data.tagline
       %p.article__tagline= current_article.data.tagline
 
-    .article__body
-      = yield
-
-    .article__footer
+    .article__meta
       = partial 'blog/date'
       = partial 'blog/tags'
+
+    .article__body
+      = yield
 
     .article__comments
       = partial 'blog/comments'

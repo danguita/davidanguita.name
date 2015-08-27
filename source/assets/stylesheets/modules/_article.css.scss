@@ -1,16 +1,23 @@
 $block: '.article';
 
+#{$block}__heading {
+  text-align: center;
+}
+
 #{$block}__meta {
-  display: block;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: $color-grey;
+  text-align: center;
+  font-size: 1rem;
 }
 
 #{$block}__meta--date {
-  font-weight: 700;
-  text-align: center;
+  display: block;
 }
 
 #{$block}__meta--tags {
-  text-align: center;
+  display: block;
 }
 
 #{$block}__comments {
