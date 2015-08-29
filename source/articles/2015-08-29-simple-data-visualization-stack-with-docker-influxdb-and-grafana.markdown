@@ -81,6 +81,8 @@ Here're the containers we will be running in the following steps:
 
 ### InfluxDB container
 
+Now that your Docker environment is ready, run this command to download and start the `tutum/influxdb` container and pre-create a testing database named `wadus`:
+
 ```shell
 docker run -d -p 8083:8083 -p 8086:8086 \
   -e PRE_CREATE_DB="wadus" \
