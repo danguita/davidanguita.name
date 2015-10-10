@@ -1,0 +1,25 @@
+$block: '.clients';
+
+#{$block}__container {
+  text-align: center;
+}
+
+#{$block}--title {
+  text-align: center;
+  font-family: $font-family-sans-serif;
+}
+
+#{$block}__item {
+  display: inline-block;
+  padding: 20px;
+
+  $subblock: '.client';
+
+  #{$subblock}__link {
+    border-width: 0;
+
+    &:hover {
+      border-width: 1px;
+    }
+  }
+}

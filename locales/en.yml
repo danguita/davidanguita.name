@@ -33,6 +33,9 @@ en:
     contact-methods: Alternative contact methods
     pair-with-me: I like pair programming
 
+  clients:
+    heading: Clients I've recently worked with
+
   projects:
     take-a-look: Take a look at this selection of projects I am involved in, in no particular order
     all-projects: All projects

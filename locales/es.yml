@@ -33,6 +33,9 @@ es:
     contact-methods: Otros medios de contacto
     pair-with-me: Me gusta el pair programming
 
+  clients:
+    heading: Clientes con los que he trabajado recientemente
+
   projects:
     take-a-look: Echa un vistazo a esta selección de proyectos en los que estoy involucrado, sin un orden en particular
     all-projects: Todos los proyectos

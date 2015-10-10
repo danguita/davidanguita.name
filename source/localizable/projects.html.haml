@@ -11,3 +11,7 @@ priority: 0.8
           %h3.project__name= project[:name]
           = image_tag "projects/#{key}.jpg", alt: project[:name], class: "project__image"
           .project__description= project[:description]
+
+  .projects__clients
+    .clients--title= I18n.t("clients.heading")
+    = partial :clients

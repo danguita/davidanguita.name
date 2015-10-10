@@ -32,7 +32,7 @@ $block: '.projects';
 
   #{$subblock}__name {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 5px;
     color: $color-blue-grey--dark;
   }
@@ -44,3 +44,6 @@ $block: '.projects';
   }
 }
 
+#{$block}__clients {
+  margin-top: 50px;
+}

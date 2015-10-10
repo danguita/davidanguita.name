@@ -17,6 +17,10 @@ priority: 1.0
   .home__contact
     = partial :contact_methods
 
+  .home__clients
+    .clients--title= I18n.t("clients.heading")
+    = partial :clients
+
   .home__latest-articles
     .latest-articles--title= I18n.t("articles.latest")
     = partial :latest_articles, locals: { limit: 5 }

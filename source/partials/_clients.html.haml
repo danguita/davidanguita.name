@@ -1,0 +1,6 @@
+%section.clients.container
+  .clients__container
+    - data.clients.each do |key, client|
+      .clients__item
+        = link_to client[:url], class: 'client__link' do
+          = image_tag "clients/#{key}.png", alt: client[:name], class: "client__image"
