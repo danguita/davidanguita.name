@@ -47,8 +47,9 @@ en:
     source-code: Source code
 
   articles:
+    heading: Articles
     latest: Latest articles
-    archive: Archive
+    archive: Articles archive
 
   common:
     next_page: Next page

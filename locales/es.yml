@@ -47,8 +47,9 @@ es:
     source-code: Código fuente
 
   articles:
+    heading: Artículos
     latest: Últimos artículos
-    archive: Archivo
+    archive: Archivo de artículos
 
   common:
     next_page: Página siguiente
