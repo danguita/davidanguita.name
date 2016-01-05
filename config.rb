@@ -1,19 +1,19 @@
 Time.zone = "Madrid"
 
 activate :blog do |blog|
-  blog.permalink = "articles/{title}.html"
-  blog.sources = "articles/{year}-{month}-{day}-{title}.html"
-  blog.taglink = "articles/tags/{tag}.html"
-  blog.layout = "layouts/article"
-  blog.year_link = "articles/{year}.html"
-  blog.month_link = "articles/{year}/{month}.html"
-  blog.day_link = "articles/{year}/{month}/{day}.html"
+  blog.permalink         = "articles/{title}.html"
+  blog.sources           = "articles/{year}-{month}-{day}-{title}.html"
+  blog.taglink           = "articles/tags/{tag}.html"
+  blog.layout            = "layouts/article"
+  blog.year_link         = "articles/{year}.html"
+  blog.month_link        = "articles/{year}/{month}.html"
+  blog.day_link          = "articles/{year}/{month}/{day}.html"
   blog.default_extension = ".markdown"
-  blog.tag_template = "localizable/tag.html"
+  blog.tag_template      = "localizable/tag.html"
   blog.calendar_template = "localizable/calendar.html"
-  blog.paginate = true
-  blog.per_page = 10
-  blog.page_link = "articles/page/{num}"
+  blog.paginate          = true
+  blog.per_page          = 10
+  blog.page_link         = "articles/page/{num}"
 end
 
 activate :i18n, mount_at_root: :en
