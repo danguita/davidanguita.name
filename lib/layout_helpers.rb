@@ -44,6 +44,10 @@ module LayoutHelpers
     I18n.t('site.author')
   end
 
+  def page_image
+    gravatar_url_for(data.settings.contact.email, 200)
+  end
+
   def draw_page_nav
     site_pages.map do |page|
       content_tag(:div, class: 'nav__item') do

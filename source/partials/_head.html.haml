@@ -14,9 +14,14 @@
 -# Twitter Card
 %meta{name: "twitter:card", content: "summary"}
 %meta{name: "twitter:site", content: data.settings.contact.twitter}
-%meta{name: "twitter:author", content: data.settings.contact.twitter}
-%meta{name: "twitter:title", content: I18n.t('site.author')}
-%meta{name: "twitter:description", content: I18n.t('site.description')}
+%meta{name: "twitter:creator", content: data.settings.contact.twitter}
+%meta{name: "twitter:title", content: page_title}
+%meta{name: "twitter:description", content: page_description}
+
+-# Open Graph
+%meta{property: "og:title", content: page_title}
+%meta{property: "og:description", content: page_description}
+%meta{property: "og:image", content: page_image}
 
 -# Icons
 %link{href: "/assets/images/apple-touch-icon-144x144.png", rel: "apple-touch-icon", sizes: "144x144"}
