@@ -32,6 +32,7 @@ en:
   contact:
     contact-methods: Alternative contact methods
     pair-with-me: I like pair programming
+    schedule-meeting: Schedule time with me
 
   clients:
     heading: Clients I've recently worked with

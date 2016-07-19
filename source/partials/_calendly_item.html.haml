@@ -1,0 +1,7 @@
+.contact__item
+  = link_to '', class: 'contact__link', onclick: "Calendly.showPopupWidget('#{data.settings.contact.calendly_url}');return false;" do
+    %i.icon.icon-calendar
+    = I18n.t('contact.schedule-meeting')
+
+<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>

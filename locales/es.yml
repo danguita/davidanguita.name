@@ -32,6 +32,7 @@ es:
   contact:
     contact-methods: Otros medios de contacto
     pair-with-me: Me gusta el pair programming
+    schedule-meeting: Concertar una reunión
 
   clients:
     heading: Clientes con los que he trabajado recientemente
