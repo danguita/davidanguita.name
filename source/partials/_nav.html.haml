@@ -1,6 +1,9 @@
 %nav.nav
   .container
-    .nav__contact
+    .nav__item.nav__now
+      = link_to now_path do
+        = I18n.t('layout.now')
+    .nav__item.nav__contact
       = link_to contact_path do
         %i.icon.icon-mail
         = I18n.t('layout.contact')

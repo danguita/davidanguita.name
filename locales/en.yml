@@ -9,10 +9,11 @@ en:
   layout:
     services: Services
     methodology: Methodology
-    contact: Contact
+    contact: Contact me
     about-site: About this site
     projects: Recent work
     archive: Archive
+    now: What I'm doing now
     http-not-found: 'Oops! 404 Not Found'
 
   footer:
