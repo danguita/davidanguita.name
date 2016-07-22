@@ -1,19 +1,17 @@
+---
 site:
   domain: 'http://davidanguita.name'
   tracking_code: 'UA-45408606-1'
   tracking_view: 'davidanguita.name'
   disqus_shortname: 'isolveproblems'
-
 contact:
   email: 'david@davidanguita.name'
   twitter: '@danguita'
   calendly_url: 'https://calendly.com/danguita/30min'
-
 services:
   linkedin: 'http://linkedin.com/in/danguita'
   github: 'http://github.com/danguita'
   twitter: 'http://twitter.com/danguita'
   google: 'https://plus.google.com/104025545957647098498?rel=author'
-
 about:
   repo: 'https://github.com/danguita/davidanguita.name'
