@@ -24,4 +24,3 @@ priority: 1.0
   .home__latest-articles
     .latest-articles--title= I18n.t("articles.latest")
     = partial :latest_articles, locals: { limit: 5 }
-    .latest-articles--archive= link_to I18n.t("articles.archive"), archive_path

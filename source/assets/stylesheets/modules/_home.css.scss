@@ -81,17 +81,6 @@ $block: '.home';
     font-family: $font-family-sans-serif;
   }
 
-  #{$subblock}--archive {
-    margin-top: 20px;
-    text-align: center;
-
-    a {
-      @extend .button;
-      @extend .button--small;
-      color: $color-grey;
-    }
-  }
-
   #{$subblock}__item {
     margin: 10px 0;
 

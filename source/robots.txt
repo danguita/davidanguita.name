@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /en/
+Disallow: /es/
 
 Sitemap: http://davidanguita.name/sitemap.xml

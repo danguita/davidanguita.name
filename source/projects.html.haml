@@ -5,7 +5,7 @@ priority: 0.8
 
 %section.projects.container
   .projects__container
-    - data.projects[I18n.locale].each do |key, project|
+    - data.projects.each do |key, project|
       .projects__item
         = link_to "projects/#{key}.html", class: "project-#{key} project__link", title: project[:name] do
           %h3.project__name= project[:name]

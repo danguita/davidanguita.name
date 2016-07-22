@@ -9,8 +9,8 @@ activate :blog do |blog|
   blog.month_link        = "articles/{year}/{month}.html"
   blog.day_link          = "articles/{year}/{month}/{day}.html"
   blog.default_extension = ".markdown"
-  blog.tag_template      = "localizable/tag.html"
-  blog.calendar_template = "localizable/calendar.html"
+  blog.tag_template      = "tag.html"
+  blog.calendar_template = "calendar.html"
   blog.paginate          = true
   blog.per_page          = 10
   blog.page_link         = "articles/page/{num}"
@@ -22,27 +22,17 @@ activate :automatic_image_sizes
 activate :syntax
 
 # Dynamic pages: Projects
-data.projects.en.each do |key, _|
+data.projects.each do |key, _|
   proxy "/projects/#{key}.html",
-    "/localizable/projects/template.html",
+    "/projects/template.html",
     locals: { :key => key },
-    lang: :en,
-    ignore: true
-
-  proxy "/es/projects/#{key}.html",
-    "/localizable/projects/template.html",
-    locals: { :key => key },
-    lang: :es,
     ignore: true
 end
 
 # Ignores
 ignore "projects/template.html"
-ignore "es/projects/template.html"
 ignore "calendar.html"
-ignore "es/calendar.html"
 ignore "tag.html"
-ignore "es/tag.html"
 ignore "content/*"
 
 # Sitemap
@@ -54,12 +44,10 @@ page "/feed.xml", layout: false
 # Helpers
 require "lib/layout_helpers"
 require "lib/route_helpers"
-require "lib/locale_helpers"
 require "lib/gravatar_helpers"
 
 helpers RouteHelpers
 helpers LayoutHelpers
-helpers LocaleHelpers
 helpers GravatarHelpers
 
 # Assets

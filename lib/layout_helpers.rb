@@ -60,19 +60,6 @@ module LayoutHelpers
     end.join(' ')
   end
 
-  def draw_locale_select
-    available_locales.map do |locale|
-      link_url = '/'
-      link_url << locale.to_s unless default_locale?(locale)
-
-      if active_locale?(locale)
-        content_tag(:span, I18n.t("locale.#{locale}"), class: 'active')
-      else
-        content_tag(:a, I18n.t("locale.#{locale}"), href: link_url)
-      end
-    end.join(' ')
-  end
-
   def current_page_type
     if @current_tag
       :tag

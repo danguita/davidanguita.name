@@ -6,10 +6,6 @@ en:
     keywords: 'Ruby, Rails, Ruby on Rails, Freelance, Ruby Freelance Developer, Rails Freelance Developer, Web development, Software consulting'
     author: 'David Anguita'
 
-  locale:
-    es: Español
-    en: English
-
   layout:
     services: Services
     methodology: Methodology

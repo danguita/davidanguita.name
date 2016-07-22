@@ -1,118 +1,59 @@
-en:
-  jobandtalent:
-    name: Jobandtalent
-    description: Recruiting platform
-    role: Back-end engineer
-    features: Recruiting platform that matches professionals with relevant job opportunities using a linguistics based algorithm.
-    url: http://www.jobandtalent.com
-  domestika:
-    name: Domestika
-    description: Creative professional community
-    role: Back-end engineer
-    features: The biggest spanish spoken creative professional community. More than 100.000 active users.
-    url: http://domestika.org
-  bizneo:
-    name: Bizneo
-    description: Professionals networking
-    role: Consultant & external developer
-    features: Business directory and professionals networking platform.
-    url: http://bizneo.com
-  onlooker:
-    name: Onlooker
-    description: Ticketing platform, SaaS
-    role: Technical director and developer
-    features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
-    company: aticoestudio
-  playersagent:
-    name: Players Agent
-    description: Professional player representation
-    role: Technical director and developer
-    features: Professional player representation agency. It allows to manage, catch and execute representation contracts by a distributed team of agents.
-    company: aticoestudio
-  trade:
-    name: Trade
-    description: Specialized CRM
-    role: Technical director and developer
-    features: CRM (Customer Relationship Management) specialized on actions management and supervision.
-    company: aticoestudio
-    client: Urbatek Porcelanosa Grupo
-  davidanguita:
-    name: davidanguita.name
-    description: Static website, GitHub Pages
-    role: Frontender amateur
-    features: Personal website powered by Middleman.
-    url: http://davidanguita.name
-    source: http://github.com/danguita/davidanguita.name
-  urbatek:
-    name: Urbatek
-    description: CMS, Complex catalog
-    role: Technical director and developer
-    client: Urbatek Porcelanosa Grupo
-    company: aticoestudio
-    url: http://urbatek.com
-  twinner:
-    name: Twinner Iberia
-    description: CMS, Intranet integration
-    role: Technical director and developer
-    client: Twinner Iberia
-    company: aticoestudio
-    url: http://www.twinner.es
-
-es:
-  jobandtalent:
-    name: Jobandtalent
-    description: Plataforma de empleo
-    role: Back-end engineer
-    features: Plataforma de empleo que asocia profesionales con ofertas de empleo relevantes usando un algoritmo lingüístico.
-    url: http://www.jobandtalent.com/es/
-  domestika:
-    name: Domestika
-    description: Comunidad de profesionales creativos
-    role: Back-end engineer
-    features: La mayor comunidad para profesionales creativos en español. Más de 100.000 Usuarios activos.
-    url: http://domestika.org
-  bizneo:
-    name: Bizneo
-    description: Networking para profesionales
-    role: Consultor y desarrollador externo
-    features: Directorio de empresas y plataforma de networking para profesionales.
-    url: http://bizneo.com
-  onlooker:
-    name: Onlooker
-    description: Plataforma de ticketing, SaaS
-    role: Director técnico y desarrollador
-    features: Solución integral de ticketing presentada como SaaS (Software as a Service). Está compuesta por módulos de venta on-line, venta en taquilla y control de acceso.
-    company: aticoestudio
-  playersagent:
-    name: Players Agent
-    description: Representación de jugadores profesionales
-    role: Director técnico y desarrollador
-    features: Agencia de representación de jugadores profesionales. Permite la gestión, captación y ejecución de contratos de representación por parte de un equipo de agentes distribuido.
-    company: aticoestudio
-  trade:
-    name: Trade
-    description: CRM especializado
-    role: Director técnico y desarrollador
-    features: CRM (Customer Relationship Management) especializado en la gestión y supervisión de acciones comerciales.
-    company: aticoestudio
-  davidanguita:
-    name: davidanguita.name
-    description: Website estático, GitHub Pages
-    role: Frontender amateur
-    features: Website personal construido con Middleman.
-    url: http://davidanguita.name
-    source: http://github.com/danguita/davidanguita.name
-  urbatek:
-    name: Urbatek
-    description: CMS, Catálogo complejo
-    role: Director técnico y desarrollador
-    client: Urbatek Porcelanosa Grupo
-    company: aticoestudio
-    url: http://urbatek.com
-  twinner:
-    name: Twinner Iberia
-    description: CMS, Integración con Intranet
-    role: Director técnico y desarrollador
-    client: Twinner Iberia
-    company: aticoestudio
-    url: http://www.twinner.es
+---
+jobandtalent:
+  name: Jobandtalent
+  description: Recruiting platform
+  role: Back-end engineer
+  features: Recruiting platform that matches professionals with relevant job opportunities using a linguistics based algorithm.
+  url: http://www.jobandtalent.com
+domestika:
+  name: Domestika
+  description: Creative professional community
+  role: Back-end engineer
+  features: The biggest spanish spoken creative professional community. More than 100.000 active users.
+  url: http://domestika.org
+bizneo:
+  name: Bizneo
+  description: Professionals networking
+  role: Consultant & external developer
+  features: Business directory and professionals networking platform.
+  url: http://bizneo.com
+onlooker:
+  name: Onlooker
+  description: Ticketing platform, SaaS
+  role: Technical director and developer
+  features: Integral ticketing solution presented as SaaS (Software as a Service). It's composed by on-line sale, ticket office sale and access control modules.
+  company: aticoestudio
+playersagent:
+  name: Players Agent
+  description: Professional player representation
+  role: Technical director and developer
+  features: Professional player representation agency. It allows to manage, catch and execute representation contracts by a distributed team of agents.
+  company: aticoestudio
+trade:
+  name: Trade
+  description: Specialized CRM
+  role: Technical director and developer
+  features: CRM (Customer Relationship Management) specialized on actions management and supervision.
+  company: aticoestudio
+  client: Urbatek Porcelanosa Grupo
+davidanguita:
+  name: davidanguita.name
+  description: Static website, GitHub Pages
+  role: Frontender amateur
+  features: Personal website powered by Middleman.
+  url: http://davidanguita.name
+  source: http://github.com/danguita/davidanguita.name
+urbatek:
+  name: Urbatek
+  description: CMS, Complex catalog
+  role: Technical director and developer
+  client: Urbatek Porcelanosa Grupo
+  company: aticoestudio
+  url: http://urbatek.com
+twinner:
+  name: Twinner Iberia
+  description: CMS, Intranet integration
+  role: Technical director and developer
+  client: Twinner Iberia
+  company: aticoestudio
+  url: http://www.twinner.es

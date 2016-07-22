@@ -2,7 +2,7 @@
 
 module RouteHelpers
   def path_for(page)
-    [locale_base_path, "#{page}.html"].join('/')
+    "/#{page}.html"
   end
 
   def home_path
@@ -42,17 +42,11 @@ module RouteHelpers
     home_page_urls.include?(current_page.url)
   end
 
-  def locale_base_path
-    path = Array.new(1, nil)
-
-    path << I18n.locale unless default_locale?(I18n.locale)
-  end
-
   def site_pages
     %w(services methodology projects)
   end
 
   def home_page_urls
-    ['/', '/es/']
+    ['/']
   end
 end
