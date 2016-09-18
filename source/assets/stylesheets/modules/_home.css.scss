@@ -16,30 +16,6 @@ $block: '.home';
   }
 }
 
-#{$block}__services {
-  $subblock: '.services';
-
-  margin-bottom: 40px;
-
-  @extend %grid-display-flex;
-
-  #{$subblock}__item {
-    @extend %grid-3-col;
-    text-align: center;
-  }
-
-  #{$subblock}__link {
-    color: $color-grey;
-    border-color: $color-grey;
-    width: 80%;
-
-    &:hover {
-      color: $color-blue-grey--dark;
-      border-color: $color-blue-grey--dark;
-    }
-  }
-}
-
 #{$block}__contact {
   $subblock: '.contact';
 

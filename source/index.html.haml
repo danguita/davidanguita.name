@@ -9,11 +9,6 @@ priority: 1.0
       %h1.page__heading= I18n.t("home.heading")
       %p.page__tagline= I18n.t("home.tagline")
 
-  .home__services
-    - site_pages.each do |page|
-      .services__item
-        = link_to I18n.t("home.#{page}-label"), path_for(page), class: 'button services__link'
-
   .home__contact
     = partial :contact_methods
 

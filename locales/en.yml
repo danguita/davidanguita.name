@@ -7,11 +7,8 @@ en:
     author: 'David Anguita'
 
   layout:
-    services: Services
-    methodology: Methodology
     contact: Contact me
     about-site: About this site
-    projects: Recent work
     archive: Archive
     now: What I'm doing now
     http-not-found: 'Oops! 404 Not Found'
@@ -22,9 +19,6 @@ en:
   home:
     heading: Hi, I'm David Anguita
     tagline: I'm a freelance software developer and consultant specialized in Ruby on Rails
-    services-label: Services
-    methodology-label: Methodology
-    projects-label: Recent work
 
   contact:
     contact-methods: Alternative contact methods
@@ -33,16 +27,6 @@ en:
 
   clients:
     heading: Clients I've recently worked with
-
-  projects:
-    take-a-look: Take a look at this selection of projects I am involved in, in no particular order
-    all-projects: All projects
-    view-online: View online
-    role: Role
-    features: Features
-    client: Client
-    company: Company
-    source-code: Source code
 
   articles:
     heading: Articles
