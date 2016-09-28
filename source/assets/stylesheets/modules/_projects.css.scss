@@ -1,0 +1,49 @@
+$block: '.projects';
+
+#{$block}__container {
+  @extend %grid-display-flex;
+}
+
+#{$block}__item {
+  @extend %grid-3-col;
+
+  text-align: center;
+  transition: all .1s linear;
+  margin-bottom: 20px;
+
+  &:hover {
+    $subblock: '.project';
+
+    #{$subblock}__image {
+      opacity: 1;
+    }
+  }
+
+  $subblock: '.project';
+
+  #{$subblock}__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    opacity: .8;
+    transition: all .1s linear;
+  }
+
+  #{$subblock}__name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: $color-blue-grey--dark;
+  }
+
+  #{$subblock}__description {
+    font-size: .9rem;
+    margin-top: 5px;
+    color: $color-grey--dark;
+  }
+}
+
+#{$block}__clients {
+  margin-top: 50px;
+}

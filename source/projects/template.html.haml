@@ -1,0 +1,54 @@
+---
+title: projects
+priority: 0.8
+---
+
+- project = data.projects[key]
+- @page_title = project[:name]
+- @page_description = "My recent work at #{project[:name]}, #{project[:description]}"
+
+%section.project.container
+  .project__header
+    %header.page__header
+      %h1.page__heading= project[:name]
+      %p.page__tagline= project[:description]
+
+    = image_tag "projects/#{key}.jpg", alt: project[:name], class: 'project__image'
+
+  .project__meta
+    - if project[:role]
+      .meta__item
+        %strong= I18n.t('projects.role')
+        = project[:role]
+
+    - if project[:features]
+      .meta__item
+        %strong= I18n.t('projects.features')
+        = project[:features]
+
+    - if project[:client]
+      .meta__item
+        %strong= I18n.t('projects.client')
+        = project[:client]
+
+    - if project[:company]
+      .meta__item
+        %strong= I18n.t('projects.company')
+        - if company = data.companies[project[:company]]
+          = link_to company[:name], company[:url]
+        - else
+          = project[:company]
+
+  .project__nav
+    .nav__item
+      = link_to projects_path, class: 'nav__back' do
+        &larr;
+        = I18n.t('projects.all-projects')
+
+    - if project[:url]
+      .nav__item
+        = link_to I18n.t('projects.view-online'), project[:url], class: 'nav_url'
+
+    - if project[:source]
+      .nav__item
+        = link_to I18n.t('projects.source-code'), project[:source], class: 'nav_source'
