@@ -10,4 +10,4 @@
     %main= yield
 
     = partial :footer
-    = partial :analytics
+    = partial :analytics unless development?
