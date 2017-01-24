@@ -1,14 +1,14 @@
 # What I'm doing now
 
-Inspired by José Ferrer's [post](http://moviendo.me/now/), here's what I'm currently working on:
+👋 Inspired by José Ferrer's [post](http://moviendo.me/now/), here's what I'm currently doing:
 
-* Freelancing in cool Ruby based products, with focus on well-crafted code and system architecture.
+* Freelancing in Ruby and Elixir based products, with focus on well-crafted code and system architecture.
+* Taking some time to push my own projects forward 🚀
+* Learning new things and improving my development skills, and therefore my services. I'm currently focused on Elixir, Docker, Kubernetes, Elm and React.
 * Helping friends with their product vision and software development stuff.
-* Learning new technologies that are improving my development skills, and therefore my services. I'm currently focused on Docker, Elixir, Phoenix and React.
-* Working on a couple of pet projects that I'd love to have publicly available very soon.
+* Playing videogames! These days, you can find me playing Metal Gear Solid V: The Phantom Pain (PS4), Titanfall 2 (PS4), The Binding of Isaac: Rebirth (PC) and Monster Hunter 4 Ultimate (3DS). BTW, this is my PSN ID: *DaveBigBoss* ❤️ 🎮
+* Weightlifting and running as much as I can, although the weather is not being very cooperative lately here in Spain ❄️
 * [Organizing](http://www.meetup.com/es-ES/ciudadrealrb/) and attending tech events.
-* Playing videogames. In the last few weeks I've been playing Bloodborne (PS4), Dark Souls (Xbox 360) and The Legend of Zelda: A Link Between Worlds (3DS) ❤️ 🎮
-* Weightlifting and running as much as I can. It's being a great season to me to get fit 💪
 * Traveling with my [lovely wife](https://www.instagram.com/soryflins/).
 
-*Last updated: July 22, 2016.*
+*Last updated: January 24, 2017.*
