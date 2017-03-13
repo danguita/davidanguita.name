@@ -30,12 +30,12 @@ $block: '.home';
 
   #{$subblock}__link {
     color: $color-grey;
-    border-color: $color-grey;
+    border: $base-border;
     width: 80%;
 
     &:hover {
-      color: $color-blue-grey--dark;
-      border-color: $color-blue-grey--dark;
+      color: $color-grey--dark;
+      border-color: $color-grey;
     }
   }
 }

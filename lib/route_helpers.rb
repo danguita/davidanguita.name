@@ -9,10 +9,6 @@ module RouteHelpers
     path_for('index')
   end
 
-  def projects_path
-    path_for('projects')
-  end
-
   def contact_path
     path_for('contact')
   end
@@ -47,7 +43,7 @@ module RouteHelpers
   end
 
   def site_pages
-    %w(services methodology projects)
+    %w(services methodology)
   end
 
   def home_page_urls

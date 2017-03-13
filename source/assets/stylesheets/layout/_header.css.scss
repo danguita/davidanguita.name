@@ -38,9 +38,9 @@ $block: '.header';
     font-size: 0.9rem;
     width: 80%;
 
-    &.active {
-      color: $color-blue-grey--dark;
-      border-color: $color-blue-grey--dark;
+    &:hover, &.active {
+      color: $color-grey--dark;
+      border-color: $color-grey;
     }
   }
 }

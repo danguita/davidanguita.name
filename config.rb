@@ -21,16 +21,7 @@ activate :directory_indexes
 activate :automatic_image_sizes
 activate :syntax
 
-# Dynamic pages: Projects
-data.projects.each do |key, _|
-  proxy "/projects/#{key}.html",
-    "/projects/template.html",
-    locals: { :key => key },
-    ignore: true
-end
-
 # Ignores
-ignore "projects/template.html"
 ignore "calendar.html"
 ignore "tag.html"
 ignore "content/*"
