@@ -7,8 +7,6 @@ en:
     author: 'David Anguita'
 
   layout:
-    services: Services
-    methodology: Methodology
     contact: Contact me
     about-site: About this site
     archive: Archive
@@ -21,8 +19,6 @@ en:
   home:
     heading: Hi, I'm David Anguita
     tagline: I'm a freelance software developer and consultant specialized in Ruby on Rails
-    services-label: Services
-    methodology-label: Methodology
 
   contact:
     contact-methods: Alternative contact methods

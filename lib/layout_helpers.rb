@@ -48,18 +48,6 @@ module LayoutHelpers
     gravatar_url_for(data.settings.contact.email, 200)
   end
 
-  def draw_page_nav
-    site_pages.map do |page|
-      content_tag(:div, class: 'nav__item') do
-        link_to(
-          I18n.t("layout.#{page}"),
-          path_for(page),
-          class: ['nav__link', page_status(page)].join(' ')
-        )
-      end
-    end.join(' ')
-  end
-
   def current_page_type
     if @current_tag
       :tag

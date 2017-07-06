@@ -42,10 +42,6 @@ module RouteHelpers
     home_page_urls.include?(current_page.url)
   end
 
-  def site_pages
-    %w(services methodology)
-  end
-
   def home_page_urls
     ['/']
   end
