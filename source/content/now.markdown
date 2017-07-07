@@ -1,14 +1,14 @@
 # What I'm doing now
 
-👋 Inspired by José Ferrer's [post](http://moviendo.me/now/), here's what I'm currently doing:
+👋 Inspired by [José Ferrer](https://twitter.com/joseferrer)'s idea, here's what I'm currently doing:
 
-* Freelancing in Ruby and Elixir based products, with focus on well-crafted code and system architecture.
-* Taking some time to push my own projects forward 🚀
-* Learning new things and improving my development skills, and therefore my services. I'm currently focused on Elixir, Docker, Kubernetes, Elm and React.
-* Helping friends with their product vision and software development stuff.
-* Playing videogames! These days, you can find me playing Metal Gear Solid V: The Phantom Pain (PS4), Titanfall 2 (PS4), The Binding of Isaac: Rebirth (PC) and Monster Hunter 4 Ultimate (3DS). BTW, this is my PSN ID: *DaveBigBoss* ❤️ 🎮
-* Weightlifting and running as much as I can, although the weather is not being very cooperative lately here in Spain ❄️
-* [Organizing](http://www.meetup.com/es-ES/ciudadrealrb/) and attending tech events.
-* Traveling with my [lovely wife](https://www.instagram.com/soryflins/).
+* Freelancing in Ruby and Elixir based products, with focus on well-crafted code and product development.
+* Bootstrapping on a couple of *kind of projects* with friends.
+* Learning new things and improving my development skills, as always.
+* Working out and running as much as I can 💪
+* Attending and speaking at tech events. I love to meet new and *old* friends from the industry to catch-up and share thoughts.
+* Playing videogames! These days, you can find me playing [Dark Souls 2: Scholar of the First Sin](http://www.metacritic.com/game/playstation-4/dark-souls-ii-scholar-of-the-first-sin) (PS4), [Titanfall 2](http://www.metacritic.com/game/playstation-4/titanfall-2) (PS4), [Gravity Rush Remastered](http://www.metacritic.com/game/playstation-4/gravity-rush-remastered) (PS4) and [Monster Hunter 4 Ultimate](http://www.metacritic.com/game/3ds/monster-hunter-4-ultimate) (3DS). BTW, this is my PSN ID: *DaveBigBoss* ❤️ 🎮
+* I've also been trying to read more: At the time of writing this, [Ashlee Vance's Elon Musk biography](https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233/) is in my backpack, and [Run or Die](https://www.amazon.com/Run-Die-Kilian-Jornet/dp/1937715094/) is right on my desk. Also, I'm rereading [this edition of Watchmen](https://www.amazon.com/Watchmen-Deluxe-Alan-Moore/dp/1401238963/).
+* Last but not least, traveling with my [lovely wife](https://www.instagram.com/soryflins/).
 
-*Last updated: January 24, 2017.*
+*Last updated: July 7, 2017.*
