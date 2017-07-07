@@ -1,6 +1,6 @@
 DOCKER_IMAGE_NAME := danguita/davidanguita.name
 DOCKER_BUILD      := docker build --file Dockerfile
-DOCKER_RUN        := docker run -it --rm -v $(shell pwd):/app
+DOCKER_RUN        := docker run --rm -v $(shell pwd):/app
 SERVER_PORT       := 4567
 
 build: Dockerfile
