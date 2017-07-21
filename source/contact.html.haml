@@ -35,8 +35,3 @@ priority: 1.0
     %p= I18n.t('contact.contact-methods')
     = partial :contact_methods
     = partial :calendly_item
-
-  .contact__pair-with-me
-    %p= I18n.t('contact.pair-with-me')
-    = mail_to data.settings.contact.email, '#PairWithMe',
-      subject: 'Hey, PairWithMe', class: 'button'

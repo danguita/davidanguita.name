@@ -3,17 +3,18 @@ title: http-not-found
 directory_index: false
 ---
 
-%section.errors.container
-  .errors__header
-    = image_tag('boom.png', class: 'errors__image')
+%section.errors
+  .container
+    .errors__header
+      = image_tag('boom.png', class: 'errors__image')
 
-    BOOOOOM!
+      BOOOOOM!
 
-  .errors__message
-    Sorry, this page does not exist.
+    .errors__message
+      Sorry, this page does not exist.
 
-  .errors__feedback
-    You can
-    = link_to 'go back to home', home_path
-    or
-    = link_to 'contact me', contact_path
+    .errors__feedback
+      You can
+      = link_to 'go back to home', home_path
+      or
+      = link_to 'contact me', contact_path

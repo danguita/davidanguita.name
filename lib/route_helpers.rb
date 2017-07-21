@@ -13,10 +13,6 @@ module RouteHelpers
     path_for('contact')
   end
 
-  def about_site_path
-    path_for('about-site')
-  end
-
   def articles_path
     path_for('articles')
   end

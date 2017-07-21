@@ -3,18 +3,13 @@
     .footer__credits
       .credits__author
         %strong David Anguita
-        \:wq!
+        @
+        = Time.now
+
+    .footer__about
       .credits__links
         = mail_to data.settings.contact.email, 'email'
         &nbsp;
         - data.settings.services.each do |service_name, service_link|
           = link_to service_name, service_link, rel: 'me'
           &nbsp;
-
-    .footer__about
-      .about__site
-        = link_to I18n.t('layout.about-site'), about_site_path
-
-      .about__source
-        = I18n.t('footer.source-code-on')
-        = link_to 'GitHub', data.settings.about.repo

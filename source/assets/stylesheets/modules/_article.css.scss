@@ -42,9 +42,4 @@ $block: '.article';
 #{$block}__archive {
   text-align: center;
   margin-top: 30px;
-
-  a {
-    @extend .button;
-    @extend .button--small;
-  }
 }

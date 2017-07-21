@@ -1,5 +1,4 @@
 .latest-articles__container
   - page_articles.first(limit).each do |article|
     .latest-articles__item
-      = link_to article.title, article
-      %span= article.date.strftime('%b %e, %Y')
+      = link_to article.title, article, class: 'article__title'

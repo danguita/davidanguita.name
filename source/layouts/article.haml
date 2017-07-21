@@ -16,10 +16,10 @@ priority: 0.8
     .article__body
       = yield
 
-    .article__comments
-      = partial 'blog/comments'
-
     .article__archive
       = link_to archive_path do
         &larr;
         = I18n.t("articles.archive")
+
+    .article__comments
+      = partial 'blog/comments'

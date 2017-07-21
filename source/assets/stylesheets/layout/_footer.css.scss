@@ -5,17 +5,16 @@ $block: '.footer';
   padding: 20px 0;
   font-size: .9rem;
   text-align: center;
+  color: $color-grey;
 
   a {
     color: $color-grey;
+    border-bottom: none;
 
     &:hover {
       color: $color-green;
     }
   }
-}
-
-#{$block}__credits {
 }
 
 #{$block}__about {

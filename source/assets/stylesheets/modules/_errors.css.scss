@@ -2,6 +2,7 @@ $block: '.errors';
 
 #{$block} {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #{$block}__header {
@@ -18,4 +19,5 @@ $block: '.errors';
 }
 
 #{$block}__feedback {
+  padding-top: 20px;
 }

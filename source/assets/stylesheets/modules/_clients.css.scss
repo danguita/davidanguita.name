@@ -4,9 +4,8 @@ $block: '.clients';
   text-align: center;
 }
 
-#{$block}--title {
+#{$block}__title {
   text-align: center;
-  font-family: $font-family-sans-serif;
 }
 
 #{$block}__item {

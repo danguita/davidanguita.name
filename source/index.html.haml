@@ -2,20 +2,33 @@
 priority: 1.0
 ---
 
-%section.home.container
+%section.home
   .home__introduction
-    .page__header
-      = link_to my_gravatar, 'index.html', class: 'avatar-wrapper'
-      %h1.page__heading= I18n.t("home.heading")
-      %p.page__tagline= I18n.t("home.tagline")
+    .container
+      .page__header
+        = link_to my_gravatar, 'index.html', class: 'avatar-wrapper'
+        %h1.page__heading= I18n.t("home.heading")
+        %h2.page__tagline= I18n.t("home.tagline")
+
+  .home__about
+    .container
+      = partial :about
 
   .home__contact
-    = partial :contact_methods
+    .container
+      %h3.contact__title
+        = I18n.t("contact.heading")
+        = link_to contact_path do
+          = I18n.t("contact.form-feedback")
+        = I18n.t("contact.service-feedback")
+      = partial :contact_methods
 
   .home__clients
-    .clients--title= I18n.t("clients.heading")
-    = partial :clients
+    .container
+      %h3.clients__title= I18n.t("clients.heading")
+      = partial :clients
 
   .home__latest-articles
-    .latest-articles--title= I18n.t("articles.latest")
-    = partial :latest_articles, locals: { limit: 5 }
+    .container
+      %h3.latest-articles__title= I18n.t("articles.latest")
+      = partial :latest_articles, locals: { limit: 5 }

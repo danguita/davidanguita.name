@@ -7,13 +7,18 @@ $block: '.page';
 }
 
 #{$block}__header {
-  font-family: $font-family-sans-serif;
+  margin-top: $base-spacing;
   margin-bottom: $base-spacing * 2;
-  text-align: center;
 }
 
 #{$block}__heading {
   margin-bottom: $base-spacing * .5;
+
+  text-align: center;
+
+  a {
+    font-size: 1rem;
+  }
 }
 
 #{$block}__tagline {

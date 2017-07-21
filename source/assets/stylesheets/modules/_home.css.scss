@@ -11,82 +11,82 @@ $block: '.home';
 }
 
 #{$block}__introduction {
+  margin-top: 30px;
+
   .page__header {
     text-align: center;
   }
 }
 
-#{$block}__services {
-  $subblock: '.services';
+#{$block}__about {
+  padding: 10px;
+  margin-top: 10px;
+  font-family: $font-family-monospace;
+}
 
-  margin-bottom: 40px;
-
-  @extend %grid-display-flex;
-
-  #{$subblock}__item {
-    @extend %grid-3-col;
-    text-align: center;
-  }
-
-  #{$subblock}__link {
-    color: $color-grey;
-    border: $base-border;
-    width: 80%;
-
-    &:hover {
-      color: $color-grey--dark;
-      border-color: $color-grey;
-    }
+@include mq-large {
+  #{$block}__about {
+    position: relative;
+    width: 200%;
+    left: -50%;
+    padding: 30px 0 10px;
+    margin-top: 10px;
+    transform: rotate(-1deg);
+    background-color: $color-blue-grey--dark;
+    color: $color-white;
+    font-family: $font-family-monospace;
   }
 }
 
 #{$block}__contact {
+  margin: 30px 0;
+
   $subblock: '.contact';
 
-  @extend %grid-display-flex;
+  #{$subblock}__items {
+    @extend %grid-display-flex;
 
-  #{$subblock}__item {
-    @extend %grid-4-col;
-    text-align: center;
-  }
-
-  #{$subblock}__link {
-    border-bottom: none;
-    color: $color-grey;
-    transition: all .1s linear;
-
-    .icon {
-      display: block;
-      font-size: 1.6rem;
+    #{$subblock}__item {
+      @extend %grid-4-col;
+      text-align: center;
     }
 
-    &:hover {
+    #{$subblock}__link {
+      border-bottom: none;
       color: $color-blue-grey--dark;
+      transition: all .1s linear;
+
+      .icon {
+        font-size: 1.2rem;
+      }
+
+      &:hover {
+        color: $color-blue-grey--dark;
+      }
     }
   }
 }
 
 #{$block}__clients {
-  margin: 60px 0;
+  position: relative;
+  padding: 30px 0 10px;
+  background-color: $color-grey--light;
 }
 
 #{$block}__latest-articles {
   margin: 60px 0;
-  margin-bottom: 0;
 
   $subblock: '.latest-articles';
 
-  #{$subblock}--title {
+  #{$subblock}__title {
     text-align: left;
-    font-family: $font-family-sans-serif;
   }
 
   #{$subblock}__item {
     margin: 10px 0;
 
-    span {
-      color: $color-grey;
-      font-size: 1rem;
+    .article__title {
+      font-family: $font-family-monospace;
     }
   }
 }
