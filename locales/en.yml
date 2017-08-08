@@ -9,6 +9,7 @@ en:
   layout:
     archive: Archive
     now: What I'm doing now
+    workstation: My workstation
     http-not-found: Oops! The page you were looking for doesn't exist
 
   footer:
