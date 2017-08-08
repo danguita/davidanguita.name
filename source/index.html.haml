@@ -18,8 +18,7 @@ priority: 1.0
     .container
       %h3.contact__title
         = I18n.t("contact.heading")
-        = link_to contact_path do
-          = I18n.t("contact.form-feedback")
+        = link_to I18n.t("contact.page-feedback"), contact_path
         = I18n.t("contact.service-feedback")
       = partial :contact_methods
 

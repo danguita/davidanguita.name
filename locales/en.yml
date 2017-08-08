@@ -1,9 +1,9 @@
 ---
 en:
   site:
-    title: David Anguita. Freelance software developer. Ruby, Elixir, JavaScript. Aspiring maker.
-    description: Hi, I'm a freelance software developer and consultant based in Madrid, Spain
-    keywords: Ruby, Rails, Ruby on Rails, Web development, Freelance developer. Software consulting.
+    title: David Anguita. Freelance full-stack software developer. Ruby, Rails, Elixir, JavaScript.
+    description: Hi, I'm a freelance software developer based in Madrid, Spain.
+    keywords: Ruby, Rails, Ruby on Rails, Elixir, Web development, Freelance developer, Software consulting.
     author: David Anguita
 
   layout:
@@ -16,11 +16,11 @@ en:
 
   home:
     heading: David Anguita
-    tagline: I'm a freelance software developer & consultant based in Madrid, Spain
+    tagline: Freelance full-stack software developer, specialising in back-end architecture and product development
 
   contact:
     heading: 'To contact me,'
-    form-feedback: fill this form in
+    page-feedback: check out the contact page
     service-feedback: 'or drop me a line via:'
     contact-methods: Alternative contact methods
     schedule-meeting: Schedule time with me

@@ -22,9 +22,10 @@ $block: '.page';
 }
 
 #{$block}__tagline {
+  font-family: $font-family-sans-serif;
   color: $color-grey;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 300;
   width: 100%;
 }
@@ -32,9 +33,5 @@ $block: '.page';
 @include mq-large {
   #{$block}__header {
     text-align: left;
-  }
-
-  #{$block}__tagline {
-    font-size: rem(32);
   }
 }
