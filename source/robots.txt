@@ -3,4 +3,4 @@ Allow: /
 Disallow: /en/
 Disallow: /es/
 
-Sitemap: http://davidanguita.name/sitemap.xml
+Sitemap: https://davidanguita.name/sitemap.xml

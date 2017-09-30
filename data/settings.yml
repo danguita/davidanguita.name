@@ -1,6 +1,6 @@
 ---
 site:
-  domain: 'http://davidanguita.name'
+  domain: 'https://davidanguita.name'
   tracking_code: 'UA-45408606-1'
   tracking_view: 'davidanguita.name'
   disqus_shortname: 'isolveproblems'
