@@ -4,7 +4,7 @@ module GravatarHelpers
   def gravatar_url_for(email_address, size = 72)
     email_hash = Digest::MD5.hexdigest(email_address.downcase)
 
-    "http://www.gravatar.com/avatar/#{email_hash}?s=#{size}"
+    "https://www.gravatar.com/avatar/#{email_hash}?s=#{size}"
   end
 
   def my_gravatar
