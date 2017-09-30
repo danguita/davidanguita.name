@@ -8,12 +8,6 @@
 * Powered by [Netlify](https://www.netlify.com/)
 * Coded with [vim](http://www.vim.org/)
 
-## Deploy on GitHub Pages
-
-My `/build` dir is linked to [another GitHub repo](https://github.com/danguita/danguita.github.com) which is configured as GitHub Page.
-
-After each build, I move into `/build` and commit all changes. GitHub Pages does the rest.
-
 ## License
 
 Feel free to use any of files. If you do use them, a link back to my personal webpage would be appreciated, but is not required.
