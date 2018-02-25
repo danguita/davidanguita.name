@@ -26,7 +26,7 @@ This is stuff I want to share because I like it. Some links to products on this 
 
 ## Mobile devices
 
-- [LG Nexus 5](http://amzn.to/2rCH3KY)
+- [Xiaomi Mi A1](http://amzn.to/2GKjXVw)
 
 ## Accessories
 
