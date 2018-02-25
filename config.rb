@@ -18,7 +18,6 @@ end
 
 activate :i18n, mount_at_root: :en
 activate :directory_indexes
-activate :automatic_image_sizes
 activate :syntax
 
 # Ignores
