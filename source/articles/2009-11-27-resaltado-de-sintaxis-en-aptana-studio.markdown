@@ -13,23 +13,23 @@ Aunque en Aptana Studio (conocido IDE basado en Eclipse) existe la posibilidad d
 
 ### [Green Chaud](http://gueschla.com/labs/green-chaud/)
 
-![Green Chaud](2009-11-27-resaltado-de-sintaxis-en-aptana-studio/greenchaud.jpg)
+![Green Chaud](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/greenchaud.jpg)
 
 ### [Autumna – A style for Aptana IDE](http://thirdroute.com/autumna-a-style-for-aptana-ide/)
 
-![Autumna](2009-11-27-resaltado-de-sintaxis-en-aptana-studio/autumna.jpg)
+![Autumna](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/autumna.jpg)
 
 ### [Aptana Studio IDE Dark Color Theme](http://www.nightlion.net/themes/2009/aptana-dark-color-theme/)
 
-![Dark Color Theme](2009-11-27-resaltado-de-sintaxis-en-aptana-studio/dark_color_theme.jpg)
+![Dark Color Theme](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/dark_color_theme.jpg)
 
 ### [Dark (TextMate like) syntax colouring](http://forums.aptana.com/viewtopic.php?f=20&t=2214)
 
-![Dark Textmate](2009-11-27-resaltado-de-sintaxis-en-aptana-studio/dark_textmate.jpg)
+![Dark Textmate](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/dark_textmate.jpg)
 
 ### [Dark Red & Dark Blue Aptana Color Themes](http://www.johnrockefeller.net/aptana-color-themes/)
 
-![Dark Blue](2009-11-27-resaltado-de-sintaxis-en-aptana-studio/darkblue.jpg)
+![Dark Blue](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/darkblue.jpg)
 
 ## Instrucciones de importación de estilos en los Editores
 

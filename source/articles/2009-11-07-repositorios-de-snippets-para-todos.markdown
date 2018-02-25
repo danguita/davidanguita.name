@@ -28,19 +28,19 @@ Los IDEs y editores de texto más potentes permiten integrar estos fragmentos de
 
 ### [Snipt](http://snipt.net/)
 
-![Snipt](2009-11-07-repositorios-de-snippets-para-todos/snipt.jpg)
+![Snipt](/articles/2009-11-07-repositorios-de-snippets-para-todos/snipt.jpg)
 
 ### [Smipple](http://www.smipple.net/)
 
-![Smipple](2009-11-07-repositorios-de-snippets-para-todos/smipple.jpg)
+![Smipple](/articles/2009-11-07-repositorios-de-snippets-para-todos/smipple.jpg)
 
 ### [Snipplr](http://snipplr.com/)
 
-![Snipplr](2009-11-07-repositorios-de-snippets-para-todos/snipplr.jpg)
+![Snipplr](/articles/2009-11-07-repositorios-de-snippets-para-todos/snipplr.jpg)
 
 ### [CodeSnippets](http://codesnippets.joyent.com/)
 
-![CodeSnippets](2009-11-07-repositorios-de-snippets-para-todos/codesnippets.jpg)
+![CodeSnippets](/articles/2009-11-07-repositorios-de-snippets-para-todos/codesnippets.jpg)
 
 Para finalizar el artículo, es cierto que hay otros muchos servicios similares principalmente orientados a la Resolución de problemas, por lo que la aportación de un usuario se reduce a Preguntas y Respuestas. Son servicios con alguna relación con los que hemos mencionado, aunque no con el mismo propósito.
 

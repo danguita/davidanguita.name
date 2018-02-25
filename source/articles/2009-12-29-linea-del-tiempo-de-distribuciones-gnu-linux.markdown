@@ -11,4 +11,4 @@ Desde [http://futurist.se/gldt/](http://futurist.se/gldt) se está realizando un
 
 A continuación os muestro la última versión hasta el momento (9.3). Es posible que existan actualizaciones en el fichero debido a que ciertas familias de distribuciones están en constante derivación, todo ello está correctamente versionado en http://futurist.se/gldt/.
 
-![Timeline](2009-12-29-linea-del-tiempo-de-distribuciones-gnu-linux/media_httpfuturistseg_wBHIs.png)
+![Timeline](/articles/2009-12-29-linea-del-tiempo-de-distribuciones-gnu-linux/media_httpfuturistseg_wBHIs.png)

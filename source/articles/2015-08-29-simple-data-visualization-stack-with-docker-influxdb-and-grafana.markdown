@@ -103,7 +103,7 @@ Or, to dynamically get your Docker host IP and open that URL in your default bro
 $ open http://$(docker-machine ip dev):8083
 ```
 
-[![InfluxDB admin](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/influxdb-admin.jpg)](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/influxdb-admin.jpg)
+![InfluxDB admin](/articles/2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/influxdb-admin.jpg)
 
 ### Grafana container
 
@@ -130,7 +130,7 @@ $ open http://$(docker-machine ip dev):3000
 
 You can login there by using `admin` as username and password:
 
-[![Grafana login](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-login.jpg)](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-login.jpg)
+![Grafana login](/articles/2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-login.jpg)
 
 ### Load InfluxDB with data
 
@@ -188,17 +188,17 @@ end
 
 To access your time series from Grafana, you need to set up the InfluxDB server as a data source. The InfluxDB HTTP API runs on `8086` port, so just remember to set your Docker host IP as part of the URL:
 
-[![Grafana datasource](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-datasource.jpg)](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-datasource.jpg)
+![Grafana datasource](/articles/2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-datasource.jpg)
 
 ### Create Grafana dashboard
 
 Now that Grafana can access InfluxDB HTTP API, you are finally ready to create a Dashboard and visualize your data. As you see, all your InfluxDB database measurements are available to be used on graph queries:
 
-[![Grafana dashboard setup](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-dashboard-setup.jpg)](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-dashboard-setup.jpg)
+![Grafana dashboard setup](/articles/2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-dashboard-setup.jpg)
 
 So it's time to play with your Dashboard and collected data:
 
-[![Grafana dashboard](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-dashboard.jpg)](2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-dashboard.jpg)
+![Grafana dashboard](/articles/2015-08-29-simple-data-visualization-stack-with-docker-influxdb-and-grafana/grafana-dashboard.jpg)
 
 That's all. Your environment is isolated as Docker processes and can be recreated at any time. Now you can see the currently running Docker containers and stop or destroy them:
 

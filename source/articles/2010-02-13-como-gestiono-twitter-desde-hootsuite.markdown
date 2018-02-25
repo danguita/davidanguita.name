@@ -14,7 +14,7 @@ La naturaleza de ambos niveles es clara: Cada pestaña podrá contener columnas 
 
 Este es el interfaz general que ofrece HootSuite, donde identificamos las pestañas en la zona superior izquierda y las columnas en el cuerpo de la página:
 
-![Hootsuite DMs](2010-02-13-como-gestiono-twitter-desde-hootsuite/hootsuite-DMs.jpg)
+![Hootsuite DMs](/articles/2010-02-13-como-gestiono-twitter-desde-hootsuite/hootsuite-DMs.jpg)
 
 Mi sistema de gestión se basa en cinco pestañas:
 
@@ -26,7 +26,7 @@ Mi sistema de gestión se basa en cinco pestañas:
 
 La primera de ellas, *Timeline*, contiene cuatro columnas:
 
-![Hootsuite](2010-02-13-como-gestiono-twitter-desde-hootsuite/hootsuite-main.jpg)
+![Hootsuite](/articles/2010-02-13-como-gestiono-twitter-desde-hootsuite/hootsuite-main.jpg)
 
 1. Home Feed, que es el Timeline público habitual.
 1. Una lista privada llamada "timeline", en la que sitúo a aquellos usuarios con los que tengo una comunicación más activa. La observo más frecuentemente que el Timeline público.
@@ -35,7 +35,7 @@ La primera de ellas, *Timeline*, contiene cuatro columnas:
 
 La segunda, *DMs*, es más evidente y tiene como objetivo separar visualmente la otra gran vía de comunicación en Twitter, en este caso de carácter privado:
 
-![Hootsuite Timeline](2010-02-13-como-gestiono-twitter-desde-hootsuite/hootsuite-Timeline.jpg)
+![Hootsuite Timeline](/articles/2010-02-13-como-gestiono-twitter-desde-hootsuite/hootsuite-Timeline.jpg)
 
 * DM Outbox (Enviados)
 * DM Inbox (Recibidos)

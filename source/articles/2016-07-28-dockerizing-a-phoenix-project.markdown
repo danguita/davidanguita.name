@@ -176,7 +176,7 @@ $ docker-compose restart web
 Your application should just be reachable at
 `http://<your_docker_host>:4000/` 🎉
 
-[![Welcome to Phoenix](2016-07-28-dockerizing-a-phoenix-project/welcome-to-phoenix.jpg)](2016-07-28-dockerizing-a-phoenix-project/welcome-to-phoenix.jpg)
+![Welcome to Phoenix](/articles/2016-07-28-dockerizing-a-phoenix-project/welcome-to-phoenix.jpg)
 
 ### Test environment
 
