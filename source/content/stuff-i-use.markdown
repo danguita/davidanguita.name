@@ -31,7 +31,7 @@ This is stuff I want to share because I like it. Some links to products on this 
 ## Accessories
 
 - [Griffin Elevator Laptop Stand](http://amzn.to/2DuBtfa)
-- [Lavolta Ergonomic Laptop Table Desk](http://amzn.to/2Gcw9yK) (as a temporary standing desk)
+- [Lavolta Ergonomic Laptop Table Desk](http://amzn.to/2Gcw9yK) (as an on-the-go standing desk)
 
 ## Paper
 
