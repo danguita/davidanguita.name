@@ -1,8 +1,8 @@
 # Games I'm playing now 🎮
 
-- Super Mario Odyssey (Switch)
-- The Legend of Zelda: Breath of the Wild (Switch)
-- Final Fantasy XV (PS4)
-- Picross 3D: Round 2 (3DS)
+- Horizon Zero Dawn: Complete Edition (PS4)
+- Okami HD (PS4)
+- Luigi's Mansion 2 (Luigi's Mansion: Dark Moon) (3DS)
+- Mario Kart 8 Deluxe (Switch)
 
-*Last updated: January 21, 2018.*
+*Last updated: May 2, 2018.*
