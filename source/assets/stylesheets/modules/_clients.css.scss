@@ -4,12 +4,17 @@ $block: '.clients';
   text-align: center;
 }
 
+@include mq-large {
+  #{$block}__container {
+    display: flex;
+  }
+}
+
 #{$block}__title {
   text-align: center;
 }
 
 #{$block}__item {
-  display: inline-block;
   padding: 20px;
 
   $subblock: '.client';
