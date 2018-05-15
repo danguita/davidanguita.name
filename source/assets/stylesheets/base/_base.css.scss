@@ -45,6 +45,10 @@ body {
   border-top: 5px solid $color-green;
 }
 
+main {
+  padding: 0 20px;
+}
+
 button {
   appearance: button;
   color: inherit;
@@ -183,6 +187,10 @@ ul {
 @include mq-large {
   body {
     font-size: $base-font-size * 1.125;
+  }
+
+  main {
+    padding: 0;
   }
 
   code,

@@ -45,6 +45,10 @@ $block: '.home';
 
   $subblock: '.contact';
 
+  #{$subblock}__title {
+    text-align: center;
+  }
+
   #{$subblock}__items {
     @extend %grid-display-flex;
 
