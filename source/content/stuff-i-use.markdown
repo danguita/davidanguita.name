@@ -8,33 +8,33 @@ This is stuff I want to share because I like it. Some links to products on this 
 
 ## Keyboard and mouse
 
-- [Logitech MX Master Mouse](http://amzn.to/2GcQQua)
+- [Logitech MX Master Mouse](https://amzn.to/2K41GDP)
 - [Vortex Poker II PBT Mechanical Keyboard (Blue Cherry MX)](https://www.massdrop.com/buy/new-poker-ii-mechanical-keyboard)
 - [Apple Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)
 
 ## Audio
 
-- [Bose QuietComfort 35 Headphones](http://amzn.to/2DCJdih)
+- [Bose QuietComfort 35 Headphones](https://amzn.to/2K6nKgP)
 
 ## Video
 
-- [BenQ GW2480 monitor](http://amzn.to/2E0VOtn) (mostly for gaming 🎮)
+- [BenQ GW2480 monitor](https://amzn.to/2Ov8o9k) (mostly for gaming 🎮)
 
 ## Travel
 
-- [Thule Crossover TCBP-417 32 L Backpack](http://amzn.to/2DuZPoN)
+- [Thule Crossover TCBP-417 32 L Backpack](https://amzn.to/2K4PjqM)
 
 ## Mobile devices
 
-- [Xiaomi Mi A1](http://amzn.to/2GKjXVw)
+- [Xiaomi Mi A1](https://amzn.to/2K1pIiJ)
 
 ## Accessories
 
-- [Griffin Elevator Laptop Stand](http://amzn.to/2DuBtfa)
-- [Lavolta Ergonomic Laptop Table Desk](http://amzn.to/2Gcw9yK) (as an on-the-go standing desk)
+- [Griffin Elevator Laptop Stand](https://amzn.to/2Alz1uj)
+- [Lavolta Ergonomic Laptop Table Desk](https://amzn.to/2M0MUzw) (as an on-the-go standing desk)
 
 ## Paper
 
-- [This cheap notebook](http://amzn.to/2E2MOnA)
+- [This cheap notebook](https://amzn.to/2NOlpcE)
 
-*Last updated: January 24, 2018.*
+*Last updated: July 29, 2018.*
