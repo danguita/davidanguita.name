@@ -1,7 +1,33 @@
 # Games I'm playing now 🎮
 
-- Fallout 4 (PS4)
+- Red Dead Redemption (Xbox 360) *Yes, I need to replay this one before moving to RDR2* 🤷‍♂️
+- Dead Cells (PS4)
 - Hollow Knight (Switch)
-- Luigi's Mansion 2 (Luigi's Mansion: Dark Moon) (3DS)
 
-*Last updated: July 29, 2018.*
+---
+
+## Games completed this year (2018)
+
+1. The Last of Us Remastered (PS4)
+1. The Last of Us: Left Behind (PS4)
+1. Super Mario Odyssey (Switch)
+1. Batman Arkham Asylum (PS4)
+1. Batman Arkham City (PS4)
+1. Batman Arkham Knight (PS4)
+1. Kamiko (Switch)
+1. Mario Kart 8 Deluxe (Switch)
+1. Final Fantasy XV (PS4)
+1. Horizon Zero Dawn (PS4)
+1. BioShock Infinite (PS4)
+1. BioShock (PS4)
+1. BioShock Infinite: Burial at Sea (PS4)
+1. NieR: Automata (PS4)
+1. Shadow of the Colossus (PS4)
+1. Little Nightmares (PS4)
+1. Little Nightmares: Secrets of the Maw (PS4)
+1. Wolfenstein: The New Order (PS4)
+1. Fallout 4 (PS4)
+1. Undertale (PC)
+1. God of War (PS4)
+
+*Last updated: November 2, 2018.*
