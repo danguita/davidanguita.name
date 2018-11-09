@@ -1,6 +1,6 @@
 # Games I'm playing now 🎮
 
-- Red Dead Redemption (Xbox 360) *Yes, I need to replay this one before moving to RDR2* 🤷‍♂️
+- Red Dead Redemption 2 (PS4) 🤠
 - Dead Cells (PS4)
 - Hollow Knight (Switch)
 
@@ -29,5 +29,6 @@
 1. Fallout 4 (PS4)
 1. Undertale (PC)
 1. God of War (PS4)
+1. Red Dead Redemption (Xbox 360)
 
-*Last updated: November 2, 2018.*
+*Last updated: November 11, 2018.*
