@@ -4,13 +4,12 @@ This is stuff I want to share because I like it. Some links to products on this 
 
 ## Computers
 
-- 13" MacBook Pro 3.3 GHz Intel Core i7 (2016)
+- Lenovo ThinkPad E490 Intel Core i5-8265U (2019) 🙌️
 
 ## Keyboard and mouse
 
 - [Logitech MX Master Mouse](https://amzn.to/2K41GDP)
 - [Vortex Poker II PBT Mechanical Keyboard (Blue Cherry MX)](https://www.massdrop.com/buy/new-poker-ii-mechanical-keyboard)
-- [Apple Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)
 
 ## Audio
 
@@ -37,4 +36,4 @@ This is stuff I want to share because I like it. Some links to products on this 
 
 - [This cheap notebook](https://amzn.to/2NOlpcE)
 
-*Last updated: July 29, 2018.*
+*Last updated: March 3, 2019.*
