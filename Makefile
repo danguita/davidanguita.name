@@ -11,8 +11,8 @@ build: Dockerfile
 clean_build: Dockerfile
 	$(DOCKER_BUILD) --no-cache --tag $(DOCKER_IMAGE_NAME) .
 
-.PHONY: run
-run:
+.PHONY: server
+server:
 	$(DOCKER_RUN) -p $(SERVER_PORT):4567 $(DOCKER_IMAGE_NAME) bundle exec middleman server --environment=development
 
 .PHONY: generate
