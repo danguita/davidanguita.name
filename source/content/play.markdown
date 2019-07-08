@@ -2,6 +2,7 @@
 
 - Fallout 76 (PS4)
 - Final Fantasy VII (Switch)
+- Bloodstained: Ritual Of The Night (Switch)
 
 ## Games completed this year
 
@@ -17,4 +18,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: June 15, 2019.*
+*Last updated: July 08, 2019.*
