@@ -2,7 +2,6 @@
 
 - Fallout 76 (PS4)
 - Final Fantasy VII (Switch)
-- Bloodstained: Ritual Of The Night (Switch)
 
 ## Games completed this year
 
@@ -11,6 +10,7 @@
 1. Sekiro: Shadows Die Twice (PS4)
 1. Bayonetta (Switch)
 1. Bayonetta 2 (Switch)
+1. Bloodstained: Ritual Of The Night (Switch)
 
 ---
 
@@ -18,4 +18,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: July 08, 2019.*
+*Last updated: July 11, 2019.*
