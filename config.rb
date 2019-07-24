@@ -54,7 +54,7 @@ set :haml, { ugly: true, format: :html5 }
 
 # Compass config
 compass_config do |config|
- config.output_style = :compact
+  config.output_style = :compact
 end
 
 # Build-specific configuration
