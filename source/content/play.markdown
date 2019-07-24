@@ -2,6 +2,7 @@
 
 - Fallout 76 (PS4)
 - Final Fantasy VII (Switch)
+- Luigi's Mansion 2 (3DS)
 
 ## Games completed this year
 
@@ -18,4 +19,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: July 11, 2019.*
+*Last updated: July 24, 2019.*
