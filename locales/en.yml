@@ -2,7 +2,7 @@
 en:
   site:
     title: David Anguita. Independent software consultant. Freelancer. Ruby, Rails, Elixir, JavaScript.
-    description: Hi, I'm a independent software consultant based in Madrid, Spain.
+    description: Hi, I'm a freelance software developer & consultant based in Madrid, Spain.
     keywords: Ruby, Rails, Ruby on Rails, Elixir, Web development, Freelance developer, Independent consultant.
     author: David Anguita
 
@@ -41,4 +41,4 @@ en:
     previous_page: Previous page
 
   pages:
-    heading: Hi, I'm David Anguita. Independent software consultant.
+    heading: Hi, it's David
