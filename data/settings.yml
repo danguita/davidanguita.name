@@ -13,6 +13,7 @@ services:
   github: 'https://github.com/danguita'
   twitter: 'https://twitter.com/danguita'
   speakerdeck: 'https://speakerdeck.com/danguita'
+  keybase: 'https://keybase.io/danguita'
   google: 'https://plus.google.com/104025545957647098498?rel=author'
 about:
   repo: 'https://github.com/danguita/davidanguita.name'
