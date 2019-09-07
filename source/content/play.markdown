@@ -1,8 +1,8 @@
 # Games I'm playing now 🎮
 
-- Fallout 76 (PS4)
 - Final Fantasy VII (Switch)
 - Luigi's Mansion 2 (3DS)
+- Fire Emblem: Three Houses (Switch)
 
 ## Games completed this year
 
@@ -19,4 +19,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: July 24, 2019.*
+*Last updated: September 7, 2019.*
