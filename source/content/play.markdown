@@ -2,7 +2,7 @@
 
 - Final Fantasy VII (Switch)
 - Luigi's Mansion 2 (3DS)
-- Fire Emblem: Three Houses (Switch)
+- Super Metroid (Switch)
 
 ## Games completed this year
 
@@ -12,6 +12,7 @@
 1. Bayonetta (Switch)
 1. Bayonetta 2 (Switch)
 1. Bloodstained: Ritual Of The Night (Switch)
+1. Fire Emblem: Three Houses (Switch)
 
 ---
 
@@ -19,4 +20,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: September 7, 2019.*
+*Last updated: September 17, 2019.*
