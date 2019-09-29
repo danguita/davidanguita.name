@@ -1,8 +1,8 @@
 # Games I'm playing now 🎮
 
 - Final Fantasy VII (Switch)
-- Super Metroid (Switch)
 - Luigi's Mansion (3DS)
+- Dragon Quest XI: Echoes of an Elusive Age (Switch)
 
 ## Games completed this year
 
@@ -14,6 +14,7 @@
 1. Bloodstained: Ritual Of The Night (Switch)
 1. Fire Emblem: Three Houses (Switch)
 1. Luigi's Mansion 2 (3DS)
+1. Super Metroid (Switch)
 
 ---
 
@@ -21,4 +22,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: September 26, 2019.*
+*Last updated: September 30, 2019.*
