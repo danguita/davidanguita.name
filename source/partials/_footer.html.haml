@@ -8,7 +8,6 @@
 
     .footer__about
       .credits__links
-        = mail_to data.settings.contact.email, 'email'
         &nbsp;
         - data.settings.services.each do |service_name, service_link|
           = link_to service_name, service_link, rel: 'me'
