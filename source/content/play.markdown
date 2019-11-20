@@ -15,6 +15,7 @@
 1. Fire Emblem: Three Houses (Switch)
 1. Luigi's Mansion 2 (3DS)
 1. Super Metroid (Switch)
+1. Death Stranding (PS4)
 
 ---
 
@@ -22,4 +23,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: September 30, 2019.*
+*Last updated: November 20, 2019.*
