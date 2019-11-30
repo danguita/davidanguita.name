@@ -2,7 +2,7 @@
 
 - Final Fantasy VII (Switch)
 - Luigi's Mansion (3DS)
-- Dragon Quest XI: Echoes of an Elusive Age (Switch)
+- The Legend of Zelda: Link's Awakening (Switch)
 
 ## Games completed this year
 
@@ -16,6 +16,7 @@
 1. Luigi's Mansion 2 (3DS)
 1. Super Metroid (Switch)
 1. Death Stranding (PS4)
+1. Dragon Quest XI: Echoes of an Elusive Age (Switch)
 
 ---
 
@@ -23,4 +24,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: November 20, 2019.*
+*Last updated: November 30, 2019.*
