@@ -17,6 +17,7 @@
 1. Super Metroid (Switch)
 1. Death Stranding (PS4)
 1. Dragon Quest XI: Echoes of an Elusive Age (Switch)
+1. Metal Gear Solid V: The Phantom Pain (PS4)
 
 ---
 
@@ -24,4 +25,4 @@
 
 - [2018](/play/2018)
 
-*Last updated: November 30, 2019.*
+*Last updated: December 21, 2019.*
