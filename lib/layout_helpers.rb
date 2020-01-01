@@ -22,10 +22,11 @@ module LayoutHelpers
       ].join(separator)
     when :page
       [
-        I18n.t('site.title'),
         (I18n.t("layout.#{current_page.data.title}") if current_page.data.title),
-        (@page_title if @page_title)
+        I18n.t('site.author')
       ].compact.join(separator)
+    when :index_page
+      I18n.t('site.title')
     end
   end
 
@@ -48,6 +49,10 @@ module LayoutHelpers
     gravatar_url_for(data.settings.contact.email, 200)
   end
 
+  def index_page?
+    current_page.path == 'index.html'
+  end
+
   def current_page_type
     if @current_tag
       :tag
@@ -56,7 +61,7 @@ module LayoutHelpers
     elsif current_article
       :article
     else
-      :page
+      index_page? ? :index_page : :page
     end
   end
 end
