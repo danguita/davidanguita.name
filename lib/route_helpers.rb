@@ -25,6 +25,10 @@ module RouteHelpers
     path_for('now')
   end
 
+  def play_path
+    path_for('play')
+  end
+
   def page_status(page)
     active_page?(page) ? 'active' : 'inactive'
   end
