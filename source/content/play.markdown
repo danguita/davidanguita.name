@@ -2,6 +2,7 @@
 
 - Final Fantasy VII (Switch)
 - Cuphead (Switch)
+- Resident Evil 7: Biohazard (PS4)
 
 ## Games completed this year
 
@@ -16,4 +17,4 @@
 - [2019](/play/2019)
 - [2018](/play/2018)
 
-*Last updated: February 2, 2020.*
+*Last updated: February 9, 2020.*
