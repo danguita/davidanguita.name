@@ -1,6 +1,7 @@
 # Games I'm playing now 🎮
 
 - Final Fantasy VII (Switch)
+- Ori and the Blind Forest (Switch)
 
 ## Games completed this year
 
@@ -17,4 +18,4 @@
 - [2019](/play/2019)
 - [2018](/play/2018)
 
-*Last updated: February 21, 2020.*
+*Last updated: February 23, 2020.*
