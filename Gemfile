@@ -1,7 +1,9 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "middleman", "~> 3.4.0"
-gem "middleman-blog", "~> 3.5.3"
-gem "middleman-syntax", "~> 2.0.0"
-gem "builder", "~> 3.0"
-gem "redcarpet", "~> 3.3.2"
+source 'https://rubygems.org'
+
+gem 'builder', '~> 3.0'
+gem 'middleman', '4.3.6'
+gem 'middleman-blog', '4.0.3'
+gem 'middleman-syntax', '3.2.0'
+gem 'redcarpet', '~> 3.5.0'

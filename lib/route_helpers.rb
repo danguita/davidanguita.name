@@ -1,4 +1,4 @@
-# encoding: utf-8
+# frozen_string_literal: true
 
 module RouteHelpers
   def path_for(page)
@@ -25,8 +25,8 @@ module RouteHelpers
     path_for('now')
   end
 
-  def play_path
-    path_for('play')
+  def plays_path
+    path_for('plays')
   end
 
   def page_status(page)
