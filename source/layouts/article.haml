@@ -22,4 +22,4 @@ priority: 0.8
         = I18n.t("articles.archive")
 
     .article__comments
-      = partial 'blog/comments'
+      = partial 'blog/comments' unless development?
