@@ -9,7 +9,7 @@ en:
   layout:
     archive: "Archive"
     now: "What I'm doing now"
-    stuff-i-use: "Stuff I use"
+    uses: "Stuff I use"
     play: "Games I'm playing now"
     play-2018-archive: "Games completed in 2018"
     play-2019-archive: "Games completed in 2019"
