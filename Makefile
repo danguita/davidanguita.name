@@ -21,3 +21,7 @@ server:
 generate:
 	$(DOCKER_RUN) $(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG) \
 		bundle exec middleman build --verbose
+
+.PHONY: shell
+shell:
+	$(DOCKER_RUN) -it $(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG) /bin/sh
