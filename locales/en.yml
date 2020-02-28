@@ -10,9 +10,9 @@ en:
     archive: "Archive"
     now: "What I'm doing now"
     uses: "Stuff I use"
-    play: "Games I'm playing now"
-    play-2018-archive: "Games completed in 2018"
-    play-2019-archive: "Games completed in 2019"
+    plays: "Games I'm playing now"
+    plays-2018-archive: "Games completed in 2018"
+    plays-2019-archive: "Games completed in 2019"
     http-not-found: "Oops! The page you were looking for doesn't exist"
     contact: "Contact me"
 

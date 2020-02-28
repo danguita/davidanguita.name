@@ -5,7 +5,7 @@
 * Doing consulting for my friends at [Jobandtalent](https://www.jobandtalent.com).
 * Freelancing mostly Ruby, Elixir and React projects.
 * _Bootstrapping_ a couple of side projects.
-* [Playing videogames](/play) 🎮️
+* [Playing videogames](/plays) 🎮️
 * Working out and running as much as I can.
 * Last but not least, traveling with [my lovely wife](https://www.instagram.com/soryflins/).
 

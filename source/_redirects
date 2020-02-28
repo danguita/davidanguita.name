@@ -2,3 +2,8 @@
 
 # /stuff-i-use was renamed into /uses
 /stuff-i-use /uses 301
+
+# /play was renamed into /plays
+/play /plays 301
+/play/2018 /plays/2018 301
+/play/2019 /plays/2019 301

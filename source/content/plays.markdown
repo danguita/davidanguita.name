@@ -15,7 +15,7 @@
 
 ## Archive
 
-- [2019](/play/2019)
-- [2018](/play/2018)
+- [2019](/plays/2019)
+- [2018](/plays/2018)
 
 *Last updated: February 23, 2020.*
