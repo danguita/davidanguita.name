@@ -1,46 +1,43 @@
 ---
 en:
   site:
-    title: David Anguita. Independent software consultant. Freelancer. Ruby, Rails, Elixir, JavaScript.
-    description: Hi, I'm a freelance software developer & consultant based in Madrid, Spain.
-    keywords: Ruby, Rails, Ruby on Rails, Elixir, Web development, Freelance developer, Independent consultant.
-    author: David Anguita
+    title: "David Anguita. Independent software consultant. Freelancer. Ruby, Rails, Elixir, JavaScript."
+    description: "Hi, I'm a freelance software developer & consultant based in Madrid, Spain."
+    keywords: "Ruby, Rails, Ruby on Rails, Elixir, Web development, Freelance developer, Independent consultant."
+    author: "David Anguita"
 
   layout:
-    archive: Archive
-    now: What I'm doing now
-    stuff-i-use: Stuff I use
-    play: Games I'm playing now
-    play-2018-archive: Games completed in 2018
-    play-2019-archive: Games completed in 2019
-    http-not-found: Oops! The page you were looking for doesn't exist
-    contact: Contact me
-
-  footer:
-    source-code-on: Source code on
+    archive: "Archive"
+    now: "What I'm doing now"
+    stuff-i-use: "Stuff I use"
+    play: "Games I'm playing now"
+    play-2018-archive: "Games completed in 2018"
+    play-2019-archive: "Games completed in 2019"
+    http-not-found: "Oops! The page you were looking for doesn't exist"
+    contact: "Contact me"
 
   home:
-    heading: David Anguita
-    tagline: Freelance software developer & consultant
+    heading: "David Anguita"
+    tagline: "Freelance software developer & consultant"
 
   contact:
-    heading: 'To contact me,'
-    page-feedback: check out the contact page
-    service-feedback: 'or drop me a line via:'
-    contact-methods: Alternative contact methods
-    schedule-meeting: Schedule time with me
+    heading: "To contact me,"
+    page-feedback: "check out the contact page"
+    service-feedback: "or drop me a line via:"
+    contact-methods: "Alternative contact methods"
+    schedule-meeting: "Schedule time with me"
 
   clients:
-    heading: Clients I've recently worked with
+    heading: "Clients I've recently worked with"
 
   articles:
-    heading: Articles
-    latest: Latest articles
-    archive: Articles archive
+    heading: "Articles"
+    latest: "Latest articles"
+    archive: "Articles archive"
 
   common:
-    next_page: Next page
-    previous_page: Previous page
+    next_page: "Next page"
+    previous_page: "Previous page"
 
   pages:
-    heading: Hi, it's David
+    heading: "Hi, it's David"

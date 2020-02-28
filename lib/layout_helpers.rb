@@ -1,4 +1,4 @@
-# encoding: utf-8
+# frozen_string_literal: true
 
 module LayoutHelpers
   def page_title
@@ -22,7 +22,8 @@ module LayoutHelpers
       ].join(separator)
     when :page
       [
-        (I18n.t("layout.#{current_page.data.title}") if current_page.data.title),
+        current_page.data.title &&
+          I18n.t("layout.#{current_page.data.title}"),
         I18n.t('site.author')
       ].compact.join(separator)
     when :index_page
