@@ -157,7 +157,7 @@ sudo a2enmod proxy_http
 Now we have to set up a new VirtualHost as a proxy balancer of the master
 Unicorn process running at *127.0.0.1:5000*:
 
-<script src="http://gist.github.com/5077319.js"></script>
+<script src="https://gist.github.com/5077319.js"></script>
 
 Note that Apache logging was disabled for reducing I/O load. Feel free
 to set it up if your resources are not being affected by I/O operations.
@@ -192,7 +192,7 @@ Then, we'll tweak some options from the
 [sample nginx.conf file](https://github.com/defunkt/unicorn/blob/master/examples/nginx.conf)
 shipped with Unicorn in order to *serve* our Unicorn processes:
 
-<script src="http://gist.github.com/5198040.js"></script>
+<script src="https://gist.github.com/5198040.js"></script>
 
 Tweaks explained:
 

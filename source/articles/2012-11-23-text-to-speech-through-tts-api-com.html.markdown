@@ -13,9 +13,9 @@ This extremely simple Ruby module extends the String class by adding a `to_speec
 
 ## Usage
 
-<script src="http://gist.github.com/4065761.js"></script>
+<script src="https://gist.github.com/4065761.js"></script>
 
 ## Code
 
-<script src="http://gist.github.com/4065761.js"></script>
+<script src="https://gist.github.com/4065761.js"></script>
 
