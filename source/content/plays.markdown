@@ -1,6 +1,7 @@
 # Games I'm playing now 🎮
 
-- Final Fantasy VII (Switch)
+- Ōkami HD (Switch)
+- Final Fantasy VII Remake (PS4)
 
 ## Games completed this year
 
@@ -19,4 +20,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: April 5, 2020.*
+*Last updated: April 6, 2020.*
