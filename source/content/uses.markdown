@@ -7,7 +7,6 @@ This is stuff I want to share because I like it. Some links to products on this 
 - OS: [Debian GNU/Linux](https://www.debian.org/) (testing branch)
 - Window Manager: [dwm](https://dwm.suckless.org/)
 - Editor: [Vim](https://www.vim.org/)
-- Shell: [Zsh](https://www.zsh.org/)
 - Web Browser: [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/)
 - Other: Check out [my dotfiles](https://github.com/danguita/dotfiles)
 
