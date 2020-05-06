@@ -4,7 +4,7 @@ This is stuff I want to share because I like it. Some links to products on this 
 
 ## Software
 
-- OS: [Debian GNU/Linux](https://www.debian.org/) (testing release)
+- OS: [Debian GNU/Linux](https://www.debian.org/) (testing branch)
 - Window Manager: [dwm](https://dwm.suckless.org/)
 - Editor: [Vim](https://www.vim.org/)
 - Shell: [Zsh](https://www.zsh.org/)
