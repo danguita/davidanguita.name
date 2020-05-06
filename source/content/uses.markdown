@@ -5,7 +5,7 @@ This is stuff I want to share because I like it. Some links to products on this 
 ## Software
 
 - OS: [Debian GNU/Linux](https://www.debian.org/) (testing release)
-- Window Manager: [i3](https://i3wm.org/)
+- Window Manager: [dwm](https://dwm.suckless.org/)
 - Editor: [Vim](https://www.vim.org/)
 - Shell: [Zsh](https://www.zsh.org/)
 - Web Browser: [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/)
@@ -45,4 +45,4 @@ This is stuff I want to share because I like it. Some links to products on this 
 
 - [This cheap notebook](https://amzn.to/2NOlpcE)
 
-*Last updated: February 29, 2020.*
+*Last updated: May 6, 2020.*
