@@ -23,7 +23,7 @@ The Void Linux live image allows me to download and run a custom installation sc
 
 For the system itself, I use my own `install.sh` script, which deals with disk partitioning, file system encryption, setting up the bootloader, and so on, and ends up creating an initial user ready to log in with a `kickstart.sh` script in its home folder, which is precisely the second part of this process. It is definitely not the most polished shell scripting in the world but does the job.
 
-> → [install.sh](https://l.davidanguita.name/install-void.sh)
+> → [install.sh](https://github.com/danguita/scripts/blob/master/kickstart/install-void.sh)
 
 Here is an example of what you can find in the script regarding configuration:
 
@@ -55,7 +55,7 @@ user=david
 xbps_repo_url=https://alpha.de.repo.voidlinux.org/current
 
 # Kickstart script. Can be left blank.
-kickstart_script_url=http://l.davidanguita.name/kickstart-void.sh
+kickstart_script_url=https://raw.githubusercontent.com/danguita/scripts/master/kickstart/kickstart-void.sh
 
 # Do not change these values unless you know what you're doing.
 boot_partition="${device}1" # i.e. `/dev/sda1`
@@ -66,7 +66,7 @@ root_partition="${device}2" # i.e. `/dev/sda2`
 
 That `kickstart.sh` script is intended to be run by any user other than root, for the sake of security, and manages to install all the packages that I need on a daily basis, apart from setting up my personal configuration. To allow some granularity, any optional packages are installed only on user confirmation, which leaves me the possibility of having a slightly less bloated system on certain scenarios.
 
-> → [kickstart.sh](https://l.davidanguita.name/kickstart-void.sh)
+> → [kickstart.sh](https://github.com/danguita/scripts/blob/master/kickstart/kickstart-void.sh)
 
 Just as an example, here is the block that manages to add Docker support:
 
@@ -169,6 +169,6 @@ In the case of catastrophic hardware or software failure, I have some production
 
 To summarize, here are all the files that have been mentioned in this post:
 
-- [install.sh](https://l.davidanguita.name/install-void.sh)
-- [kickstart.sh](https://l.davidanguita.name/kickstart-void.sh)
+- [install.sh](https://github.com/danguita/scripts/blob/master/kickstart/install-void.sh)
+- [kickstart.sh](https://github.com/danguita/scripts/blob/master/kickstart/kickstart-void.sh)
 - [dotfiles](https://github.com/danguita/dotfiles)
