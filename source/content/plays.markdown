@@ -1,7 +1,7 @@
 # Games I'm playing now 🎮
 
-- Ōkami HD (Switch)
 - Resident Evil 5 (PS4)
+- Borderlands (Switch)
 
 ## Games completed this year
 
@@ -16,6 +16,7 @@
 1. Firewatch (PC)
 1. Final Fantasy VII (Switch)
 1. Resident Evil 4 (PS4)
+1. Ōkami HD (Switch)
 
 ---
 
@@ -24,4 +25,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: May 29, 2020.*
+*Last updated: June 15, 2020.*
