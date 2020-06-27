@@ -2,6 +2,7 @@
 
 - Resident Evil 5 (PS4)
 - Borderlands (Switch)
+- The Last of Us Part II (PS4)
 
 ## Games completed this year
 
@@ -25,4 +26,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: June 15, 2020.*
+*Last updated: June 27, 2020.*
