@@ -2,7 +2,6 @@
 
 - Resident Evil 5 (PS4)
 - Borderlands (Switch)
-- The Last of Us Part II (PS4)
 
 ## Games completed this year
 
@@ -18,6 +17,8 @@
 1. Final Fantasy VII (Switch)
 1. Resident Evil 4 (PS4)
 1. Ōkami HD (Switch)
+1. The Last of Us Part II (PS4)
+1. Metal Gear Rising: Revengeance (PC)
 
 ---
 
@@ -26,4 +27,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: June 27, 2020.*
+*Last updated: July 5, 2020.*
