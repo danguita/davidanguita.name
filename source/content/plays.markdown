@@ -1,6 +1,7 @@
 # Games I'm playing now 🎮
 
-- Resident Evil 5 (PS4)
+- Resident Evil 3 (PS4)
+- Shovel Knight: Plague of Shadows (Switch)
 - Borderlands (Switch)
 
 ## Games completed this year
@@ -21,6 +22,7 @@
 1. Metal Gear Rising: Revengeance (PC)
 1. The Witcher 3: Wild Hunt (PS4)
 1. Shovel Knight: Shovel of Hope (Switch)
+1. Wolfenstein II: The New Colossus (PS4)
 
 ---
 
@@ -29,4 +31,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: August 15, 2020.*
+*Last updated: August 30, 2020.*
