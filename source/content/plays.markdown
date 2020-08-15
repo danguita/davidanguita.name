@@ -20,6 +20,7 @@
 1. The Last of Us Part II (PS4)
 1. Metal Gear Rising: Revengeance (PC)
 1. The Witcher 3: Wild Hunt (PS4)
+1. Shovel Knight: Shovel of Hope (Switch)
 
 ---
 
@@ -28,4 +29,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: August 2, 2020.*
+*Last updated: August 15, 2020.*
