@@ -1,6 +1,6 @@
 # Games I'm playing now 🎮
 
-- Resident Evil 3 (PS4)
+- Persona 5 Royal (PS4)
 - Shovel Knight: Plague of Shadows (Switch)
 - Borderlands (Switch)
 
@@ -23,6 +23,7 @@
 1. The Witcher 3: Wild Hunt (PS4)
 1. Shovel Knight: Shovel of Hope (Switch)
 1. Wolfenstein II: The New Colossus (PS4)
+1. Resident Evil 3 (PS4)
 
 ---
 
@@ -31,4 +32,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: August 30, 2020.*
+*Last updated: September 11, 2020.*
