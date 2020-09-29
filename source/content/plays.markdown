@@ -2,7 +2,6 @@
 
 - Persona 5 Royal (PS4)
 - Shovel Knight: Plague of Shadows (Switch)
-- Borderlands (Switch)
 
 ## Games completed this year
 
@@ -24,6 +23,7 @@
 1. Shovel Knight: Shovel of Hope (Switch)
 1. Wolfenstein II: The New Colossus (PS4)
 1. Resident Evil 3 (PS4)
+1. Sayonara Wild Hearts (Switch)
 
 ---
 
@@ -32,4 +32,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: September 11, 2020.*
+*Last updated: September 29, 2020.*
