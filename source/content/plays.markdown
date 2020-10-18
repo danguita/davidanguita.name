@@ -1,7 +1,6 @@
 # Games I'm playing now 🎮
 
 - Persona 5 Royal (PS4)
-- Bastion (Switch)
 
 ## Games completed this year
 
@@ -25,6 +24,7 @@
 1. Resident Evil 3 (PS4)
 1. Sayonara Wild Hearts (Switch)
 1. Shovel Knight: Plague of Shadows (Switch)
+1. Bastion (Switch)
 
 ---
 
@@ -33,4 +33,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: October 4, 2020.*
+*Last updated: October 18, 2020.*
