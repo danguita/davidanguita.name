@@ -25,6 +25,7 @@
 1. Sayonara Wild Hearts (Switch)
 1. Shovel Knight: Plague of Shadows (Switch)
 1. Bastion (Switch)
+1. Control (PS4)
 
 ---
 
@@ -33,4 +34,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: October 18, 2020.*
+*Last updated: October 30, 2020.*
