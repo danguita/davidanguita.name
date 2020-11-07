@@ -1,6 +1,7 @@
 # Games I'm playing now 🎮
 
 - Persona 5 Royal (PS4)
+- Luigi's Mansion 3 (Switch)
 
 ## Games completed this year
 
@@ -26,6 +27,7 @@
 1. Shovel Knight: Plague of Shadows (Switch)
 1. Bastion (Switch)
 1. Control (PS4)
+1. Gato Roboto (Switch)
 
 ---
 
@@ -34,4 +36,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: October 30, 2020.*
+*Last updated: November 7th, 2020.*
