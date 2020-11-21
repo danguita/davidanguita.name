@@ -28,6 +28,7 @@
 1. Bastion (Switch)
 1. Control (PS4)
 1. Gato Roboto (Switch)
+1. Risk of Rain 2 (PS4)
 
 ---
 
@@ -36,4 +37,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: November 7th, 2020.*
+*Last updated: November 21, 2020.*
