@@ -1,7 +1,7 @@
 # Games I'm playing now 🎮
 
 - Persona 5 Royal (PS4)
-- Spider-Man: Miles Morales (PS5)
+- Demon's Souls (PS5)
 
 ## Games completed this year
 
@@ -31,6 +31,7 @@
 1. Risk of Rain 2 (PS4)
 1. Luigi's Mansion 3 (Switch)
 1. Astro's Playroom (PS5)
+1. Spider-Man: Miles Morales (PS5)
 
 ---
 
@@ -39,4 +40,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: December 18, 2020.*
+*Last updated: December 20, 2020.*
