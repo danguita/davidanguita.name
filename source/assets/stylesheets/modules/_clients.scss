@@ -26,4 +26,10 @@ $block: '.clients';
       border-width: 1px;
     }
   }
+
+  #{$subblock}__image {
+    @include dark-color-scheme {
+      filter: drop-shadow(0 0 5px $base-background-color--dark);
+    }
+  }
 }

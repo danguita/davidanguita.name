@@ -15,6 +15,10 @@ $block: '.footer';
       color: $color-green;
     }
   }
+
+  @include dark-color-scheme {
+    border-color: $color-grey--dark;
+  }
 }
 
 #{$block}__about {
