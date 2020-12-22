@@ -23,8 +23,12 @@ $block: '.home';
   margin-top: 10px;
   font-family: $font-family-monospace;
   font-size: 1rem;
-  background-color: $color-blue-grey--dark;
+  background-color: $base-contrast-background-color;
   color: $color-white;
+
+  @include dark-color-scheme {
+    background-color: $base-contrast-background-color--dark;
+  }
 }
 
 @include mq-large {
@@ -33,9 +37,6 @@ $block: '.home';
     padding: 30px 0 10px;
     margin-top: 10px;
     transform: skewY(-1deg);
-    background-color: $color-blue-grey--dark;
-    color: $color-white;
-    font-family: $font-family-monospace;
     font-size: 1.1rem;
   }
 }
@@ -69,6 +70,14 @@ $block: '.home';
       &:hover {
         color: $color-blue-grey--dark;
       }
+
+      @include dark-color-scheme {
+        color: $color-blue-grey--light;
+
+        &:hover {
+          color: $color-blue-grey--light;
+        }
+      }
     }
   }
 }
@@ -77,6 +86,10 @@ $block: '.home';
   position: relative;
   padding: 30px 0 10px;
   background-color: $color-grey--light;
+
+  @include dark-color-scheme {
+    background-color: $base-contrast-background-color--dark;
+  }
 }
 
 #{$block}__latest-articles {

@@ -15,3 +15,9 @@
     @content;
   }
 }
+
+@mixin dark-color-scheme() {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}

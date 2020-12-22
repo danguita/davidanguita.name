@@ -1,13 +1,17 @@
 $block: '.highlight > .highlight';
 
 #{$block} {
-  background: #f7f7f7;
+  background: $code-background-color;
   display: block;
   line-height: 1.5;
   overflow: auto;
   padding: 15px;
   white-space: pre;
   word-wrap: normal;
+
+  @include dark-color-scheme {
+    background: $code-background-color--dark;
+  }
 }
 
 #{$block} code {

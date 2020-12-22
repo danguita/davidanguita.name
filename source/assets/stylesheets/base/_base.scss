@@ -19,6 +19,14 @@ a {
     color: $base-link-color--hover;
     outline: 0;
   }
+
+  @include dark-color-scheme {
+    color: $base-link-color--dark;
+
+    &:hover {
+      color: $base-link-color--hover--dark;
+    }
+  }
 }
 
 abbr {
@@ -31,6 +39,11 @@ blockquote {
   color: lighten($base-text-color, 25);
   margin: 0 0 $base-spacing;
   padding-left: 20px;
+
+  @include dark-color-scheme {
+    border-color: $base-border-color--dark;
+    color: $base-text-color--dark;
+  }
 }
 
 body {
@@ -43,6 +56,11 @@ body {
   overflow-x: hidden;
   padding-top: 15px;
   border-top: 5px solid $color-green;
+
+  @include dark-color-scheme {
+    background-color: $base-background-color--dark;
+    color: $base-text-color--dark;
+  }
 }
 
 main {
@@ -75,6 +93,11 @@ cite {
   &:before {
     content: '\2014 \00A0';
   }
+
+  @include dark-color-scheme {
+    border-color: $base-border-color--dark;
+    color: $base-text-color--dark;
+  }
 }
 
 code,
@@ -85,9 +108,13 @@ pre {
 }
 
 code {
-  background: #f7f7f7;
+  background: $code-background-color;
   border-radius: 3px;
   padding: 3px 6px;
+
+  @include dark-color-scheme {
+    background: $code-background-color--dark;
+  }
 }
 
 h1,
@@ -101,6 +128,10 @@ h6 {
   font-weight: bold;
   line-height: $heading-line-height;
   margin: 0 0 $base-spacing;
+
+  @include dark-color-scheme {
+    color: $heading-color--dark;
+  }
 }
 
 h1 {
