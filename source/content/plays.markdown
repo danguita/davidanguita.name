@@ -1,6 +1,7 @@
 # Games I'm playing now 🎮
 
 - Persona 5 Royal (PS4)
+- Days Gone (PS4)
 
 ## Games completed this year
 
@@ -14,4 +15,4 @@
 - [2019](/plays/2019)
 - [2018](/plays/2018)
 
-*Last updated: January 1, 2021.*
+*Last updated: January 10, 2021.*
