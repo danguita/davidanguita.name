@@ -8,10 +8,6 @@ $block: '.highlight > .highlight';
   padding: 15px;
   white-space: pre;
   word-wrap: normal;
-
-  @include dark-color-scheme {
-    background: $code-background-color--dark;
-  }
 }
 
 #{$block} code {

@@ -23,12 +23,8 @@ $block: '.home';
   margin-top: 10px;
   font-family: $font-family-monospace;
   font-size: 1rem;
-  background-color: $base-contrast-background-color;
+  background-color: $color-blue-grey--dark;
   color: $color-white;
-
-  @include dark-color-scheme {
-    background-color: $base-contrast-background-color--dark;
-  }
 }
 
 @include mq-large {
@@ -70,14 +66,6 @@ $block: '.home';
       &:hover {
         color: $color-blue-grey--dark;
       }
-
-      @include dark-color-scheme {
-        color: $color-blue-grey--light;
-
-        &:hover {
-          color: $color-blue-grey--light;
-        }
-      }
     }
   }
 }
@@ -86,10 +74,6 @@ $block: '.home';
   position: relative;
   padding: 30px 0 10px;
   background-color: $color-grey--light;
-
-  @include dark-color-scheme {
-    background-color: $base-contrast-background-color--dark;
-  }
 }
 
 #{$block}__latest-articles {

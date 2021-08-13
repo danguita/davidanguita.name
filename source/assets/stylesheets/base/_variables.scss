@@ -17,23 +17,12 @@ $font-family-sans-serif: "Lato", sans-serif;
 
 // Base: Default color scheme
 $base-background-color: $color-white;
-$base-contrast-background-color: $color-blue-grey--dark;
 $base-border-color: $color-grey--light;
 $base-text-color: lighten($color-blue-grey--dark, 10);
 $base-link-color: $color-green;
 $base-link-color--hover: $color-green--dark;
 $heading-color: $color-blue-grey--dark;
 $code-background-color: #f7f7f7;
-
-// Base: Dark color scheme
-$base-background-color--dark: #1d2021;
-$base-contrast-background-color--dark: lighten($base-background-color--dark, 5);
-$base-border-color--dark: $color-grey--dark;
-$base-text-color--dark: $color-grey--light;
-$base-link-color--dark: $color-green;
-$base-link-color--hover--dark: $color-green--dark;
-$heading-color--dark: $color-blue-grey--light;
-$code-background-color--dark: $color-blue-grey--dark;
 
 $base-font-family: $font-family-sans-serif;
 $base-font-size: 16px;
