@@ -137,17 +137,13 @@ html {
 }
 
 hr {
-  border-bottom: 1px solid $base-border-color;
+  border-bottom: $base-border;
   border-left: 0;
   border-right: 0;
   border-top: 0;
   box-sizing: content-box;
   height: 0;
   margin: 0 0 $base-spacing;
-
-  @include dark-color-scheme {
-    border-color: $base-border-color--dark;
-  }
 }
 
 img,
