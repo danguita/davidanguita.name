@@ -20,9 +20,8 @@ $block: '.home';
 
 #{$block}__about {
   padding: 20px;
-  margin-top: 10px;
+  margin: 10px -20px 0 -20px;
   font-family: $font-family-monospace;
-  font-size: 1rem;
   background-color: $color-blue-grey--dark;
   color: $color-white;
 }
@@ -30,10 +29,8 @@ $block: '.home';
 @include mq-large {
   #{$block}__about {
     position: relative;
-    padding: 30px 0 10px;
     margin-top: 10px;
     transform: skewY(-1deg);
-    font-size: 1.1rem;
   }
 }
 
@@ -73,6 +70,7 @@ $block: '.home';
 #{$block}__clients {
   position: relative;
   padding: 30px 0 10px;
+  margin: 0 -20px 0 -20px;
   background-color: $color-grey--light;
 }
 
