@@ -4,12 +4,8 @@ priority: 1.0
 ---
 
 %section.page.contact-page.container
-  .contact__how-to
-    = partial "content/how-to-contact"
-
   .contact__hiring-options
     = partial "content/hiring-options"
 
-  .contact__methods
-    %p= I18n.t('contact.contact-methods')
-    = partial :contact_methods
+  .contact__how-to
+    = partial "content/how-to-contact"
