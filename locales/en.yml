@@ -1,9 +1,9 @@
 ---
 en:
   site:
-    title: "David Anguita. Independent software consultant. Freelancer. Ruby, Rails, Elixir, JavaScript."
+    title: "David Anguita. Independent software consultant. Freelancer. Ruby, Rails, JavaScript."
     description: "Hi, I'm a freelance software developer & consultant based in Madrid, Spain."
-    keywords: "Ruby, Rails, Ruby on Rails, Elixir, Web development, Freelance developer, Independent consultant."
+    keywords: "Ruby, Rails, Ruby on Rails, Web development, Freelance developer, Independent consultant."
     author: "David Anguita"
 
   layout:
@@ -19,7 +19,7 @@ en:
 
   home:
     heading: "David Anguita"
-    tagline: "Freelance software developer & consultant"
+    tagline: "Freelance Software Consultant"
 
   contact:
     heading: "To contact me,"
