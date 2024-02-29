@@ -1,9 +1,11 @@
-Hola, I'm an independent software consultant with 15+ years of experience,
-specializing in **Ruby on Rails** and **Node.js** back-ends.
+I'm an independent software consultant with over 15 years of experience working
+remotely with companies all around the world, specializing in **Ruby on Rails**
+and **Node.js** back-ends.
 
-My focus is on **software architecture**, meaning designing software for
+My focus is on **software architecture**, meaning designing systems for
 maintainability, reliability, and scale. I've also been **leading engineering
-teams** for happiness and performance.
+teams** effectively, ensuring an environment where people can do their best
+work.
 
 Outside of work, you can find me working out, traveling, and playing video
 games.
