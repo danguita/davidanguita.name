@@ -3,6 +3,7 @@ site:
   domain: 'https://davidanguita.name'
   tracking_code: 'G-N2T3BH057Y'
   disqus_shortname: 'isolveproblems'
+  feed_title: 'Articles - David Anguita'
 contact:
   email: 'david@davidanguita.name'
   twitter: '@danguita'
