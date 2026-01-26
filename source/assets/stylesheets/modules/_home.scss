@@ -19,18 +19,24 @@ $block: '.home';
 }
 
 #{$block}__about {
-  padding: 20px;
+  padding: 40px 20px;
   margin: 10px -20px 0 -20px;
-  font-family: $font-family-monospace;
-  background-color: $color-blue-grey--dark;
-  color: $color-white;
+  font-family: $font-family-sans-serif;
+  background-color: $color-grey--light;
+
+  h1, h2, h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0
+  }
 }
 
 @include mq-large {
   #{$block}__about {
     position: relative;
     margin-top: 10px;
-    transform: skewY(-1deg);
   }
 }
 
