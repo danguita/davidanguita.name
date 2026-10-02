@@ -1,9 +1,10 @@
 $block: '.highlight > .highlight';
 
 #{$block} {
-  background: $code-background-color;
+  background: #0e0e12;
+  color: #e6e6ea;
   display: block;
-  line-height: 1.5;
+  line-height: 1.55;
   overflow: auto;
   padding: 15px;
   white-space: pre;
@@ -12,6 +13,7 @@ $block: '.highlight > .highlight';
 
 #{$block} code {
   background: none;
+  border: 0;
   padding: 0;
 }
 
@@ -23,266 +25,113 @@ $block: '.highlight > .highlight';
   margin: 0;
 }
 
-#{$block} .bp {
-  color: #999;
-}
-
+// Comments
 #{$block} .c,
+#{$block} .c1,
+#{$block} .cm,
+#{$block} .cs,
 #{$block} .cd {
-  color: #998;
+  color: #9399b2;
   font-style: italic;
 }
 
-#{$block} .c1 {
-  color: #998;
-  font-style: italic;
+// Keywords / operators
+#{$block} .k,
+#{$block} .kc,
+#{$block} .kd,
+#{$block} .kn,
+#{$block} .kp,
+#{$block} .kr,
+#{$block} .kt,
+#{$block} .o,
+#{$block} .ow {
+  color: #cba6f7;
 }
 
-#{$block} .cm {
-  color: #998;
-  font-style: italic;
+// Strings
+#{$block} .s,
+#{$block} .s1,
+#{$block} .s2,
+#{$block} .sb,
+#{$block} .sc,
+#{$block} .sd,
+#{$block} .se,
+#{$block} .sh,
+#{$block} .si,
+#{$block} .sr,
+#{$block} .ss,
+#{$block} .sx {
+  color: #a6e3a1;
 }
 
-#{$block} .cp {
-  color: #999;
-  font-weight: bold;
+// Numbers / literals
+#{$block} .m,
+#{$block} .mb,
+#{$block} .mf,
+#{$block} .mh,
+#{$block} .mi,
+#{$block} .mo,
+#{$block} .mx,
+#{$block} .il {
+  color: #fab387;
 }
 
-#{$block} .cs {
-  color: #999;
-  font-style: italic;
-  font-weight: bold;
+// Functions
+#{$block} .nf {
+  color: #89b4fa;
 }
 
+// Classes / namespaces
+#{$block} .nc,
+#{$block} .nn,
+#{$block} .no {
+  color: #f9e2af;
+}
+
+// Builtins / attributes
+#{$block} .nb,
+#{$block} .na,
+#{$block} .nd,
+#{$block} .bp {
+  color: #89dceb;
+}
+
+// Variables
+#{$block} .nv,
+#{$block} .vc,
+#{$block} .vg,
+#{$block} .vi {
+  color: #f5c2e7;
+}
+
+// Errors
 #{$block} .err {
-  background-color: #e3d2d2;
-  color: #a61717;
+  color: #f38ba8;
 }
 
+// Diff
 #{$block} .gd {
-  background-color: #fdd;
-  color: #000;
-}
-
-#{$block} .ge {
-  color: #000;
-  font-style: italic;
-}
-
-#{$block} .gh {
-  color: #999;
+  color: #f38ba8;
 }
 
 #{$block} .gi {
-  background-color: #dfd;
-  color: #000;
+  color: #a6e3a1;
 }
 
-#{$block} .go {
-  color: #888;
+#{$block} .gh,
+#{$block} .gu {
+  color: #b4befe;
 }
 
-#{$block} .gp {
-  color: #555;
-}
-
+#{$block} .gt,
 #{$block} .gr {
-  color: #a00;
+  color: #f38ba8;
 }
 
 #{$block} .gs {
   font-weight: bold;
 }
 
-#{$block} .gt {
-  color: #a00;
-}
-
-#{$block} .gu {
-  color: #aaa;
-}
-
-#{$block} .il {
-  color: #099;
-}
-
-#{$block} .k,
-#{$block} .kv {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .kc {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .kd {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .kn {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .kp {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .kr {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .kt {
-  color: #458;
-  font-weight: bold;
-}
-
-#{$block} .m,
-#{$block} .mb,
-#{$block} .mx {
-  color: #099;
-}
-
-#{$block} .mf {
-  color: #099;
-}
-
-#{$block} .mh {
-  color: #099;
-}
-
-#{$block} .mi {
-  color: #099;
-}
-
-#{$block} .mo {
-  color: #099;
-}
-
-#{$block} .na {
-  color: #008080;
-}
-
-#{$block} .nb {
-  color: #0086b3;
-}
-
-#{$block} .nc {
-  color: #458;
-  font-weight: bold;
-}
-
-#{$block} .nd {
-  color: #3c5d5d;
-  font-weight: bold;
-}
-
-#{$block} .ne {
-  color: #900;
-  font-weight: bold;
-}
-
-#{$block} .nf {
-  color: #900;
-  font-weight: bold;
-}
-
-#{$block} .ni {
-  color: #800080;
-}
-
-#{$block} .nl {
-  color: #900;
-  font-weight: bold;
-}
-
-#{$block} .nn {
-  color: #555;
-}
-
-#{$block} .no {
-  color: #008080;
-}
-
-#{$block} .nt {
-  color: #000080;
-}
-
-#{$block} .s {
-  color: #d14;
-}
-
-#{$block} .s1 {
-  color: #d14;
-}
-
-#{$block} .s2 {
-  color: #d14;
-}
-
-#{$block} .sc {
-  color: #d14;
-}
-
-#{$block} .sd {
-  color: #d14;
-}
-
-#{$block} .se {
-  color: #d14;
-}
-
-#{$block} .sh {
-  color: #d14;
-}
-
-#{$block} .si {
-  color: #d14;
-}
-
-#{$block} .sr {
-  color: #009926;
-}
-
-#{$block} .ss {
-  color: #990073;
-}
-
-#{$block} .sx {
-  color: #d14;
-}
-
-#{$block} .vc {
-  color: #008080;
-}
-
-#{$block} .vg {
-  color: #008080;
-}
-
-#{$block} .vi {
-  color: #008080;
-}
-
-#{$block} .nv {
-  color: #008080;
-}
-
-#{$block} .o {
-  color: #000;
-  font-weight: bold;
-}
-
-#{$block} .ow {
-  color: #000;
-  font-weight: bold;
-}
-
 #{$block} .w {
-  color: #bbb;
+  color: inherit;
 }

@@ -1,8 +1,9 @@
-You can contact me via email at
-[david@davidanguita.name](mailto:david@davidanguita.name) by describing your
-company, project, or the kind of services you are interested in.
+The fastest way to reach me is email at
+[david@davidanguita.name](mailto:david@davidanguita.name). Tell me a little
+about your company, the project, and what you're hoping to get out of the
+collaboration — the more context, the better.
 
 * * *
 
-After processing it, I will reply to you as soon as possible in order to
-schedule an appointment or bring to you an initial project review.
+I read everything myself and usually reply within one working day. If it looks
+like a fit, we'll set up a short call to dig in and agree on next steps.

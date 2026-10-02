@@ -1,6 +1,9 @@
-%section.clients.container
-  .clients__container
-    - data.clients.each do |key, client|
-      .clients__item
-        = link_to client[:url], class: "client__link" do
-          = image_tag "clients/#{key}.png", srcset: "clients/#{key}.png 1x, clients/#{key}@2x.png 2x", alt: client[:name], class: "client__image"
+.clients__container
+  - data.clients.each do |key, client|
+    - width, height = image_dimensions("clients/#{key}.png")
+    - webp_1x = image_path("clients/#{key}.webp")
+    - webp_2x = image_path("clients/#{key}@2x.webp")
+    = link_to client[:url], class: "client__link" do
+      %picture
+        %source{type: "image/webp", srcset: "#{webp_1x} 1x, #{webp_2x} 2x"}
+        = image_tag "clients/#{key}.png", srcset: "clients/#{key}.png 1x, clients/#{key}@2x.png 2x", alt: client[:name], class: "client__image", loading: "lazy", decoding: "async", width: width, height: height

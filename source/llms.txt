@@ -1,0 +1,32 @@
+# David Anguita
+
+> Independent software consultant based in Madrid, Spain. Fractional CTO and
+> product engineering partner for early-stage and growing teams, with 15+ years
+> building and advising on software products.
+
+## Services
+
+- Fractional CTO — on-demand senior technical leadership: technical strategy, stack, hiring and mentoring, hands-on delivery.
+- Product Bootstrapping — from idea or MVP to a production-ready, maintainable foundation.
+- Software Consulting — architecture, feature design, complex refactorings, code quality.
+- AI-Assisted & Agentic SDLC — practical, controlled adoption of AI tools and agents in the development workflow.
+
+## Pages
+
+- [Home](https://davidanguita.name/)
+- [Articles](https://davidanguita.name/articles/)
+- [Contact](https://davidanguita.name/contact/)
+- [Feed](https://davidanguita.name/feed.xml)
+
+## Contact
+
+- [Email](mailto:david@davidanguita.name)
+- [LinkedIn](https://linkedin.com/in/danguita)
+- [GitHub](https://github.com/danguita)
+- [Mastodon](https://mastodon.social/@danguita)
+
+## Notes
+
+- Language: English.
+- Location: Madrid, Spain (CET/CEST); remote-friendly with EU/US overlap.
+- Follows the llms.txt convention.

@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'fastimage'
+
 module LayoutHelpers
   def page_title
     separator = ' - '
@@ -32,8 +34,17 @@ module LayoutHelpers
   end
 
   def page_description
-    return current_page.data.description if current_page.data.description
-    return @page_description if @page_description
+    explicit = current_page.data.description.to_s.strip
+    return explicit unless explicit.empty?
+
+    if current_article
+      tagline = current_article.data.tagline.to_s.strip
+      return tagline unless tagline.empty?
+
+      body = current_article.respond_to?(:body) ? current_article.body.to_s : ''
+      text = body.gsub(/<[^>]+>/, ' ').gsub(/\s+/, ' ').strip
+      return text.length > 155 ? "#{text[0, 154].rstrip}…" : text unless text.empty?
+    end
 
     I18n.t('site.description')
   end
@@ -47,7 +58,46 @@ module LayoutHelpers
   end
 
   def page_image
-    gravatar_url_for(data.settings.contact.email, 200)
+    File.join(data.settings.site.domain, image_path(File.basename(data.settings.site.og_image)))
+  end
+
+  def canonical_url
+    File.join(data.settings.site.domain, current_page.url)
+  end
+
+  def image_dimensions(path)
+    FastImage.size(File.join('source', 'assets', 'images', path)) || []
+  end
+
+  def json_ld
+    if current_page_type == :article
+      {
+        '@context' => 'https://schema.org',
+        '@type' => 'BlogPosting',
+        'headline' => current_page.data.title,
+        'description' => page_description,
+        'datePublished' => current_article.date.iso8601,
+        'dateModified' => current_article.date.iso8601,
+        'mainEntityOfPage' => { '@type' => 'WebPage', '@id' => canonical_url },
+        'author' => { '@type' => 'Person', 'name' => page_author, 'url' => data.settings.site.domain },
+        'publisher' => { '@type' => 'Person', 'name' => page_author },
+        'image' => page_image,
+        'keywords' => Array(current_article.tags).join(', '),
+        'inLanguage' => 'en'
+      }
+    else
+      {
+        '@context' => 'https://schema.org',
+        '@type' => 'ProfessionalService',
+        'name' => page_author,
+        'url' => data.settings.site.domain,
+        'description' => page_description,
+        'image' => page_image,
+        'jobTitle' => 'Fractional CTO & Software Consultant',
+        'address' => { '@type' => 'PostalAddress', 'addressLocality' => 'Madrid', 'addressCountry' => 'ES' },
+        'sameAs' => data.settings.services.values
+      }
+    end
   end
 
   def index_page?

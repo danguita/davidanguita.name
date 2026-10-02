@@ -12,6 +12,12 @@
     # Skip URL via "directory_index" Front-matter variable
     next if page.metadata[:page]['directory_index'] == false
 
+    # Skip non-indexable pages (error page, tag and calendar archives)
+    path = page.destination_path.sub(%r{\A/}, '')
+    next if path == '404.html'
+    next if path.start_with?('articles/tags/')
+    next if path.match?(%r{\Aarticles/\d{4}/})
+
     # Get file timestamps
     layout_name = page.data.layout || 'layout'
     layout_file = File.new(File.join(layout_options[:path], [layout_name, layout_options[:ext]].join('.')))

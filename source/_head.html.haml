@@ -1,27 +1,67 @@
 = partial :easter
 
 %meta{charset: "utf-8"}
+%meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+
+:javascript
+  (function () {
+    try {
+      var stored = localStorage.getItem('theme');
+      document.documentElement.setAttribute('data-theme', stored || 'dark');
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
 
 %title= page_title
 
+-# Performance hints
+%link{rel: "preconnect", href: "https://www.gravatar.com"}
+%link{rel: "dns-prefetch", href: "https://www.google-analytics.com"}
+
 -# Meta
+- if %i[tag calendar].include?(current_page_type)
+  %meta{name: "robots", content: "noindex, follow"}
+- else
+  %meta{name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}
 %meta{name: "description", content: page_description}
 %meta{name: "keywords", content: page_keywords}
 %meta{name: "author", content: page_author}
 %meta{name: "generator", content: "Middleman #{Middleman::VERSION}"}
-%meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+%meta{name: "theme-color", content: "#f5f4f1", media: "(prefers-color-scheme: light)"}
+%meta{name: "theme-color", content: "#17171a", media: "(prefers-color-scheme: dark)"}
+%link{rel: "canonical", href: canonical_url}
+
+-# Fonts
+%link{rel: "preload", href: "/assets/fonts/archivo-latin.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous"}
+%link{rel: "preload", href: "/assets/fonts/inter-latin.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous"}
+%link{rel: "preload", href: "/assets/fonts/jetbrains-mono-latin.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous"}
 
 -# Twitter Card
-%meta{name: "twitter:card", content: "summary"}
+%meta{name: "twitter:card", content: "summary_large_image"}
 %meta{name: "twitter:site", content: data.settings.contact.twitter}
 %meta{name: "twitter:creator", content: data.settings.contact.twitter}
 %meta{name: "twitter:title", content: page_title}
 %meta{name: "twitter:description", content: page_description}
+%meta{name: "twitter:image", content: page_image}
+%meta{name: "twitter:image:alt", content: "#{page_author} — #{I18n.t('site.title')}"}
 
 -# Open Graph
+%meta{property: "og:type", content: (current_page_type == :article ? "article" : "website")}
+%meta{property: "og:site_name", content: page_author}
+%meta{property: "og:url", content: canonical_url}
 %meta{property: "og:title", content: page_title}
 %meta{property: "og:description", content: page_description}
 %meta{property: "og:image", content: page_image}
+%meta{property: "og:image:width", content: "1200"}
+%meta{property: "og:image:height", content: "630"}
+%meta{property: "og:image:alt", content: "#{page_author} — #{I18n.t('site.title')}"}
+%meta{property: "og:locale", content: "en"}
+- if current_page_type == :article
+  %meta{property: "article:published_time", content: current_article.date.iso8601}
+  %meta{property: "article:author", content: page_author}
+  - Array(current_article.tags).each do |tag|
+    %meta{property: "article:tag", content: tag}
 
 -# Icons
 %link{href: "/assets/images/apple-touch-icon-144x144.png", rel: "apple-touch-icon", sizes: "144x144"}
@@ -32,6 +72,9 @@
 
 -# Feed
 = feed_tag :atom, "/feed.xml", title: data.settings.site.feed_title
+
+-# Structured data
+%script{type: "application/ld+json"}= json_ld.to_json
 
 -# Stylesheets
 = stylesheet_link_tag "application"

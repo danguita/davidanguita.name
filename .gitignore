@@ -22,3 +22,6 @@
 
 # Ignore misc stuff
 /stuff
+
+# Ignore plans
+/plans

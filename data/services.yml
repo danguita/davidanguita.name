@@ -1,0 +1,16 @@
+---
+- title: "Fractional CTO"
+  tagline: "Your technical co-founder, on demand."
+  body: "For early-stage and growing teams without a full-time technical leader. I set the technical strategy, choose the stack, hire and mentor your first engineers, and stay close to the code when it matters. You get senior judgement without a senior salary."
+
+- title: "Product Bootstrapping"
+  tagline: "From idea to a product you can grow on."
+  body: "Hands-on support to take a concept from zero to production. I focus on lean, maintainable foundations that support fast iteration today and scale tomorrow — without over-engineering, and without a rewrite a year from now."
+
+- title: "Software Consulting"
+  tagline: "A second brain for hard technical decisions."
+  body: "Guidance and hands-on work across the full software lifecycle: new systems and features, architectural evolution, and the messy refactors nobody else wants to touch. Code quality and long-term sustainability are the point."
+
+- title: "AI-Assisted & Agentic SDLC"
+  tagline: "AI that pulls its weight — under your control."
+  body: "Practical integration of AI into your development workflow, without sacrificing quality or control. I help teams adopt tools and agents that raise productivity and fit naturally into how they already work."

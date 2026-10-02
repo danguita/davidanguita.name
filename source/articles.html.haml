@@ -9,7 +9,7 @@ priority: 0.8
 
   - page_articles.each_with_index do |article, i|
     .articles__item
-      %h3
+      %h2
         = link_to article.title, article
         %span= article.date.strftime('%b %e, %Y')
 
@@ -17,9 +17,9 @@ priority: 0.8
     - if paginate
       - if prev_page
         = link_to prev_page, class: 'button button--small' do
-          &larr;
+          %span{aria: { hidden: 'true' }} &larr;
           = I18n.t("common.previous_page")
       - if next_page
         = link_to next_page, class: 'button button--small' do
           = I18n.t("common.next_page")
-          &rarr;
+          %span{aria: { hidden: 'true' }} &rarr;

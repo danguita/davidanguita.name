@@ -21,21 +21,16 @@ module RouteHelpers
     articles_path
   end
 
-  def now_path
-    path_for('now')
-  end
-
-  def plays_path
-    path_for('plays')
-  end
-
   def page_status(page)
     active_page?(page) ? 'active' : 'inactive'
   end
 
+  def aria_current(page)
+    active_page?(page) ? 'page' : nil
+  end
+
   def active_page?(page)
-    (File.basename(current_page.path, current_page.ext) == page) ||
-      data.page.title == page
+    File.basename(current_page.path, current_page.ext) == page
   end
 
   def home_page?

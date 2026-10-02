@@ -88,7 +88,7 @@ GEM
       ffi (~> 1.0)
     redcarpet (3.5.0)
     rouge (3.16.0)
-    sassc (2.2.1)
+    sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
     temple (0.8.2)
@@ -109,6 +109,7 @@ DEPENDENCIES
   middleman-blog (= 4.0.3)
   middleman-syntax (= 3.2.0)
   redcarpet (~> 3.5.0)
+  sassc (= 2.4.0)
 
 BUNDLED WITH
    1.16.1

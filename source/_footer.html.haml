@@ -1,14 +1,13 @@
 %footer.footer
-  .container
-    .footer__credits
-      .credits__author
-        %strong David Anguita
-        @
-        = Time.now
+  .container.footer__inner
+    .footer__brand
+      %strong David Anguita
+      %span.footer__meta Fractional CTO & product engineering
+      %span.footer__meta &copy; #{Time.now.year} · #{data.settings.contact.location}
 
-    .footer__about
-      .credits__links
-        &nbsp;
-        - data.settings.services.each do |service_name, service_link|
-          = link_to service_name, service_link, rel: 'me'
-          &nbsp;
+    %nav.footer__links{aria: { label: 'Elsewhere' }}
+      - data.settings.services.each do |service_name, service_link|
+        = link_to service_name, service_link, rel: 'me'
+
+    .footer__note
+      = link_to 'Source', data.settings.about.repo

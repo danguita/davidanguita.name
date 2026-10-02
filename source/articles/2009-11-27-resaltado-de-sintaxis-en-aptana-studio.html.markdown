@@ -11,23 +11,23 @@ Los que pasamos muchas horas delante de un IDE vamos adoptando ciertas preferenc
 
 Aunque en Aptana Studio (conocido IDE basado en Eclipse) existe la posibilidad de personalizar nuestros esquemas de color, he reunido algunos esquemas creados por diferentes usuarios que me parecen especialmente cómodos.
 
-### [Green Chaud](http://gueschla.com/labs/green-chaud/)
+## [Green Chaud](http://gueschla.com/labs/green-chaud/)
 
 ![Green Chaud](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/greenchaud.jpg)
 
-### [Autumna – A style for Aptana IDE](http://thirdroute.com/autumna-a-style-for-aptana-ide/)
+## [Autumna – A style for Aptana IDE](http://thirdroute.com/autumna-a-style-for-aptana-ide/)
 
 ![Autumna](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/autumna.jpg)
 
-### [Aptana Studio IDE Dark Color Theme](http://www.nightlion.net/themes/2009/aptana-dark-color-theme/)
+## [Aptana Studio IDE Dark Color Theme](http://www.nightlion.net/themes/2009/aptana-dark-color-theme/)
 
 ![Dark Color Theme](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/dark_color_theme.jpg)
 
-### [Dark (TextMate like) syntax colouring](http://forums.aptana.com/viewtopic.php?f=20&t=2214)
+## [Dark (TextMate like) syntax colouring](http://forums.aptana.com/viewtopic.php?f=20&t=2214)
 
 ![Dark Textmate](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/dark_textmate.jpg)
 
-### [Dark Red & Dark Blue Aptana Color Themes](http://www.johnrockefeller.net/aptana-color-themes/)
+## [Dark Red & Dark Blue Aptana Color Themes](http://www.johnrockefeller.net/aptana-color-themes/)
 
 ![Dark Blue](/articles/2009-11-27-resaltado-de-sintaxis-en-aptana-studio/darkblue.jpg)
 

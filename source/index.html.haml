@@ -3,31 +3,69 @@ priority: 1.0
 ---
 
 %section.home
-  .home__introduction
-    .container
-      .page__header
-        = link_to my_gravatar, 'index.html', class: 'avatar-wrapper'
-        %h1.page__heading= I18n.t("home.heading")
-        %h2.page__tagline= I18n.t("home.tagline")
+  .container.home__hero
+    %p.home__eyebrow= I18n.t("home.eyebrow")
 
-  .home__about
+    .home__identity
+      %span.avatar-wrapper{aria: { hidden: 'true' }}
+        = my_gravatar
+      .home__titles
+        %h1.home__name= I18n.t("home.heading")
+        %p.home__role= I18n.t("home.tagline")
+
+    %p.home__intro= I18n.t("home.intro")
+
+    .home__actions
+      = link_to contact_path, class: 'button button--primary' do
+        = I18n.t("home.cta-primary")
+        %span.button__arrow{aria: { hidden: 'true' }} &rarr;
+      = link_to articles_path, class: 'button button--ghost' do
+        = I18n.t("nav.articles")
+        %span.button__arrow{aria: { hidden: 'true' }} &rarr;
+      = link_to '#how-i-work', class: 'button button--ghost' do
+        = I18n.t("home.cta-secondary")
+
+  %section.home__services#services
     .container
+      %p.section__title= I18n.t("services.eyebrow")
+      %h2.section__heading= I18n.t("services.heading")
       = partial :about
 
-  .home__contact
+  %section.home__work#how-i-work
     .container
-      %h3.contact__title
-        = I18n.t("contact.heading")
+      %p.section__title= I18n.t("work.eyebrow")
+      %h2.section__heading= I18n.t("work.heading")
+      .work__steps
+        - (1..3).each do |step|
+          .work__step
+            %span.work__step-number= format('%02d', step)
+            %h3.work__step-title= I18n.t("work.step-#{step}-title")
+            %p.work__step-text= I18n.t("work.step-#{step}-text")
+
+  %section.home__clients#clients
+    .container
+      %p.section__title= I18n.t("clients.eyebrow")
+      %h2.section__heading= I18n.t("clients.heading")
+      %p.section__intro= I18n.t("clients.intro")
+      = partial :clients
+
+  %section.home__contact#contact
+    .container
+      %p.section__title= I18n.t("contact.eyebrow")
+      %h2.section__heading= I18n.t("contact.heading")
+      %p.section__intro
         = link_to I18n.t("contact.page-feedback"), contact_path
         = I18n.t("contact.service-feedback")
       = partial :contact_methods
+      = link_to contact_path, class: 'button button--primary' do
+        = I18n.t("home.cta-primary")
+        %span.button__arrow{aria: { hidden: 'true' }} &rarr;
 
-  .home__clients
+  %section.home__latest-articles
     .container
-      %h3.clients__title= I18n.t("clients.heading")
-      = partial :clients
-
-  .home__latest-articles
-    .container
-      %h3.latest-articles__title= I18n.t("articles.latest")
+      %p.section__title= I18n.t("articles.eyebrow")
+      %h2.section__heading= I18n.t("articles.latest")
       = partial :latest_articles, locals: { limit: 5 }
+      = link_to articles_path, class: 'latest-articles__all' do
+        = I18n.t("nav.articles")
+        %span{aria: { hidden: 'true' }} &rarr;

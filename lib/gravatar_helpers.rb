@@ -9,10 +9,12 @@ module GravatarHelpers
 
   def my_gravatar
     image_tag(
-      gravatar_url_for(data.settings.contact.email, 200),
+      gravatar_url_for(data.settings.contact.email, 128),
       alt: 'David Anguita',
-      width: 100,
-      height: 100
+      width: 64,
+      height: 64,
+      decoding: 'async',
+      fetchpriority: 'high'
     )
   end
 end
