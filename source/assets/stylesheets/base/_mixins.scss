@@ -15,3 +15,15 @@
     @content;
   }
 }
+
+@mixin mq-xl() {
+  @media only screen and (min-width: $mq-xl) {
+    @content;
+  }
+}
+
+@mixin reduced-motion() {
+  @media (prefers-reduced-motion: reduce) {
+    @content;
+  }
+}

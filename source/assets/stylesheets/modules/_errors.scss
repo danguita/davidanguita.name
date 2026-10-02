@@ -1,23 +1,25 @@
-$block: '.errors';
-
-#{$block} {
+.errors {
+  padding-block: clamp(3rem, 8vw, 6rem);
   text-align: center;
-  padding-bottom: 20px;
 }
 
-#{$block}__header {
-  margin-bottom: 20px;
+.errors__header {
+  margin-bottom: 1.5rem;
+  font-family: var(--font-mono);
 }
 
-#{$block}__image {
+.errors__image {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
+  max-width: 320px;
 }
 
-#{$block}__message {
-  font-weight: bold;
+.errors__message {
+  font-size: var(--step-1);
+  font-weight: 600;
 }
 
-#{$block}__feedback {
-  padding-top: 20px;
+.errors__feedback {
+  padding-top: 1rem;
+  color: var(--ink-muted);
 }

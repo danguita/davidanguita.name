@@ -1,15 +1,15 @@
 @import "base/variables";
 @import "base/mixins";
+@import "base/tokens";
 @import "base/fonts";
-@import "base/grid";
 @import "base/syntax";
 @import "base/base";
 @import "layout/container";
+@import "layout/header";
 @import "layout/page";
 @import "layout/footer";
 @import "modules/home";
 @import "modules/contact";
-@import "modules/clients";
 @import "modules/articles";
 @import "modules/article";
 @import "modules/errors";

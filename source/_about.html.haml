@@ -1,1 +1,6 @@
-= partial "content/about-author"
+.services
+  - data.services.each do |service|
+    .service
+      %h3.service__title= service.title
+      %p.service__tagline= service.tagline
+      %p.service__body= service.body

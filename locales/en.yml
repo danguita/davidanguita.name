@@ -1,37 +1,63 @@
 ---
 en:
   site:
-    title: "David Anguita. Independent software consultant. Freelancer. Ruby, Rails, JavaScript."
-    description: "Hi, I'm a freelance software developer & consultant based in Madrid, Spain."
-    keywords: "Ruby, Rails, Ruby on Rails, Web development, Freelance developer, Independent consultant."
+    title: "David Anguita — Fractional CTO & product engineering partner"
+    description: "I help founders and growing teams turn ideas into solid technical foundations: strategy, stack, hiring and hands-on delivery. 15+ years in software."
+    keywords: "Fractional CTO, software consultant, product engineering, technical strategy, MVP development, software architecture, code review, Madrid, Spain."
     author: "David Anguita"
 
   layout:
     archive: "Archive"
-    now: "What I'm doing now"
-    uses: "Stuff I use"
-    plays: "Games I'm playing now"
-    plays-2018-archive: "Games completed in 2018"
-    plays-2019-archive: "Games completed in 2019"
-    plays-2020-archive: "Games completed in 2020"
     http-not-found: "Oops! The page you were looking for doesn't exist"
     contact: "Contact me"
 
+  nav:
+    menu: "Menu"
+    work: "Work"
+    services: "Services"
+    articles: "Writing"
+    about: "About"
+    contact: "Contact"
+
   home:
     heading: "David Anguita"
-    tagline: "Freelance Software Consultant"
+    eyebrow: "fractional cto · product engineering"
+    tagline: "Independent software consultant"
+    tagline-accent: "software"
+    cta-primary: "Start a conversation"
+    cta-secondary: "See how I work"
+
+  services:
+    eyebrow: "Services"
+    heading: "How I can help"
+
+  work:
+    eyebrow: "Process"
+    heading: "How I work"
+    step-1-title: "Intro call"
+    step-1-text: "A short, free conversation about your goals, constraints and where you are today."
+    step-2-title: "Diagnosis & plan"
+    step-2-text: "I map the system and the risks, then propose a concrete plan: scope, sequence and trade-offs."
+    step-3-title: "Deliver together"
+    step-3-text: "I work alongside your team — in the architecture, the code and the decisions — and leave it clean."
 
   contact:
-    heading: "To contact me,"
+    eyebrow: "Contact"
+    heading: "Let's work together"
     page-feedback: "check out the contact page"
     service-feedback: "or drop me a line via:"
     contact-methods: "Alternative contact methods"
     schedule-meeting: "Schedule time with me"
+    start: "Start a conversation"
+    see-page: "or see the contact page"
 
   clients:
-    heading: "Clients I've recently worked with"
+    eyebrow: "Clients"
+    heading: "Teams I've worked with"
+    intro: "Recent and ongoing collaborations."
 
   articles:
+    eyebrow: "Writing"
     heading: "Articles"
     latest: "Latest articles"
     archive: "Articles archive"

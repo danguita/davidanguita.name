@@ -9,3 +9,8 @@ priority: 1.0
 
   .contact__how-to
     = partial "content/how-to-contact"
+    - if data.settings.contact.calendar.present?
+      .contact__schedule
+        = link_to data.settings.contact.calendar, class: 'button button--primary' do
+          != icon('calendar')
+          = I18n.t("contact.schedule-meeting")

@@ -1,20 +1,8 @@
+- methods = [['mail', 'Email', "mailto:#{data.settings.contact.email}"], ['linkedin', 'LinkedIn', data.settings.services.linkedin], ['github', 'GitHub', data.settings.services.github], ['twitter', 'Twitter', data.settings.services.twitter]]
+
 .contact__items
-  .contact__item
-    = link_to "mailto:#{data.settings.contact.email}", class: 'contact__link' do
-      %i.icon.icon-mail
-      Email
-
-  .contact__item
-    = link_to data.settings.services.linkedin, class: 'contact__link' do
-      %i.icon.icon-linkedin
-      LinkedIn
-
-  .contact__item
-    = link_to data.settings.services.github, class: 'contact__link' do
-      %i.icon.icon-github
-      GitHub
-
-  .contact__item
-    = link_to data.settings.services.twitter, class: 'contact__link' do
-      %i.icon.icon-twitter
-      Twitter
+  - methods.each do |icon_name, label, url|
+    .contact__item
+      = link_to url, class: 'contact__link' do
+        != icon(icon_name)
+        %span= label
