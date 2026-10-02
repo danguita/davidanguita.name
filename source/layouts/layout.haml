@@ -1,11 +1,13 @@
-!!! 5
+!!!
 %html{lang: I18n.locale}
   %head= partial :head
 
   %body.page{class: page_classes}
-    - unless home_page?
-      = partial :header
+    %a.skip-link{href: '#content'} Skip to content
+    = partial :header, locals: { minimal: home_page? }
 
-    %main= yield
+    %main#content= yield
 
     = partial :footer
+
+    = javascript_include_tag 'application', defer: true

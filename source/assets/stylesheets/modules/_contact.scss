@@ -1,30 +1,31 @@
-$block: '.contact';
+.contact__hiring-options {
+  margin-bottom: clamp(2rem, 5vw, 3rem);
 
-#{$block}__how-to {
-  border-radius: 5px;
-  border: 1px solid $color-grey--light;
-  padding: 20px 20px 0;
-  margin-bottom: 30px;
+  h1 {
+    font-size: var(--step-3);
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: var(--step-1);
+    margin-top: 2.25rem;
+    margin-bottom: .35rem;
+  }
+
+  p {
+    color: var(--ink-muted);
+  }
 }
 
-#{$block}__methods {
-  text-align: center;
-  margin-bottom: 30px;
+.contact__how-to {
+  border-top: 1px solid var(--line);
+  padding-top: clamp(1.5rem, 4vw, 2rem);
 
-  $subblock: '.contact';
-
-  #{$subblock}__item {
-    display: inline-block;
-    text-align: center;
+  p:last-child {
+    margin-bottom: 0;
   }
+}
 
-  #{$subblock}__link {
-    border-bottom: none;
-    color: $color-grey;
-    transition: all .1s linear;
-
-    &:hover {
-      color: $color-blue-grey--dark;
-    }
-  }
+.contact__schedule {
+  margin-top: 1.25rem;
 }

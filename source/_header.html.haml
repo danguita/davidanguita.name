@@ -1,8 +1,20 @@
-%header.header
-  .container
-    .header__home
-      .page__header
-        %h2.page__heading
-          = link_to home_path do
-            &larr;
-            = I18n.t('pages.heading')
+%header.header{class: ('header--minimal' if defined?(minimal) && minimal)}
+  .container.header__inner
+    - unless defined?(minimal) && minimal
+      = link_to home_path, class: 'header__brand' do
+        David Anguita
+
+      %nav.header__nav#site-nav{aria: { label: 'Main' }, 'data-nav': 'true'}
+        = link_to I18n.t('nav.services'), '/#services', class: 'header__link'
+        = link_to I18n.t('nav.work'), '/#how-i-work', class: 'header__link'
+        = link_to I18n.t('nav.articles'), articles_path, class: 'header__link', 'aria-current': aria_current('articles')
+        = link_to I18n.t('nav.contact'), contact_path, class: 'header__link header__link--cta', 'aria-current': aria_current('contact')
+
+      .header__controls
+        %button.nav-toggle{type: 'button', 'aria-label': I18n.t('nav.menu'), 'aria-expanded': 'false', 'aria-controls': 'site-nav', 'data-nav-toggle': 'true'}
+          %span.nav-toggle__bar{aria: { hidden: 'true' }}
+          %span.nav-toggle__bar{aria: { hidden: 'true' }}
+          %span.nav-toggle__bar{aria: { hidden: 'true' }}
+        = partial :theme_toggle
+    - else
+      = partial :theme_toggle

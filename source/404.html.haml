@@ -6,9 +6,8 @@ directory_index: false
 %section.errors
   .container
     .errors__header
-      = image_tag('boom.png', class: 'errors__image')
-
-      BOOOOOM!
+      = image_tag('boom.png', class: 'errors__image', alt: '')
+      %h1 BOOOOOM!
 
     .errors__message
       Sorry, this page does not exist.

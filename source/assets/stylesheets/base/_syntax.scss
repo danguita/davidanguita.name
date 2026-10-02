@@ -1,7 +1,7 @@
 $block: '.highlight > .highlight';
 
 #{$block} {
-  background: $code-background-color;
+  background: var(--surface);
   display: block;
   line-height: 1.5;
   overflow: auto;

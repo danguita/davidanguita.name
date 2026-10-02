@@ -1,0 +1,49 @@
+@mixin dark-tokens {
+  color-scheme: dark;
+
+  --paper: #0b0f14;
+  --surface: #111823;
+  --ink: #e9eef4;
+  --ink-muted: #9aa6b4;
+  --ink-faint: #808d9c;
+  --line: #1e2731;
+  --accent: #34d399;
+  --logo-filter: grayscale(1) invert(1);
+}
+
+:root {
+  color-scheme: light;
+
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --paper: #ffffff;
+  --surface: #f4f6f9;
+  --ink: #12161c;
+  --ink-muted: #58606e;
+  --ink-faint: #68717e;
+  --line: #e5e9ef;
+  --accent: #0b8f6a;
+  --logo-filter: none;
+
+  --container: 1080px;
+  --measure: 68ch;
+  --gutter: clamp(20px, 5vw, 48px);
+
+  --step--1: clamp(.82rem, .8rem + .12vw, .9rem);
+  --step-0: clamp(1rem, .97rem + .16vw, 1.06rem);
+  --step-1: clamp(1.2rem, 1.1rem + .5vw, 1.5rem);
+  --step-2: clamp(1.5rem, 1.3rem + .9vw, 2.1rem);
+  --step-3: clamp(2rem, 1.55rem + 1.8vw, 3.1rem);
+  --display: clamp(2.6rem, 1.5rem + 5.4vw, 5.25rem);
+}
+
+:root[data-theme="dark"] {
+  @include dark-tokens;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    @include dark-tokens;
+  }
+}

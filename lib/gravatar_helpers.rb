@@ -12,7 +12,9 @@ module GravatarHelpers
       gravatar_url_for(data.settings.contact.email, 200),
       alt: 'David Anguita',
       width: 100,
-      height: 100
+      height: 100,
+      decoding: 'async',
+      fetchpriority: 'high'
     )
   end
 end

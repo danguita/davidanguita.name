@@ -1,0 +1,25 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https://*.gravatar.com https://www.google-analytics.com https://www.googletagmanager.com https://*.disqus.com https://*.disquscdn.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://*.disqus.com https://*.disquscdn.com; style-src 'self' 'unsafe-inline' https://*.disquscdn.com; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://*.disqus.com https://*.disquscdn.com; frame-src https://disqus.com https://*.disqus.com; upgrade-insecure-requests
+
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/*
+  Cache-Control: public, max-age=604800
+
+/assets/stylesheets/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/assets/javascripts/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/feed.xml
+  Cache-Control: public, max-age=3600
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600

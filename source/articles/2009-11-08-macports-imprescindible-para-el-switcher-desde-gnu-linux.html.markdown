@@ -13,19 +13,19 @@ Los usuarios de GNU/Linux en prácticamente cualquiera de sus distribuciones est
 
 Ante esta dificultad para instalar software libre/opensource en sistemas Darwin (base de Mac OS X) surge MacPorts (originalmente conocido como DarwinPorts), que integra un completo repositorio de paquetes portados a Darwin que pueden ser gestionados a través de órdenes sencillas como éstas:
 
-### Búsqueda
+## Búsqueda
 
 ```shell
 $ port search <nombre_del_paquete>
 ```
 
-### Instalación
+## Instalación
 
 ```shell
 $ port install <nombre_del_paquete>
 ```
 
-### Actualización
+## Actualización
 
 ```shell
 $ port upgrade <nombre_del_paquete>

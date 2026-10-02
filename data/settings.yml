@@ -4,9 +4,12 @@ site:
   tracking_code: 'G-N2T3BH057Y'
   disqus_shortname: 'isolveproblems'
   feed_title: 'Articles - David Anguita'
+  og_image: '/assets/images/og-default.png'
 contact:
   email: 'david@davidanguita.name'
   twitter: '@danguita'
+  location: 'Madrid, Spain · remote-friendly (EU/US overlap)'
+  calendar: ''
 services:
   linkedin: 'https://linkedin.com/in/danguita'
   github: 'https://github.com/danguita'
