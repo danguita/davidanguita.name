@@ -18,6 +18,10 @@
 - [Contact](https://davidanguita.name/contact/)
 - [Feed](https://davidanguita.name/feed.xml)
 
+## Machine-readable
+
+- [Résumé (JSON)](https://api.davidanguita.name/) — structured professional trajectory following the JSON Resume schema.
+
 ## Contact
 
 - [Email](mailto:david@davidanguita.name)

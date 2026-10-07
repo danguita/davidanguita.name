@@ -79,7 +79,7 @@ module LayoutHelpers
         'datePublished' => current_article.date.iso8601,
         'dateModified' => current_article.date.iso8601,
         'mainEntityOfPage' => { '@type' => 'WebPage', '@id' => canonical_url },
-        'author' => { '@type' => 'Person', 'name' => page_author, 'url' => data.settings.site.domain },
+        'author' => { '@type' => 'Person', 'name' => page_author, 'url' => data.settings.site.domain, 'sameAs' => [data.settings.site.api] },
         'publisher' => { '@type' => 'Person', 'name' => page_author },
         'image' => page_image,
         'keywords' => Array(current_article.tags).join(', '),
@@ -95,7 +95,7 @@ module LayoutHelpers
         'image' => page_image,
         'jobTitle' => 'Fractional CTO & Software Consultant',
         'address' => { '@type' => 'PostalAddress', 'addressLocality' => 'Madrid', 'addressCountry' => 'ES' },
-        'sameAs' => data.settings.services.values
+        'sameAs' => data.settings.services.values + [data.settings.site.api]
       }
     end
   end
